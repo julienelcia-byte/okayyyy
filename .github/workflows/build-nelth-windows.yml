@@ -1,0 +1,145 @@
+name: Build NELTH Browser (Windows x64 installer)
+
+# Builds the real NelthBrowserSetup-<version>.<build>.exe (Windows x64):
+#   1. downloads the pinned prebuilt framework (SHA-256 verified via framework.lock),
+#   2. compiles phi_client.dll from this tree with MSVC on a Windows runner,
+#   3. packs the NSIS installer on Linux with installer/make-installer.sh
+#      (unsigned, telemetry-free: the release signing rig is not available in CI).
+# The result is uploaded as the NelthBrowserSetup-x64 artifact with its SHA-256
+# manifest. Verify on Windows with:
+#   certutil -hashfile NelthBrowserSetup-<version>.exe SHA256
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main, nelth-rebrand]
+
+permissions:
+  contents: read
+
+jobs:
+  client-windows-x64:
+    name: Compile phi_client.dll (MSVC, Windows x64)
+    runs-on: windows-latest
+    timeout-minutes: 90
+
+    steps:
+      - name: Checkout NELTH sources
+        uses: actions/checkout@v4
+        with:
+          ref: nelth-rebrand
+
+      - name: Set up MSVC x64 developer environment
+        uses: ilammy/msvc-dev-cmd@v1
+        with:
+          arch: x64
+
+      - name: Fetch pinned prebuilt framework (SHA-256 verified)
+        shell: pwsh
+        run: python tools/fetch-framework.py --arch x64 --out out\Release
+
+      - name: Compile phi_client.dll (MSVC, x64)
+        shell: pwsh
+        run: python build-client.py --compiler msvc --out out\Release
+
+      - name: Stage the flat ship tree (out/PhiFxWinShip)
+        shell: bash
+        run: |
+          # The release zip uses the framework layout: Phi.exe at the root,
+          # every other runtime file under framework/. make-installer.sh
+          # stages from a FLAT build tree and rebuilds the framework/ split
+          # itself, so flatten here: framework/* -> root, then the client's
+          # Phi.exe/phi_client.dll/WinSparkle.dll/resources on top.
+          mkdir -p out/PhiFxWinShip
+          cp -a out/Release/framework/. out/PhiFxWinShip/
+          cp -p out/Release/Phi.exe out/PhiFxWinShip/
+          cp -p out/Release/phi_client.dll out/Release/WinSparkle.dll out/PhiFxWinShip/
+          cp -a out/Release/resources/. out/PhiFxWinShip/resources/
+          for f in Phi.exe chrome.dll phi_client.dll WinSparkle.dll \
+                   framework.manifest resources/phi-client-resources.txt; do
+            test -f "out/PhiFxWinShip/$f" || { echo "missing: $f" >&2; exit 1; }
+          done
+          echo "ship tree staged: $(find out/PhiFxWinShip -type f | wc -l) files"
+          du -sh out/PhiFxWinShip
+
+      - name: Compress the ship tree
+        shell: pwsh
+        run: Compress-Archive -Path out\PhiFxWinShip\* -DestinationPath ship-x64.zip -CompressionLevel Optimal -Force
+
+      - name: Upload ship tree artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ship-x64
+          path: ship-x64.zip
+          if-no-files-found: error
+          retention-days: 7
+
+  installer-nelthbrowser-x64:
+    name: Pack NelthBrowserSetup.exe (NSIS on Linux)
+    runs-on: ubuntu-latest
+    needs: client-windows-x64
+    timeout-minutes: 60
+    permissions:
+      contents: read
+      actions: write
+
+    steps:
+      - name: Checkout NELTH sources
+        uses: actions/checkout@v4
+        with:
+          ref: nelth-rebrand
+
+      - name: Install NSIS
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq nsis
+
+      - name: Download the Windows ship tree
+        uses: actions/download-artifact@v4
+        with:
+          name: ship-x64
+          path: .
+
+      - name: Unpack the ship tree
+        run: |
+          mkdir -p out/PhiFxWinShip
+          unzip -q ship-x64.zip -d out/PhiFxWinShip
+          for f in Phi.exe chrome.dll phi_client.dll WinSparkle.dll \
+                   framework.manifest resources/phi-client-resources.txt; do
+            test -f "out/PhiFxWinShip/$f" || { echo "missing: $f" >&2; exit 1; }
+          done
+          echo "ship tree unpacked: $(find out/PhiFxWinShip -type f | wc -l) files"
+
+      - name: Pack NelthBrowserSetup (unsigned, telemetry-free)
+        run: |
+          chmod +x installer/make-installer.sh
+          installer/make-installer.sh \
+            --no-sign --no-telemetry \
+            --build-number "${{ github.run_number }}"
+
+      - name: SHA-256 manifest of the installer
+        run: |
+          cd installer/dist
+          sha256sum NelthBrowserSetup-*.exe | tee NelthBrowserSetup-SHA256SUMS.txt
+          ls -la
+
+      - name: Upload NelthBrowserSetup-x64 artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: NelthBrowserSetup-x64
+          path: |
+            installer/dist/NelthBrowserSetup-*.exe
+            installer/dist/NelthBrowserSetup-SHA256SUMS.txt
+          if-no-files-found: error
+          retention-days: 14
+
+      - name: Free the ship artifact (keeps the storage quota low)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          ID=$(gh api "repos/${{ github.repository }}/actions/artifacts" \
+               --jq '.artifacts[] | select(.name=="ship-x64") | .id' | head -1)
+          if [ -n "$ID" ]; then
+            gh api -X DELETE "repos/${{ github.repository }}/actions/artifacts/$ID" \
+              && echo "ship-x64 artifact deleted"
+          else
+            echo "no ship-x64 artifact to delete"
+          fi
