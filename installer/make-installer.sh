@@ -148,7 +148,7 @@ RUNTIME_EXES=(Phi.exe chrome_proxy.exe chrome_pwa_launcher.exe
 TOP=(Phi.exe phi_client.dll WinSparkle.dll)
 CLIENT_LIST="$OUT/resources/phi-client-resources.txt"
 [[ -f "$CLIENT_LIST" ]] || { echo "$CLIENT_LIST missing - rebuild the client (build-client.py writes it)" >&2; exit 1; }
-mapfile -t CLIENT < <(grep -v '^\s*$' "$CLIENT_LIST")
+mapfile -t CLIENT < <(grep -v '^\s*$' "$CLIENT_LIST" | tr -d '\r')
 cd "$OUT"
 # Top level: the client's own.
 for f in "${TOP[@]}"; do [[ -f "$f" ]] && cp -p "$f" "$STAGE/"; done

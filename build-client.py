@@ -413,8 +413,11 @@ def main():
     # the shared dev-tree folder by this list (client entries stay beside
     # Phi.exe, Chromium's accessibility/ and inspector_overlay/ go under
     # framework/; installer/stage-payload.ps1).
-    with open(os.path.join(resources_dir, CLIENT_RESOURCES_MANIFEST),
-              "w") as f:
+    # newline="\n": this manifest is consumed by make-installer.sh on POSIX;
+    # Windows' default text mode would write CRLF and every staged entry name
+    # would keep a trailing \r there (found the hard way in CI).
+    with open(os.path.join(resources_dir, CLIENT_RESOURCES_MANIFEST), "w",
+              newline="\n") as f:
         f.write("\n".join(sorted(RESOURCES + CLIENT_RESOURCE_TREES)) + "\n")
     # Stage the vendored WinSparkle.dll beside the client: the updater loads
     # it from the exe's own dir (third_party/winsparkle carries the release's
