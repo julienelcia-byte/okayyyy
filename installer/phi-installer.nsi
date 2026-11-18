@@ -164,8 +164,11 @@ InstallDirRegKey HKLM "${REG_PRODUCT}" "InstallDir"
 !define BROWSER_COMPANY "Optix AI"
 !define BROWSER_CLIENT_KEY "Software\Clients\StartMenuInternet\${BROWSER_APP}"
 SetCompressor /SOLID lzma
-Icon "${PHI_STAGE}\resources\phi.ico"
-UninstallIcon "${PHI_STAGE}\resources\phi.ico"
+; Host paths use forward slashes: makensis on POSIX does not map backslashes
+; (verified on Debian bookworm 3.08 and ubuntu 24.04), and makensis on Windows
+; accepts forward slashes in build-time file arguments.
+Icon "${PHI_STAGE}/resources/phi.ico"
+UninstallIcon "${PHI_STAGE}/resources/phi.ico"
 ShowInstDetails nevershow
 ShowUninstDetails nevershow
 ; The progress screen moves on by itself: to the Done screen when
@@ -1234,7 +1237,7 @@ Section "Install"
 
   fresh_install:
   SetOutPath "$INSTDIR"
-  File /r "${PHI_STAGE}\*.*"
+  File /r "${PHI_STAGE}/*.*"
 
   ; The sandbox's AppContainer utilities (proxy resolver, media CDM, ...)
   ; run under the chromeInstallFiles / lpacChromeInstallFiles capabilities
