@@ -111,7 +111,11 @@ jobs:
       - name: Pack NelthBrowserSetup (unsigned, telemetry-free)
         run: |
           chmod +x installer/make-installer.sh
+          # --out is REQUIRED here: without it the script derives OUT from
+          # SRC_ROOT (HERE/../.., the PARENT of the repo dir by its own
+          # convention), which does not exist in the CI workspace.
           installer/make-installer.sh \
+            --out out/PhiFxWinShip \
             --no-sign --no-telemetry \
             --build-number "${{ github.run_number }}"
 
