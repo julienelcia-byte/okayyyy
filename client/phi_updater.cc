@@ -16,18 +16,15 @@ namespace phi_client {
 
 namespace {
 
-// The win-nightly update feed beside the Mac's mac-nightly. A --dev-hooks
-// build may override it with the PHI_APPCAST_URL environment variable; a
-// release build cannot.
-constexpr char kDefaultAppcastUrl[] =
-    "https://ota.phibrowser.com/win-nightly/appcast/PhiBrowserWinUpdate.xml";
+// Nelth Browser (Optix AI build): the upstream Phi update feed is disabled.
+// An empty appcast and an empty signing key leave the updater off in every
+// build — WinSparkle is never initialised, no update source is contacted,
+// and the "check for updates" menu item stays dark. Nelth ships its own
+// installers; it never pulls updates from the upstream Phi infrastructure.
+constexpr char kDefaultAppcastUrl[] = "";
 
-// The appcast's EdDSA (Ed25519) public key, base64 — the counterpart of the
-// key installer/make-appcast.sh signs with. The matching private key is kept
-// outside the client repository in phibrowser-win-build. A signed payload is
-// required whatever the transport.
-constexpr char kEdDsaPublicKey[] =
-    "D4xwuYEnKtPEo0h+VBKzG9vioEpcu4BHY8FxALF3vfk=";
+// Empty by design: no signing key means no updater (see Init below).
+constexpr char kEdDsaPublicKey[] = "";
 
 // The WinSparkle C surface we use, resolved by hand: the DLL is optional.
 using SetAppcastUrlFn = void(__cdecl*)(const char*);
@@ -236,9 +233,8 @@ void PhiUpdater::Init(HWND quit_hwnd, UINT quit_msg, UINT state_msg) {
   }
   const std::string url = AppcastUrl();
   g_sparkle.set_appcast_url(url.c_str());
-  // WinSparkle keeps its state under HKCU\Software\<company>\<app>; the
-  // installer drops the key of the old company name.
-  g_sparkle.set_app_details(L"Phinomenon Inc.", L"Phi Browser",
+  // WinSparkle keeps its state under HKCU\Software\<company>\<app>.
+  g_sparkle.set_app_details(L"Optix AI", L"Nelth Browser",
                             PHI_WIN_VERSION_FULL_WIDE);
   if (g_sparkle.set_automatic_check) {
     g_sparkle.set_automatic_check(1);  // Default daily background checks.

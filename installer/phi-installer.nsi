@@ -1,7 +1,7 @@
-; Copyright 2026 Phinomenon Inc.
+; Copyright 2026 Optix AI
 ; Licensed under the Apache License, Version 2.0; see the LICENSE file.
 ;
-; The Phi Browser installer - WinSparkle's payload and the manual
+; The Nelth Browser installer - WinSparkle's payload and the manual
 ; first-install, one script. Design (the Mac parity notes in
 ; windows-framework-status.md; the flow itself in docs/static-build-plan.md;
 ; the look in docs/windows-native-ui.md §12):
@@ -13,38 +13,38 @@
 ;     question that used to be a MessageBox is an InfoBar in the window;
 ;     only the abort confirmation is still a box. Dark mode follows the
 ;     Windows app mode.
-;   - PER MACHINE by default: C:\Program Files\Phi Browser, elevated (UAC),
+;   - PER MACHINE by default: C:\Program Files\Nelth Browser, elevated (UAC),
 ;     Apps & Features entry and shortcuts for all users. The user may point
 ;     it anywhere else in the expander; a folder outside Program Files makes
 ;     install_static treat the install as per-user, so the data-dir value
 ;     is written to BOTH HKLM and HKCU. Crash-upload consent is NOT the
-;     installer's: the client writes HKCU\Software\Phi\usagestats from the
+;     installer's: the client writes HKCU\Software\Nelth\usagestats from the
 ;     user's own data-sharing choice (onboarding, Settings), and the fork's
 ;     crash reporter reads it per user (release review R1).
 ;   - THE DATA FOLDER IS THE USER'S CHOICE: profiles, history, settings and
 ;     the telemetry config live in a folder separate from the program,
 ;     default %LOCALAPPDATA%\Phi\User Data. Another folder is recorded as
-;     Software\Phi\UserDataDir, which install_static consults after
+;     Software\Nelth\UserDataDir, which install_static consults after
 ;     --user-data-dir and the policy (chrome/install_static/user_data_dir.cc)
-;     - every Phi process, the crash handler included, follows it.
+;     - every Nelth process, the crash handler included, follows it.
 ;   - LAYOUT: Phi.exe + framework\ (the non-component framework;
 ;     make-installer.sh stages it so, /DPHI_LAYOUT_FRAMEWORK tells this
 ;     script). A component framework can only be flat: the exe's static
 ;     imports must sit in its own directory.
-;   - IN-PLACE UPDATE: chrome.dll is locked while Phi runs, so the
+;   - IN-PLACE UPDATE: chrome.dll is locked while Nelth runs, so the
 ;     installer runs when the app has quit (WinSparkle's flow), replaces
 ;     framework\ whole and copies the new files over - the stable path keeps
 ;     taskbar pins and shortcuts valid. No rollback snapshot: nothing ever
 ;     restored from one (an older version is reinstalled with its own
-;     installer and /ALLOWDOWNGRADE). While Phi still runs the Setup screen
+;     installer and /ALLOWDOWNGRADE). While Nelth still runs the Setup screen
 ;     shows an InfoBar and polls; the section keeps a 60 s wait as the
 ;     safety net. Silent (/S) installs keep the recorded program and data
 ;     folders.
 ;   - NO SILENT DOWNGRADE: an older installer over a newer install stops
 ;     (the Setup screen is the notice; /S exits with code 3) unless run with
 ;     /ALLOWDOWNGRADE. The same version reinstalls.
-;   - ONE INSTALLER PER ARCHITECTURE: PhiBrowserSetup-<ver>.exe carries the
-;     x64 build, PhiBrowserSetup-<ver>-arm64.exe the Windows on ARM build
+;   - ONE INSTALLER PER ARCHITECTURE: NelthBrowserSetup-<ver>.exe carries the
+;     x64 build, NelthBrowserSetup-<ver>-arm64.exe the Windows on ARM build
 ;     (/DPHI_ARCH). The stub itself is NSIS's 32-bit code, which every
 ;     Windows runs (x64 through WOW64, ARM64 through its x86 emulation), so
 ;     the payload's architecture is checked against the MACHINE in .onInit:
@@ -59,12 +59,12 @@
 ;     - so this script writes what Chrome's setup would (ProgIds,
 ;     StartMenuInternet\<app>\Capabilities, RegisteredApplications, App
 ;     Paths) under HKLM, never the user's choice itself: Windows keeps that
-;     for the user, and Phi's "Make default" opens Settings at this entry.
+;     for the user, and Nelth's "Make default" opens Settings at this entry.
 ;   - REMOVAL IS BY NAME: the uninstaller deletes the stage's own file list
 ;     (uninstall-list.py, at compile time) and removes a folder only once it
 ;     is empty - never a wildcard or RMDir /r in a folder the user may have
 ;     picked; "delete my data" removes the whole data folder only when it is
-;     the default one or Setup created it, else only Phi's own entries.
+;     the default one or Setup created it, else only Nelth's own entries.
 ;
 ; Build (makensis 3.x, on Linux via make-installer.sh):
 ;   makensis -INPUTCHARSET UTF8 -DPHI_VERSION=0.1.0 -DPHI_STAGE=<staged tree> \
@@ -72,7 +72,7 @@
 ;            [-DPHI_TELEMETRY_JSON=phi_telemetry.json] [-DPHI_SIGN_CMD=<sign-pe.sh>] \
 ;            [-DPHI_UI_TEST] phi-installer.nsi
 ;   PHI_UI_TEST builds a look-and-feel test: it installs to C:\phi-setup-test
-;   and records itself under Software\PhiSetupTest (and registers no
+;   and records itself under Software\NelthSetupTest (and registers no
 ;   browser), so a throwaway payload never touches a real install.
 
 !ifndef PHI_VERSION
@@ -117,15 +117,15 @@ ManifestDPIAware true
   !addplugindir /x86-unicode "${__FILEDIR__}/ui/x86-unicode"
 !endif
 
-Name "Phi Browser"
-Caption "Phi Browser Setup"
-UninstallCaption "Uninstall Phi Browser"
+Name "Nelth Browser"
+Caption "Nelth Browser Setup"
+UninstallCaption "Uninstall Nelth Browser"
 ; Where the setup exe lands (makensis resolves a bare OutFile against this
 ; script's directory, not the working directory).
 !ifndef PHI_OUTDIR
   !define PHI_OUTDIR "."
 !endif
-OutFile "${PHI_OUTDIR}/PhiBrowserSetup-${PHI_FULL_VERSION}${PHI_ARCH_SUFFIX}.exe"
+OutFile "${PHI_OUTDIR}/NelthBrowserSetup-${PHI_FULL_VERSION}${PHI_ARCH_SUFFIX}.exe"
 ; Authenticode (make-installer.sh passes its sign-pe.sh): the setup exe once
 ; it is written, and the uninstaller stub before it is packed into the
 ; installer - WriteUninstaller only drops that stub, so this is the one
@@ -137,13 +137,13 @@ OutFile "${PHI_OUTDIR}/PhiBrowserSetup-${PHI_FULL_VERSION}${PHI_ARCH_SUFFIX}.exe
 !endif
 RequestExecutionLevel admin
 !ifdef PHI_UI_TEST
-  !define REG_PRODUCT "Software\PhiSetupTest"
-  !define UNINST_KEY "Software\Microsoft\Windows\CurrentVersion\Uninstall\PhiBrowserSetupTest"
-  InstallDir "C:\phi-setup-test\Phi Browser"
+  !define REG_PRODUCT "Software\NelthSetupTest"
+  !define UNINST_KEY "Software\Microsoft\Windows\CurrentVersion\Uninstall\NelthBrowserSetupTest"
+  InstallDir "C:\phi-setup-test\Nelth Browser"
 !else
-  !define REG_PRODUCT "Software\Phi"
-  !define UNINST_KEY "Software\Microsoft\Windows\CurrentVersion\Uninstall\PhiBrowser"
-  InstallDir "$PROGRAMFILES64\Phi Browser"
+  !define REG_PRODUCT "Software\Nelth"
+  !define UNINST_KEY "Software\Microsoft\Windows\CurrentVersion\Uninstall\NelthBrowser"
+  InstallDir "$PROGRAMFILES64\Nelth Browser"
 !endif
 InstallDirRegKey HKLM "${REG_PRODUCT}" "InstallDir"
 ; The default-browser names Chromium derives for this brand - install_static
@@ -158,10 +158,10 @@ InstallDirRegKey HKLM "${REG_PRODUCT}" "InstallDir"
 !define BROWSER_HTML_PROGID "ChromiumHTM"
 !define BROWSER_PDF_PROGID "ChromiumPDF"
 !define BROWSER_URL_SCHEME "chromium"
-!define BROWSER_NAME "Phi"
+!define BROWSER_NAME "Nelth"
 !define BROWSER_TOOLTIP "Access the Internet"
-!define BROWSER_LONG_DESC "Phi is a web browser that runs webpages and applications with lightning speed. It's fast, stable, and easy to use. Browse the web more safely with malware and phishing protection built into Phi."
-!define BROWSER_COMPANY "Phinomenon"
+!define BROWSER_LONG_DESC "Nelth is a web browser that runs webpages and applications with lightning speed. It's fast, stable, and easy to use. Browse the web more safely with malware and phishing protection built into Nelth."
+!define BROWSER_COMPANY "Optix AI"
 !define BROWSER_CLIENT_KEY "Software\Clients\StartMenuInternet\${BROWSER_APP}"
 SetCompressor /SOLID lzma
 Icon "${PHI_STAGE}\resources\phi.ico"
@@ -177,10 +177,10 @@ BrandingText " "
 LoadLanguageFile "${NSISDIR}\Contrib\Language files\English.nlf"
 
 VIProductVersion "${PHI_FULL_VERSION}"
-VIAddVersionKey "ProductName" "Phi Browser"
-VIAddVersionKey "FileDescription" "Phi Browser Setup (${PHI_ARCH})"
-VIAddVersionKey "CompanyName" "Phinomenon Inc."
-VIAddVersionKey "LegalCopyright" "Copyright 2026 Phinomenon Inc."
+VIAddVersionKey "ProductName" "Nelth Browser"
+VIAddVersionKey "FileDescription" "Nelth Browser Setup (${PHI_ARCH})"
+VIAddVersionKey "CompanyName" "Optix AI"
+VIAddVersionKey "LegalCopyright" "Copyright 2026 Optix AI"
 VIAddVersionKey "FileVersion" "${PHI_FULL_VERSION}"
 VIAddVersionKey "ProductVersion" "${PHI_FULL_VERSION}"
 
@@ -201,7 +201,7 @@ Var Downgrade        ; 1 = a newer version is installed and /ALLOWDOWNGRADE was 
 Var OtherAdmin       ; 1 = elevated as another account than the session's (over-the-shoulder UAC)
 Var Stage            ; setup | install | done - what Cancel means
 Var Expanded         ; the expander's state
-Var Running          ; 1 while Phi holds chrome.dll
+Var Running          ; 1 while Nelth holds chrome.dll
 Var ErrorShown       ; 1 while the InfoBar shows a folder error
 Var UiFallback       ; 1 = Windows refused PhiSetupUI.dll and the user chose a default run
 ; The Setup screen's controls.
@@ -341,7 +341,7 @@ Function .onInit
 !if "${PHI_ARCH}" == "arm64"
   ${IfNot} ${IsNativeARM64}
     ${If} ${Silent}
-      MessageBox MB_OK|MB_ICONSTOP "This is Phi Browser for Windows on ARM, and this PC is not ARM-based.$\r$\n$\r$\nPlease use the standard installer, PhiBrowserSetup-${PHI_FULL_VERSION}.exe." /SD IDOK
+      MessageBox MB_OK|MB_ICONSTOP "This is Nelth Browser for Windows on ARM, and this PC is not ARM-based.$\r$\n$\r$\nPlease use the standard installer, NelthBrowserSetup-${PHI_FULL_VERSION}.exe." /SD IDOK
       Abort
     ${EndIf}
     StrCpy $ArchState "block"
@@ -349,7 +349,7 @@ Function .onInit
 !else
   ${If} ${IsNativeARM64}
     ${If} ${Silent}
-      MessageBox MB_YESNO|MB_ICONEXCLAMATION "This PC is Windows on ARM. This installer carries the x64 build of Phi Browser, which runs here through emulation; the ARM64 build, PhiBrowserSetup-${PHI_FULL_VERSION}-arm64.exe, is the better fit.$\r$\n$\r$\nInstall the x64 build anyway?" /SD IDYES IDYES x64_on_arm_ok
+      MessageBox MB_YESNO|MB_ICONEXCLAMATION "This PC is Windows on ARM. This installer carries the x64 build of Nelth Browser, which runs here through emulation; the ARM64 build, NelthBrowserSetup-${PHI_FULL_VERSION}-arm64.exe, is the better fit.$\r$\n$\r$\nInstall the x64 build anyway?" /SD IDYES IDYES x64_on_arm_ok
       Abort
     x64_on_arm_ok:
     ${EndIf}
@@ -418,7 +418,7 @@ Function .onInit
     ${EndIf}
   ${EndIf}
   ${If} $PrevVersion == ""
-    StrCpy $SubLine "Version ${PHI_FULL_VERSION} · ${PHI_ARCH} · Phinomenon Inc."
+    StrCpy $SubLine "Version ${PHI_FULL_VERSION} · ${PHI_ARCH} · Optix AI"
     StrCpy $Verb "Install"
     StrCpy $VerbIng "Installing…"
   ${ElseIf} $PrevVersion == "${PHI_FULL_VERSION}"
@@ -441,15 +441,15 @@ Function .onInit
     !insertmacro ProbeSetupUI
     ${If} $0 != 1
       ${If} $ArchState == "block"
-        MessageBox MB_OK|MB_ICONSTOP "This is Phi Browser for Windows on ARM, and this PC is not ARM-based.$\r$\n$\r$\nPlease use the standard installer, PhiBrowserSetup-${PHI_FULL_VERSION}.exe."
+        MessageBox MB_OK|MB_ICONSTOP "This is Nelth Browser for Windows on ARM, and this PC is not ARM-based.$\r$\n$\r$\nPlease use the standard installer, NelthBrowserSetup-${PHI_FULL_VERSION}.exe."
         Abort
       ${EndIf}
       ${If} $Downgrade == 1
-        MessageBox MB_OK|MB_ICONSTOP "A newer Phi Browser ($PrevVersion) is installed. Setup doesn't replace it with ${PHI_FULL_VERSION}."
+        MessageBox MB_OK|MB_ICONSTOP "A newer Nelth Browser ($PrevVersion) is installed. Setup doesn't replace it with ${PHI_FULL_VERSION}."
         SetErrorLevel 3
         Quit
       ${EndIf}
-      MessageBox MB_YESNO|MB_ICONEXCLAMATION "Windows blocked part of Phi Browser Setup (PhiSetupUI.dll), so Setup can't show its window.$\r$\n$\r$\n$Verb Phi Browser ${PHI_FULL_VERSION} with the default settings?$\r$\nProgram: $INSTDIR$\r$\nBrowsing data: $DataDir$\r$\n$\r$\nClose Phi Browser first if it is open." IDYES ui_fallback
+      MessageBox MB_YESNO|MB_ICONEXCLAMATION "Windows blocked part of Nelth Browser Setup (PhiSetupUI.dll), so Setup can't show its window.$\r$\n$\r$\n$Verb Nelth Browser ${PHI_FULL_VERSION} with the default settings?$\r$\nProgram: $INSTDIR$\r$\nBrowsing data: $DataDir$\r$\n$\r$\nClose Nelth Browser first if it is open." IDYES ui_fallback
       Abort
       ui_fallback:
       StrCpy $UiFallback 1
@@ -461,7 +461,7 @@ FunctionEnd
 ; The default run above has no Done screen: this box is its end.
 Function .onInstSuccess
   ${If} $UiFallback == 1
-    MessageBox MB_YESNO|MB_ICONINFORMATION "Phi Browser ${PHI_FULL_VERSION} is installed. Launch it now?" IDNO no_launch
+    MessageBox MB_YESNO|MB_ICONINFORMATION "Nelth Browser ${PHI_FULL_VERSION} is installed. Launch it now?" IDNO no_launch
     Call LaunchPhi
     no_launch:
   ${EndIf}
@@ -469,7 +469,7 @@ FunctionEnd
 
 Function .onInstFailed
   ${If} $UiFallback == 1
-    MessageBox MB_OK|MB_ICONSTOP "Phi Browser could not be installed. Close Phi Browser if it is open and run Setup again."
+    MessageBox MB_OK|MB_ICONSTOP "Nelth Browser could not be installed. Close Nelth Browser if it is open and run Setup again."
   ${EndIf}
 FunctionEnd
 
@@ -487,19 +487,19 @@ Function .onUserAbort
   ${If} $Stage == "done"
     Return
   ${EndIf}
-  MessageBox MB_YESNO|MB_ICONEXCLAMATION|MB_DEFBUTTON2 "Stop installing Phi Browser?" IDYES stop
+  MessageBox MB_YESNO|MB_ICONEXCLAMATION|MB_DEFBUTTON2 "Stop installing Nelth Browser?" IDYES stop
   Abort
   stop:
 FunctionEnd
 
-; The finish screen's launch: through the shell, so Phi runs as the user,
+; The finish screen's launch: through the shell, so Nelth runs as the user,
 ; not with this installer's elevated token (an elevated browser would own
 ; the data folder's files).
 Function LaunchPhi
   Exec '"$WINDIR\explorer.exe" "$INSTDIR\Phi.exe"'
 FunctionEnd
 
-; 1 in $0 while a Phi process keeps chrome.dll mapped in the recorded
+; 1 in $0 while a Nelth process keeps chrome.dll mapped in the recorded
 ; program folder (open for write is the test; a rename is not - Windows
 ; lets a mapped image be renamed). Nothing installed yet: 0. The
 ; uninstaller has its own copy (un.IsPhiRunning).
@@ -551,7 +551,7 @@ FunctionEnd
 ; The whole install is one click: the header, one lead sentence and the
 ; expander (collapsed) with Install / Update in the footer. Opening the
 ; expander swaps the lead for three rows: program folder, browsing data,
-; desktop shortcut. An InfoBar takes the lead's place while Phi is still
+; desktop shortcut. An InfoBar takes the lead's place while Nelth is still
 ; running (Update disabled), on an ARM PC with the x64 build, or after a
 ; folder failed its write probe.
 
@@ -662,7 +662,7 @@ Function SetupButtons
   GetDlgItem $0 $HWNDPARENT 1
   ${If} $Running == 1
     EnableWindow $0 0
-    PhiSetupUI::Footer "Waiting for Phi Browser to close…"
+    PhiSetupUI::Footer "Waiting for Nelth Browser to close…"
   ${Else}
     EnableWindow $0 1
     PhiSetupUI::Footer ""
@@ -692,18 +692,18 @@ FunctionEnd
 
 Function SetupBrowseProgram
   ${NSD_GetText} $hR1Edit $1
-  nsDialogs::SelectFolderDialog "Choose the folder for the Phi Browser program" "$1"
+  nsDialogs::SelectFolderDialog "Choose the folder for the Nelth Browser program" "$1"
   Pop $0
   ${If} $0 != error
-    ; The picked folder is the PARENT: Phi gets a "Phi Browser" folder of its
+    ; The picked folder is the PARENT: Nelth gets a "Nelth Browser" folder of its
     ; own in it (a drive root comes back as D:\), unless it is one already.
     StrCpy $1 $0 1 -1
     ${If} $1 == "\"
       StrCpy $0 $0 -1
     ${EndIf}
     StrCpy $1 $0 "" -12
-    ${If} $1 != "\Phi Browser"
-      StrCpy $0 "$0\Phi Browser"
+    ${If} $1 != "\Nelth Browser"
+      StrCpy $0 "$0\Nelth Browser"
     ${EndIf}
     PhiSetupUI::Text $hR1Edit "$0"
   ${EndIf}
@@ -711,7 +711,7 @@ FunctionEnd
 
 Function SetupBrowseData
   ${NSD_GetText} $hR2Edit $1
-  nsDialogs::SelectFolderDialog "Choose the folder for Phi's browsing data" "$1"
+  nsDialogs::SelectFolderDialog "Choose the folder for Nelth's browsing data" "$1"
   Pop $0
   ${If} $0 != error
     PhiSetupUI::Text $hR2Edit "$0"
@@ -727,7 +727,7 @@ Function SetupProbe
   ${If} $0 != $Running
     StrCpy $Running $0
     ${If} $Running == 1
-      PhiSetupUI::Text $hInfoB "Phi Browser is still running."
+      PhiSetupUI::Text $hInfoB "Nelth Browser is still running."
       PhiSetupUI::Text $hInfoT "Close it to continue; Setup checks again on its own."
     ${EndIf}
     StrCpy $ErrorShown 0
@@ -742,7 +742,7 @@ FunctionEnd
 
 Function SetupCreate
   StrCpy $Stage "setup"
-  PhiSetupUI::Caption "Phi Browser Setup"
+  PhiSetupUI::Caption "Nelth Browser Setup"
   nsDialogs::Create 1018
   Pop $hDlg
   ${If} $hDlg == error
@@ -753,8 +753,8 @@ Function SetupCreate
     ; The arm64 installer on a PC that is not ARM: the screen is the notice.
     ${Create} $R9 $hDlg "blockcircle" 32 20 48 48 ""
     ${Create} $R9 $hDlg "text.subtitle" 96 22 472 28 "This installer is for Windows on ARM"
-    ${Create} $R9 $hDlg "text.sub" 96 54 472 16 "PhiBrowserSetup-${PHI_FULL_VERSION}-arm64.exe"
-    ${Create} $R9 $hDlg "text.lead" 32 90 536 40 "This PC is not ARM-based, so the ARM64 build cannot run here. Use the standard installer instead: PhiBrowserSetup-${PHI_FULL_VERSION}.exe."
+    ${Create} $R9 $hDlg "text.sub" 96 54 472 16 "NelthBrowserSetup-${PHI_FULL_VERSION}-arm64.exe"
+    ${Create} $R9 $hDlg "text.lead" 32 90 536 40 "This PC is not ARM-based, so the ARM64 build cannot run here. Use the standard installer instead: NelthBrowserSetup-${PHI_FULL_VERSION}.exe."
     PhiSetupUI::Buttons "pri" "Close" ""
     PhiSetupUI::Footer ""
     nsDialogs::Show
@@ -763,7 +763,7 @@ Function SetupCreate
   ${If} $Downgrade == 1
     ; A newer version is installed: the screen is the notice.
     ${Create} $R9 $hDlg "blockcircle" 32 20 48 48 ""
-    ${Create} $R9 $hDlg "text.subtitle" 96 22 472 28 "A newer Phi Browser is installed"
+    ${Create} $R9 $hDlg "text.subtitle" 96 22 472 28 "A newer Nelth Browser is installed"
     ${Create} $R9 $hDlg "text.sub" 96 54 472 16 "Installed $PrevVersion · this installer ${PHI_FULL_VERSION}"
     ${Create} $R9 $hDlg "text.lead" 32 90 536 60 "Setup doesn't replace a newer version with an older one. To go back anyway, run this installer with /ALLOWDOWNGRADE - your browsing data stays where it is, but a newer version's profile may not open in an older one."
     PhiSetupUI::Buttons "pri" "Close" ""
@@ -772,7 +772,7 @@ Function SetupCreate
     Return
   ${EndIf}
 
-  ${Header} $hDlg "Phi Browser" "$SubLine"
+  ${Header} $hDlg "Nelth Browser" "$SubLine"
   ${If} $PrevVersion != ""
     ${Create} $hLead $hDlg "text.lead" 32 90 536 40 "Your Spaces, settings and browsing data stay where they are."
   ${Else}
@@ -837,7 +837,7 @@ Function SetupCreate
   ${EndIf}
   StrCpy $Running $0
   ${If} $Running == 1
-    PhiSetupUI::Text $hInfoB "Phi Browser is still running."
+    PhiSetupUI::Text $hInfoB "Nelth Browser is still running."
     PhiSetupUI::Text $hInfoT "Close it to continue; Setup checks again on its own."
   ${EndIf}
   Call SetupLayout
@@ -884,7 +884,7 @@ Function SetupLeave
   CreateDirectory "$INSTDIR"
   FileOpen $0 "$INSTDIR\.phi-write-probe" w
   ${If} ${Errors}
-    !insertmacro SetupError "Phi Browser can't be installed in $INSTDIR." "Choose a program folder you can write to."
+    !insertmacro SetupError "Nelth Browser can't be installed in $INSTDIR." "Choose a program folder you can write to."
   ${EndIf}
   FileClose $0
   Delete "$INSTDIR\.phi-write-probe"
@@ -903,9 +903,9 @@ Function SetupLeave
   StrCpy $0 $DataDir 2 1
   ${If} $DataDir == ""
   ${OrIf} $0 != ":\"
-    !insertmacro SetupError "Enter a full folder path for the browsing data." "Something like D:\Phi Data."
+    !insertmacro SetupError "Enter a full folder path for the browsing data." "Something like D:\Nelth Data."
   ${EndIf}
-  ; A folder other than the recorded one is Phi's own only if it is new or
+  ; A folder other than the recorded one is Nelth's own only if it is new or
   ; empty now - checked before the probe below creates it.
   ${If} $DataDir != $DataDirRecorded
     StrCpy $DataDirOwned 1
@@ -924,7 +924,7 @@ Function SetupLeave
   CreateDirectory "$DataDir"
   FileOpen $0 "$DataDir\.phi-write-probe" w
   ${If} ${Errors}
-    !insertmacro SetupError "Phi Browser can't write to $DataDir." "Choose a browsing-data folder you can write to."
+    !insertmacro SetupError "Nelth Browser can't write to $DataDir." "Choose a browsing-data folder you can write to."
   ${EndIf}
   FileClose $0
   Delete "$DataDir\.phi-write-probe"
@@ -935,9 +935,9 @@ FunctionEnd
 ; ---------------------------------------------------------------- progress screen
 Function InstShow
   ${If} $PrevVersion != ""
-    !insertmacro DecorateInstFiles "Phi Browser Setup" "Phi Browser" "$SubLine" "$VerbIng" "Installing to $INSTDIR" "Your Spaces, settings and browsing data stay where they are. Phi Browser opens as you, not as the installer."
+    !insertmacro DecorateInstFiles "Nelth Browser Setup" "Nelth Browser" "$SubLine" "$VerbIng" "Installing to $INSTDIR" "Your Spaces, settings and browsing data stay where they are. Nelth Browser opens as you, not as the installer."
   ${Else}
-    !insertmacro DecorateInstFiles "Phi Browser Setup" "Phi Browser" "$SubLine" "$VerbIng" "Installing to $INSTDIR" "Phi Browser opens as you, not as the installer."
+    !insertmacro DecorateInstFiles "Nelth Browser Setup" "Nelth Browser" "$SubLine" "$VerbIng" "Installing to $INSTDIR" "Nelth Browser opens as you, not as the installer."
   ${EndIf}
 FunctionEnd
 
@@ -949,10 +949,10 @@ Function DoneCreate
   ${If} $hDlg == error
     Abort
   ${EndIf}
-  ${Header} $hDlg "Phi Browser" "$SubLine"
+  ${Header} $hDlg "Nelth Browser" "$SubLine"
   ${Create} $R9 $hDlg "card" 32 90 536 116 ""
   ${Create} $R9 $hDlg "okcircle/card" 48 106 40 40 ""
-  ${Create} $R9 $hDlg "text.strong/card" 104 106 440 20 "Phi Browser is installed"
+  ${Create} $R9 $hDlg "text.strong/card" 104 106 440 20 "Nelth Browser is installed"
   ${Create} $R9 $hDlg "text.hint/card" 104 134 100 16 "Program"
   ${Create} $R9 $hDlg "text.caption/card" 216 134 336 16 "$INSTDIR"
   ${Create} $R9 $hDlg "text.hint/card" 104 154 100 16 "Browsing data"
@@ -963,7 +963,7 @@ Function DoneCreate
   ${Else}
     ${Create} $R9 $hDlg "text.caption/card" 216 174 336 16 "Start menu"
   ${EndIf}
-  PhiSetupUI::Buttons "pri" "Launch Phi Browser" "Close"
+  PhiSetupUI::Buttons "pri" "Launch Nelth Browser" "Close"
   PhiSetupUI::Footer "Updates arrive on their own."
   nsDialogs::Show
 FunctionEnd
@@ -977,7 +977,7 @@ FunctionEnd
 ; What Chrome's setup registers for a system-level install (shell_util.cc:
 ; GetChromeProgIdEntries, GetShellIntegrationEntries,
 ; GetChromeAppRegistrationEntries, GetDirectLaunchEntries), in HKLM's
-; 64-bit view (the caller's SetRegView). It makes Phi a browser Windows can
+; 64-bit view (the caller's SetRegView). It makes Nelth a browser Windows can
 ; offer; choosing it stays the user's, in Settings.
 !macro BrowserFileType ext progid
   WriteRegStr HKLM "${BROWSER_CLIENT_KEY}\Capabilities\FileAssociations" "${ext}" "${progid}"
@@ -1004,7 +1004,7 @@ Function RegisterBrowser
   ; The brand's names are Chromium's own, so a Chromium build on this PC may
   ; hold them: a client key or HTML ProgId that launches anything but a
   ; Phi.exe is left alone - taking it over would send that browser's links
-  ; to Phi.
+  ; to Nelth.
   StrCpy $2 "\Phi.exe"
   ReadRegStr $0 HKLM "${BROWSER_CLIENT_KEY}\shell\open\command" ""
   ${If} $0 != ""
@@ -1084,7 +1084,7 @@ FunctionEnd
 
 ; The uninstaller's half: in ROOT, everything above - and what chrome.dll
 ; itself writes there (a per-user install registers in HKCU when "Make
-; default" is pressed; making Phi default adds the XP-style http/https and
+; default" is pressed; making Nelth default adds the XP-style http/https and
 ; StartMenuInternet values) - but each key only while it launches this
 ; install's exe ($2).
 !macro UnBrowserFileType root ext progid
@@ -1157,11 +1157,11 @@ FunctionEnd
 Section "Install"
   SetShellVarContext all
 
-  ; The update path must not race a running Phi: chrome.dll being locked is
-  ; the tell - it stays mapped for as long as any Phi process lives. The
+  ; The update path must not race a running Nelth: chrome.dll being locked is
+  ; the tell - it stays mapped for as long as any Nelth process lives. The
   ; probe OPENS it for writing (a rename is no test: Windows lets a mapped
   ; image be renamed, only not overwritten). WinSparkle launches this
-  ; installer and THEN asks Phi to quit, so a locked file is the normal
+  ; installer and THEN asks Nelth to quit, so a locked file is the normal
   ; first sight here - the Setup screen already waited with its InfoBar;
   ; this is the safety net for silent runs - wait up to a minute for
   ; Chromium to unwind before asking, ask-and-retry rather than failing
@@ -1185,7 +1185,7 @@ Section "Install"
       Goto wait_running
   ask_running:
     MessageBox MB_RETRYCANCEL|MB_ICONEXCLAMATION \
-      "Phi Browser is running. Close it, then press Retry." \
+      "Nelth Browser is running. Close it, then press Retry." \
       IDRETRY check_running
     Abort
   not_running:
@@ -1216,7 +1216,7 @@ Section "Install"
     ${EndIf}
 !endif
 
-    ; The previous framework\ goes whole - it is Phi's (its chrome.dll is
+    ; The previous framework\ goes whole - it is Nelth's (its chrome.dll is
     ; the one just probed) - so nothing a previous version had and this
     ; one dropped lingers past the uninstaller's file list. The rollback\
     ; snapshot earlier installers made (never restored from) goes too.
@@ -1245,9 +1245,9 @@ Section "Install"
   ; sandbox.cc).
   nsExec::ExecToLog 'icacls "$INSTDIR" /grant "*S-1-15-3-1024-3424233489-972189580-2057154623-747635277-1604371224-316187997-3786583170-1043257646:(OI)(CI)(RX)" "*S-1-15-3-1024-2302894289-466761758-1166120688-1039016420-2430351297-4240214049-4028510897-3317428798:(OI)(CI)(RX)"'
 
-  CreateShortCut "$SMPROGRAMS\Phi Browser.lnk" "$INSTDIR\Phi.exe"
+  CreateShortCut "$SMPROGRAMS\Nelth Browser.lnk" "$INSTDIR\Phi.exe"
   ${If} $DesktopShortcut == 1
-    CreateShortCut "$DESKTOP\Phi Browser.lnk" "$INSTDIR\Phi.exe"
+    CreateShortCut "$DESKTOP\Nelth Browser.lnk" "$INSTDIR\Phi.exe"
   ${EndIf}
 
   ; The program folder, for the next (silent) update and the uninstaller;
@@ -1294,17 +1294,17 @@ Section "Install"
 
   WriteUninstaller "$INSTDIR\Uninstall.exe"
   ; Older clients kept the updater's state (last check time, skipped version)
-  ; under the old company name; the client now uses Software\Phinomenon Inc.
-  DeleteRegKey HKCU "Software\Fyde Innovations\Phi Browser"
+  ; under the old company name; the client now uses Software\Nelthnomenon Inc.
+  DeleteRegKey HKCU "Software\Fyde Innovations\Nelth Browser"
   DeleteRegKey /ifempty HKCU "Software\Fyde Innovations"
   ; Apps & Features: the 64-bit view, where a 64-bit program's entry
   ; belongs (this stub is 32-bit, so the default view would be WOW6432Node).
-  ; Software\Phi above stays in the 32-bit view - that is where
+  ; Software\Nelth above stays in the 32-bit view - that is where
   ; install_static reads it (nt::WOW6432).
   SetRegView 64
-  WriteRegStr HKLM "${UNINST_KEY}" "DisplayName" "Phi Browser"
+  WriteRegStr HKLM "${UNINST_KEY}" "DisplayName" "Nelth Browser"
   WriteRegStr HKLM "${UNINST_KEY}" "DisplayVersion" "${PHI_FULL_VERSION}"
-  WriteRegStr HKLM "${UNINST_KEY}" "Publisher" "Phinomenon Inc."
+  WriteRegStr HKLM "${UNINST_KEY}" "Publisher" "Optix AI"
   WriteRegStr HKLM "${UNINST_KEY}" "InstallLocation" "$INSTDIR"
   WriteRegStr HKLM "${UNINST_KEY}" "DisplayIcon" "$INSTDIR\Phi.exe"
   WriteRegStr HKLM "${UNINST_KEY}" "UninstallString" '"$INSTDIR\Uninstall.exe"'
@@ -1339,7 +1339,7 @@ Function un.onInit
   ${IfNot} ${Silent}
     !insertmacro ProbeSetupUI
     ${If} $0 != 1
-      MessageBox MB_YESNO|MB_ICONEXCLAMATION "Windows blocked part of the Phi Browser uninstaller (PhiSetupUI.dll), so it can't show its window.$\r$\n$\r$\nRemove Phi Browser from $INSTDIR? Your browsing data stays in $DataDir." IDYES un_ui_fallback
+      MessageBox MB_YESNO|MB_ICONEXCLAMATION "Windows blocked part of the Nelth Browser uninstaller (PhiSetupUI.dll), so it can't show its window.$\r$\n$\r$\nRemove Nelth Browser from $INSTDIR? Your browsing data stays in $DataDir." IDYES un_ui_fallback
       Abort
       un_ui_fallback:
       StrCpy $UiFallback 1
@@ -1350,13 +1350,13 @@ FunctionEnd
 
 Function un.onUninstSuccess
   ${If} $UiFallback == 1
-    MessageBox MB_OK|MB_ICONINFORMATION "Phi Browser was removed."
+    MessageBox MB_OK|MB_ICONINFORMATION "Nelth Browser was removed."
   ${EndIf}
 FunctionEnd
 
-; "Delete my data" in a folder Setup did not create: only what Phi and
+; "Delete my data" in a folder Setup did not create: only what Nelth and
 ; Chromium keep there, by name - the profiles (a folder counts only with
-; its Preferences in it), the browser-wide state, Phi's own store and
+; its Preferences in it), the browser-wide state, Nelth's own store and
 ; files. Anything else stays, and so does the folder unless it is empty.
 !macro UnDataDir name
   RMDir /r "$DataDir\${name}"
@@ -1382,10 +1382,10 @@ Function un.DeletePhiData
     FindNext $0 $1
   ${Loop}
   FindClose $0
-  ${If} ${FileExists} "$DataDir\Phi\users\*.*"
-  ${OrIf} ${FileExists} "$DataDir\Phi\syncstate\*.*"
-  ${OrIf} ${FileExists} "$DataDir\Phi\guestDataMigration\*.*"
-    RMDir /r "$DataDir\Phi"
+  ${If} ${FileExists} "$DataDir\Nelth\users\*.*"
+  ${OrIf} ${FileExists} "$DataDir\Nelth\syncstate\*.*"
+  ${OrIf} ${FileExists} "$DataDir\Nelth\guestDataMigration\*.*"
+    RMDir /r "$DataDir\Nelth"
   ${EndIf}
   !insertmacro UnDataDir "Crashpad"
   !insertmacro UnDataDir "BrowserMetrics"
@@ -1437,7 +1437,7 @@ Function un.onGUIInit
 FunctionEnd
 
 Function un.onUserAbort
-  MessageBox MB_YESNO|MB_ICONEXCLAMATION|MB_DEFBUTTON2 "Stop removing Phi Browser?" IDYES stop
+  MessageBox MB_YESNO|MB_ICONEXCLAMATION|MB_DEFBUTTON2 "Stop removing Nelth Browser?" IDYES stop
   Abort
   stop:
 FunctionEnd
@@ -1452,15 +1452,15 @@ Function un.ConfirmCheck
 FunctionEnd
 
 ; The browsing data is the user's: the checkbox is off, and only offered
-; when the folder looks like a Phi data folder.
+; when the folder looks like a Nelth data folder.
 Function un.ConfirmCreate
-  PhiSetupUI::Caption "Uninstall Phi Browser"
+  PhiSetupUI::Caption "Uninstall Nelth Browser"
   nsDialogs::Create 1018
   Pop $hDlg
   ${If} $hDlg == error
     Abort
   ${EndIf}
-  ${Header} $hDlg "Remove Phi Browser" "Version ${PHI_FULL_VERSION} · $INSTDIR"
+  ${Header} $hDlg "Remove Nelth Browser" "Version ${PHI_FULL_VERSION} · $INSTDIR"
   ${Create} $R9 $hDlg "text.lead" 32 90 536 40 "The program, its shortcuts and the Apps & Features entry will be removed."
   ${If} ${FileExists} "$DataDir\Local State"
   ${OrIf} ${FileExists} "$DataDir\PhiPreferences.json"
@@ -1479,20 +1479,20 @@ Function un.ConfirmLeave
 FunctionEnd
 
 Function un.InstShow
-  !insertmacro DecorateInstFiles "Uninstall Phi Browser" "Remove Phi Browser" "Version ${PHI_FULL_VERSION} · $INSTDIR" "Removing…" "Removing from $INSTDIR" "Shortcuts and the Apps & Features entry go with the program."
+  !insertmacro DecorateInstFiles "Uninstall Nelth Browser" "Remove Nelth Browser" "Version ${PHI_FULL_VERSION} · $INSTDIR" "Removing…" "Removing from $INSTDIR" "Shortcuts and the Apps & Features entry go with the program."
 FunctionEnd
 
 Section "Uninstall"
   SetShellVarContext all
 
-  ; Not while Phi runs: chrome.dll would stay and the rest would go. The
+  ; Not while Nelth runs: chrome.dll would stay and the rest would go. The
   ; install section's probe and prompt; Cancel (and a silent run) leaves
   ; everything in place.
   check_running:
     Call un.IsPhiRunning
     ${If} $0 == 1
       MessageBox MB_RETRYCANCEL|MB_ICONEXCLAMATION \
-        "Phi Browser is running. Close it, then press Retry." \
+        "Nelth Browser is running. Close it, then press Retry." \
         /SD IDCANCEL IDRETRY check_running
       SetErrorLevel 2
       Quit
@@ -1514,13 +1514,13 @@ Section "Uninstall"
   ${EndIf}
   RMDir "$INSTDIR"
 
-  Delete "$SMPROGRAMS\Phi Browser.lnk"
-  Delete "$DESKTOP\Phi Browser.lnk"
+  Delete "$SMPROGRAMS\Nelth Browser.lnk"
+  Delete "$DESKTOP\Nelth Browser.lnk"
 
   ; The browsing data goes only when the confirm screen's checkbox was on;
-  ; a silent uninstall keeps it. Whole only when the folder is Phi's: the
-  ; default one (then its empty Phi parent too) or one Setup created;
-  ; anywhere else only Phi's own entries in it.
+  ; a silent uninstall keeps it. Whole only when the folder is Nelth's: the
+  ; default one (then its empty Nelth parent too) or one Setup created;
+  ; anywhere else only Nelth's own entries in it.
   ${If} $DeleteData == 1
     ${If} ${FileExists} "$DataDir\Local State"
     ${OrIf} ${FileExists} "$DataDir\PhiPreferences.json"
@@ -1556,9 +1556,9 @@ Section "Uninstall"
   DeleteRegKey HKCU "${REG_PRODUCT}"
   ; The updater's own state (last check time, skipped version), under the
   ; current company name and the one older clients used.
-  DeleteRegKey HKCU "Software\Phinomenon Inc.\Phi Browser"
-  DeleteRegKey /ifempty HKCU "Software\Phinomenon Inc."
-  DeleteRegKey HKCU "Software\Fyde Innovations\Phi Browser"
+  DeleteRegKey HKCU "Software\Nelthnomenon Inc.\Nelth Browser"
+  DeleteRegKey /ifempty HKCU "Software\Nelthnomenon Inc."
+  DeleteRegKey HKCU "Software\Fyde Innovations\Nelth Browser"
   DeleteRegKey /ifempty HKCU "Software\Fyde Innovations"
   ; The window closes by itself once the files are gone; there is no
   ; "Completed" state to click through (AutoCloseWindow does not carry

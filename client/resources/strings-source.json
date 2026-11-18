@@ -526,7 +526,7 @@
   },
   "app.feedback.windowTitle": {
    "comment": "feedback — the form's window title (Mac key)",
-   "en": "Send Feedback to Phi"
+   "en": "Send Feedback to Nelth"
   },
   "app.fileMenu.createNewIncognitoSpace": {
    "comment": "menuBar — used at phi_menu_bar.cc:299",
@@ -681,58 +681,58 @@
   },
   "app.phi": {
    "comment": "app — used in phi_kiosk_window.cc",
-   "en": "Phi",
+   "en": "Nelth",
    "translations": {
-    "de": "Phi",
-    "es": "Phi",
-    "fr": "Phi",
-    "ja": "Phi",
-    "ko": "Phi",
-    "nl": "Phi",
-    "zh-Hans": "Phi",
-    "zh-Hant": "Phi"
+    "de": "Nelth",
+    "es": "Nelth",
+    "fr": "Nelth",
+    "ja": "Nelth",
+    "ko": "Nelth",
+    "nl": "Nelth",
+    "zh-Hans": "Nelth",
+    "zh-Hant": "Nelth"
    }
   },
   "app.phiAgentAccessRequest": {
    "comment": "app — used at phi_coordinator.cc:566",
-   "en": "Phi — Agent access request",
+   "en": "Nelth — Agent access request",
    "translations": {
-    "de": "Phi – Zugriffsanfrage eines Agenten",
-    "es": "Phi — Solicitud de acceso de un agente",
-    "fr": "Phi — Demande d'accès d'un agent",
-    "ja": "Phi — エージェントのアクセスリクエスト",
-    "ko": "Phi — 에이전트 접근 요청",
-    "nl": "Phi — Toegangsverzoek van agent",
-    "zh-Hans": "Phi — 智能体访问请求",
-    "zh-Hant": "Phi — AI 代理存取要求"
+    "de": "Nelth – Zugriffsanfrage eines Agenten",
+    "es": "Nelth — Solicitud de acceso de un agente",
+    "fr": "Nelth — Demande d'accès d'un agent",
+    "ja": "Nelth — エージェントのアクセスリクエスト",
+    "ko": "Nelth — 에이전트 접근 요청",
+    "nl": "Nelth — Toegangsverzoek van agent",
+    "zh-Hans": "Nelth — 智能体访问请求",
+    "zh-Hant": "Nelth — AI 代理存取要求"
    }
   },
   "app.phiBrowser": {
    "comment": "app — used in phi_updater.cc",
-   "en": "Phi Browser",
+   "en": "Nelth Browser",
    "translations": {
-    "de": "Phi Browser",
-    "es": "Phi Browser",
-    "fr": "Phi Browser",
-    "ja": "Phi Browser",
-    "ko": "Phi Browser",
-    "nl": "Phi Browser",
-    "zh-Hans": "Phi Browser",
-    "zh-Hant": "Phi Browser"
+    "de": "Nelth Browser",
+    "es": "Nelth Browser",
+    "fr": "Nelth Browser",
+    "ja": "Nelth Browser",
+    "ko": "Nelth Browser",
+    "nl": "Nelth Browser",
+    "zh-Hans": "Nelth Browser",
+    "zh-Hant": "Nelth Browser"
    }
   },
   "app.phiCredentialRequest": {
    "comment": "app — used at phi_coordinator.cc:5608",
-   "en": "Phi — Credential request",
+   "en": "Nelth — Credential request",
    "translations": {
-    "de": "Phi – Zugangsdaten-Anfrage",
-    "es": "Phi — Solicitud de credenciales",
-    "fr": "Phi — Demande d'identifiant",
-    "ja": "Phi — 認証情報のリクエスト",
-    "ko": "Phi — 로그인 정보 요청",
-    "nl": "Phi — Verzoek om inloggegevens",
-    "zh-Hans": "Phi — 凭据请求",
-    "zh-Hant": "Phi — 憑證要求"
+    "de": "Nelth – Zugangsdaten-Anfrage",
+    "es": "Nelth — Solicitud de credenciales",
+    "fr": "Nelth — Demande d'identifiant",
+    "ja": "Nelth — 認証情報のリクエスト",
+    "ko": "Nelth — 로그인 정보 요청",
+    "nl": "Nelth — Verzoek om inloggegevens",
+    "zh-Hans": "Nelth — 凭据请求",
+    "zh-Hant": "Nelth — 憑證要求"
    }
   },
   "app.phiMenu.checkForUpdatesMenuItem": {
@@ -745,16 +745,16 @@
   },
   "app.phiTypesTheSecretInto": {
    "comment": "app — used at phi_coordinator.cc:5589",
-   "en": "Phi types the secret into the page. The agent never sees it.",
+   "en": "Nelth types the secret into the page. The agent never sees it.",
    "translations": {
-    "de": "Phi trägt die Zugangsdaten selbst in die Seite ein. Der Agent sieht sie nie.",
-    "es": "Phi escribe el secreto en la página. El agente nunca lo ve.",
-    "fr": "Phi saisit le secret dans la page. L'agent ne le voit jamais.",
-    "ja": "Phiが機密情報をページに入力します。エージェントがそれを見ることはありません。",
-    "ko": "Phi가 비밀 정보를 페이지에 직접 입력해요. 에이전트는 이를 볼 수 없어요.",
-    "nl": "Phi typt het geheim in de pagina. De agent ziet het nooit.",
-    "zh-Hans": "Phi 会将机密信息直接输入页面，智能体永远看不到它。",
-    "zh-Hant": "Phi 會將機密資訊輸入頁面，AI 代理永遠看不到。"
+    "de": "Nelth trägt die Zugangsdaten selbst in die Seite ein. Der Agent sieht sie nie.",
+    "es": "Nelth escribe el secreto en la página. El agente nunca lo ve.",
+    "fr": "Nelth saisit le secret dans la page. L'agent ne le voit jamais.",
+    "ja": "Nelthが機密情報をページに入力します。エージェントがそれを見ることはありません。",
+    "ko": "Nelth가 비밀 정보를 페이지에 직접 입력해요. 에이전트는 이를 볼 수 없어요.",
+    "nl": "Nelth typt het geheim in de pagina. De agent ziet het nooit.",
+    "zh-Hans": "Nelth 会将机密信息直接输入页面，智能体永远看不到它。",
+    "zh-Hant": "Nelth 會將機密資訊輸入頁面，AI 代理永遠看不到。"
    }
   },
   "app.previousSpace": {
@@ -888,6 +888,10 @@
    "comment": "menuBar — used at phi_menu_bar.cc:359",
    "en": "Always Show Bookmark Bar\tCtrl+Shift+B"
   },
+  "app.viewMenu.appearance": {
+   "comment": "Mac key (translations by key); appMenu — Layout ▸ Appearance submenu (System / Light / Dark)",
+   "en": "Appearance"
+  },
   "app.viewMenu.layoutModeSectionTitle": {
    "comment": "menuBar — used at phi_menu_bar.cc:353",
    "en": "Layout Mode"
@@ -915,30 +919,30 @@
   },
   "app.wantsToControlPhiTabs": {
    "comment": "app — used at phi_coordinator.cc:551",
-   "en": ") wants to control Phi — tabs, navigation, and page content.",
+   "en": ") wants to control Nelth — tabs, navigation, and page content.",
    "translations": {
-    "de": ") möchte Phi steuern – Tabs, Navigation und Seiteninhalte.",
-    "es": ") quiere controlar Phi: pestañas, navegación y contenido de las páginas.",
-    "fr": ") souhaite contrôler Phi : onglets, navigation et contenu des pages.",
-    "ja": "）が Phi の操作を求めています（タブ、ナビゲーション、ページの内容）。",
-    "ko": ")에서 Phi를 제어하려고 해요(탭, 탐색, 페이지 콘텐츠).",
-    "nl": ") wil Phi besturen: tabbladen, navigatie en pagina-inhoud.",
-    "zh-Hans": "）请求控制 Phi：标签页、导航和页面内容。",
-    "zh-Hant": "）要求控制 Phi：分頁、瀏覽和頁面內容。"
+    "de": ") möchte Nelth steuern – Tabs, Navigation und Seiteninhalte.",
+    "es": ") quiere controlar Nelth: pestañas, navegación y contenido de las páginas.",
+    "fr": ") souhaite contrôler Nelth : onglets, navigation et contenu des pages.",
+    "ja": "）が Nelth の操作を求めています（タブ、ナビゲーション、ページの内容）。",
+    "ko": ")에서 Nelth를 제어하려고 해요(탭, 탐색, 페이지 콘텐츠).",
+    "nl": ") wil Nelth besturen: tabbladen, navigatie en pagina-inhoud.",
+    "zh-Hans": "）请求控制 Nelth：标签页、导航和页面内容。",
+    "zh-Hant": "）要求控制 Nelth：分頁、瀏覽和頁面內容。"
    }
   },
   "appMenu.about": {
    "comment": "appMenu — the ⋯ Settings-and-more flyout (docs/windows-native-ui.md §3.1); \"\\t<chord>\" is the right-aligned shortcut. Translations authored for Windows (impl log D14).",
-   "en": "About Phi",
+   "en": "About Nelth",
    "translations": {
-    "de": "Über Phi",
-    "es": "Acerca de Phi",
-    "fr": "À propos de Phi",
-    "ja": "Phi について",
-    "ko": "Phi 정보",
-    "nl": "Over Phi",
-    "zh-Hans": "关于 Phi",
-    "zh-Hant": "關於 Phi"
+    "de": "Über Nelth",
+    "es": "Acerca de Nelth",
+    "fr": "À propos de Nelth",
+    "ja": "Nelth について",
+    "ko": "Nelth 정보",
+    "nl": "Over Nelth",
+    "zh-Hans": "关于 Nelth",
+    "zh-Hant": "關於 Nelth"
    }
   },
   "appMenu.actualSize": {
@@ -1808,43 +1812,43 @@
    }
   },
   "browser.addressBarMenu.clearCacheAction": {
-   "comment": "addressBar — the in-field site menu (the Mac WebContentAddressBarMenu), phi_shell_menus.cc PhiBuildSiteMenu",
+   "comment": "addressBar — the in-field site menu (the Mac WebContentAddressBarMenu), phi_shell_menus.cc NelthBuildSiteMenu",
    "en": "Clear Cache"
   },
   "browser.addressBarMenu.clearCookiesAction": {
-   "comment": "addressBar — the in-field site menu (the Mac WebContentAddressBarMenu), phi_shell_menus.cc PhiBuildSiteMenu",
+   "comment": "addressBar — the in-field site menu (the Mac WebContentAddressBarMenu), phi_shell_menus.cc NelthBuildSiteMenu",
    "en": "Clear Cookie"
   },
   "browser.addressBarMenu.contentBlocking.toggle": {
-   "comment": "addressBar — the in-field site menu (the Mac WebContentAddressBarMenu), phi_shell_menus.cc PhiBuildSiteMenu",
+   "comment": "addressBar — the in-field site menu (the Mac WebContentAddressBarMenu), phi_shell_menus.cc NelthBuildSiteMenu",
    "en": "Content blocking on this site"
   },
   "browser.addressBarMenu.openBrowserSettingsAction": {
-   "comment": "addressBar — the in-field site menu (the Mac WebContentAddressBarMenu), phi_shell_menus.cc PhiBuildSiteMenu",
+   "comment": "addressBar — the in-field site menu (the Mac WebContentAddressBarMenu), phi_shell_menus.cc NelthBuildSiteMenu",
    "en": "More Settings"
   },
   "browser.addressBarMenu.security.notSecureStatus": {
-   "comment": "addressBar — the in-field site menu (the Mac WebContentAddressBarMenu), phi_shell_menus.cc PhiBuildSiteMenu",
+   "comment": "addressBar — the in-field site menu (the Mac WebContentAddressBarMenu), phi_shell_menus.cc NelthBuildSiteMenu",
    "en": "Connection is not secure"
   },
   "browser.addressBarMenu.security.partiallySecureStatus": {
-   "comment": "addressBar — the in-field site menu (the Mac WebContentAddressBarMenu), phi_shell_menus.cc PhiBuildSiteMenu",
+   "comment": "addressBar — the in-field site menu (the Mac WebContentAddressBarMenu), phi_shell_menus.cc NelthBuildSiteMenu",
    "en": "Connection is not fully secure"
   },
   "browser.addressBarMenu.security.secureStatus": {
-   "comment": "addressBar — the in-field site menu (the Mac WebContentAddressBarMenu), phi_shell_menus.cc PhiBuildSiteMenu",
+   "comment": "addressBar — the in-field site menu (the Mac WebContentAddressBarMenu), phi_shell_menus.cc NelthBuildSiteMenu",
    "en": "Connection is secure"
   },
   "browser.addressBarMenu.security.unknownStatus": {
-   "comment": "addressBar — the in-field site menu (the Mac WebContentAddressBarMenu), phi_shell_menus.cc PhiBuildSiteMenu",
+   "comment": "addressBar — the in-field site menu (the Mac WebContentAddressBarMenu), phi_shell_menus.cc NelthBuildSiteMenu",
    "en": "Unknown"
   },
   "browser.addressBarMenu.showFullURLToggle": {
-   "comment": "addressBar — the in-field site menu (the Mac WebContentAddressBarMenu), phi_shell_menus.cc PhiBuildSiteMenu",
+   "comment": "addressBar — the in-field site menu (the Mac WebContentAddressBarMenu), phi_shell_menus.cc NelthBuildSiteMenu",
    "en": "Always Show URL Path"
   },
   "browser.addressBarMenu.siteSettingsAction": {
-   "comment": "addressBar — the in-field site menu (the Mac WebContentAddressBarMenu), phi_shell_menus.cc PhiBuildSiteMenu",
+   "comment": "addressBar — the in-field site menu (the Mac WebContentAddressBarMenu), phi_shell_menus.cc NelthBuildSiteMenu",
    "en": "Site Settings"
   },
   "browser.folio.addNoteAction": {
@@ -2019,6 +2023,18 @@
    "comment": "menuBar — used at phi_menu_bar.cc:335",
    "en": "Stop\tEsc"
   },
+  "common.bookmarkEditor.editMultiPaneSplitSubtitle": {
+   "comment": "Mac key (translations by key); prompt — the editor of a split bookmark or pinned split (NelthPromptPanes)",
+   "en": "Edit the name and address for each pane of this split-view bookmark."
+  },
+  "common.bookmarkEditor.editSplitSubtitle": {
+   "comment": "Mac key (translations by key); prompt — the editor of a split bookmark or pinned split (NelthPromptPanes)",
+   "en": "Edit the name and both addresses for this split-view bookmark."
+  },
+  "common.bookmarkEditor.editSplitTitle": {
+   "comment": "Mac key (translations by key); prompt — the editor of a split bookmark or pinned split (NelthPromptPanes)",
+   "en": "Edit Split Bookmark"
+  },
   "common.bookmarkEditor.editTitle": {
    "comment": "sidebar — used at phi_shell_window.cc:6094",
    "en": "Edit Bookmark"
@@ -2026,6 +2042,30 @@
   "common.bookmarkEditor.folderPicker.newFolderAction": {
    "comment": "sidebar — used at phi_shell_window.cc:5592",
    "en": "New Folder..."
+  },
+  "common.bookmarkEditor.paneNameField.label": {
+   "comment": "Mac key (translations by key); prompt — the editor of a split bookmark or pinned split (NelthPromptPanes); {0} is the pane's position, from 1",
+   "en": "Pane {0} Name"
+  },
+  "common.bookmarkEditor.paneURLField.label": {
+   "comment": "Mac key (translations by key); prompt — the editor of a split bookmark or pinned split (NelthPromptPanes); {0} is the pane's position, from 1",
+   "en": "Pane {0} URL"
+  },
+  "common.bookmarkEditor.primaryNameField.label": {
+   "comment": "Mac key (translations by key); prompt — the editor of a split bookmark or pinned split (NelthPromptPanes)",
+   "en": "Left Name"
+  },
+  "common.bookmarkEditor.primaryURLField.label": {
+   "comment": "Mac key (translations by key); prompt — the editor of a split bookmark or pinned split (NelthPromptPanes)",
+   "en": "Left URL"
+  },
+  "common.bookmarkEditor.secondaryNameField.label": {
+   "comment": "Mac key (translations by key); prompt — the editor of a split bookmark or pinned split (NelthPromptPanes)",
+   "en": "Right Name"
+  },
+  "common.bookmarkEditor.secondaryURLField.label": {
+   "comment": "Mac key (translations by key); prompt — the editor of a split bookmark or pinned split (NelthPromptPanes)",
+   "en": "Right URL"
   },
   "common.bookmarkFolder.defaultName": {
    "comment": "bookmarkManager — used at phi_bookmark_manager.cc:665",
@@ -2073,6 +2113,18 @@
    "comment": "sidebar — used at phi_shell_window.cc (incognito new-tab row title)",
    "en": "New Incognito Tab"
   },
+  "common.pinnedTabEditor.editMultiPaneSplitSubtitle": {
+   "comment": "Mac key (translations by key); prompt — the editor of a split bookmark or pinned split (NelthPromptPanes)",
+   "en": "Edit the name and address for each pane of this pinned split."
+  },
+  "common.pinnedTabEditor.editSplitSubtitle": {
+   "comment": "Mac key (translations by key); prompt — the editor of a split bookmark or pinned split (NelthPromptPanes)",
+   "en": "Edit the names and addresses for both panes of this pinned split."
+  },
+  "common.pinnedTabEditor.editSplitTitle": {
+   "comment": "Mac key (translations by key); prompt — the editor of a split bookmark or pinned split (NelthPromptPanes)",
+   "en": "Edit Pinned Split"
+  },
   "common.pinnedTabEditor.editTitle": {
    "comment": "sidebar — used at phi_shell_window.cc:5959",
    "en": "Edit Pinned Tab"
@@ -2080,6 +2132,22 @@
   "common.tabAreaContextMenu.bookmarkAllTabsAction": {
    "comment": "app — used at phi_coordinator.cc:101",
    "en": "Bookmark All Tabs"
+  },
+  "common.tabAreaContextMenu.bottomButtons.downloads": {
+   "comment": "Mac key (translations by key); contextMenu — Bottom Buttons ▸ Downloads button",
+   "en": "Downloads"
+  },
+  "common.tabAreaContextMenu.bottomButtons.feedback": {
+   "comment": "Mac key (translations by key); contextMenu — Bottom Buttons ▸ Feedback button",
+   "en": "Feedback"
+  },
+  "common.tabAreaContextMenu.bottomButtons.profile": {
+   "comment": "Mac key (translations by key); contextMenu — Bottom Buttons ▸ profile button",
+   "en": "Profile"
+  },
+  "common.tabAreaContextMenu.bottomButtonsSubmenu": {
+   "comment": "Mac key (translations by key); contextMenu — sidebar area menu, submenu choosing the bottom bar buttons",
+   "en": "Bottom Buttons"
   },
   "common.tabAreaContextMenu.reopenClosedTabAction": {
    "comment": "menuBar — used at phi_menu_bar.cc:300",
@@ -3633,16 +3701,16 @@
   },
   "feedback.form.diagnostics.extensions": {
    "comment": "feedback — expander row label",
-   "en": "Phi extensions",
+   "en": "Nelth extensions",
    "translations": {
-    "de": "Phi-Erweiterungen",
-    "es": "Extensiones de Phi",
-    "fr": "Extensions Phi",
-    "ja": "Phi 拡張機能",
-    "ko": "Phi 확장 프로그램",
-    "nl": "Phi-extensies",
-    "zh-Hans": "Phi 扩展程序",
-    "zh-Hant": "Phi 擴充功能"
+    "de": "Nelth-Erweiterungen",
+    "es": "Extensiones de Nelth",
+    "fr": "Extensions Nelth",
+    "ja": "Nelth 拡張機能",
+    "ko": "Nelth 확장 프로그램",
+    "nl": "Nelth-extensies",
+    "zh-Hans": "Nelth 扩展程序",
+    "zh-Hant": "Nelth 擴充功能"
    }
   },
   "feedback.form.diagnostics.logs": {
@@ -3703,30 +3771,30 @@
   },
   "feedback.form.diagnostics.phi": {
    "comment": "feedback — expander row label",
-   "en": "Phi",
+   "en": "Nelth",
    "translations": {
-    "de": "Phi",
-    "es": "Phi",
-    "fr": "Phi",
-    "ja": "Phi",
-    "ko": "Phi",
-    "nl": "Phi",
-    "zh-Hans": "Phi",
-    "zh-Hant": "Phi"
+    "de": "Nelth",
+    "es": "Nelth",
+    "fr": "Nelth",
+    "ja": "Nelth",
+    "ko": "Nelth",
+    "nl": "Nelth",
+    "zh-Hans": "Nelth",
+    "zh-Hant": "Nelth"
    }
   },
   "feedback.form.diagnostics.subtitle": {
    "comment": "feedback — the expander's description line",
-   "en": "Phi and Windows versions, extensions and recent browser logs",
+   "en": "Nelth and Windows versions, extensions and recent browser logs",
    "translations": {
-    "de": "Phi- und Windows-Version, Erweiterungen und aktuelle Browser-Protokolle",
-    "es": "Versiones de Phi y Windows, extensiones y registros recientes del navegador",
-    "fr": "Versions de Phi et de Windows, extensions et journaux récents du navigateur",
-    "ja": "Phi と Windows のバージョン、拡張機能、最近のブラウザーログ",
-    "ko": "Phi 및 Windows 버전, 확장 프로그램, 최근 브라우저 로그",
-    "nl": "Phi- en Windows-versies, extensies en recente browserlogboeken",
-    "zh-Hans": "Phi 和 Windows 版本、扩展程序及最近的浏览器日志",
-    "zh-Hant": "Phi 與 Windows 版本、擴充功能及最近的瀏覽器記錄"
+    "de": "Nelth- und Windows-Version, Erweiterungen und aktuelle Browser-Protokolle",
+    "es": "Versiones de Nelth y Windows, extensiones y registros recientes del navegador",
+    "fr": "Versions de Nelth et de Windows, extensions et journaux récents du navigateur",
+    "ja": "Nelth と Windows のバージョン、拡張機能、最近のブラウザーログ",
+    "ko": "Nelth 및 Windows 버전, 확장 프로그램, 최근 브라우저 로그",
+    "nl": "Nelth- en Windows-versies, extensies en recente browserlogboeken",
+    "zh-Hans": "Nelth 和 Windows 版本、扩展程序及最近的浏览器日志",
+    "zh-Hant": "Nelth 與 Windows 版本、擴充功能及最近的瀏覽器記錄"
    }
   },
   "feedback.form.diagnostics.title": {
@@ -3865,20 +3933,20 @@
   },
   "feedback.form.privacyNotice": {
    "comment": "feedback — legal notice above the links (Mac key)",
-   "en": "Some account and system information may be sent to Phinomenon. We will use the information you give us to help address technical issues and to improve our services, subject to our Privacy Policy and Terms of Service."
+   "en": "Some account and system information may be sent to Optix AI. We will use the information you give us to help address technical issues and to improve our services, subject to our Privacy Policy and Terms of Service."
   },
   "feedback.form.privacyNotice2": {
    "comment": "feedback — the privacy notice above the footer; {0} = Privacy Policy link, {1} = Terms of Service link",
-   "en": "Some account and system information is sent to Phinomenon to help fix technical issues and improve Phi, as described in the {0} and {1}.",
+   "en": "Some account and system information is sent to Optix AI to help fix technical issues and improve Nelth, as described in the {0} and {1}.",
    "translations": {
-    "de": "Einige Konto- und Systeminformationen werden an Phinomenon gesendet, um technische Probleme zu beheben und Phi zu verbessern, wie in der {0} und den {1} beschrieben.",
-    "es": "Se envía cierta información de la cuenta y del sistema a Phinomenon para ayudar a resolver problemas técnicos y mejorar Phi, según se describe en la {0} y los {1}.",
-    "fr": "Certaines informations de compte et de système sont envoyées à Phinomenon pour aider à résoudre les problèmes techniques et améliorer Phi, comme décrit dans la {0} et les {1}.",
-    "ja": "技術的な問題の解決と Phi の改善のため、一部のアカウント情報とシステム情報が Phinomenon に送信されます。詳細は{0}と{1}をご覧ください。",
-    "ko": "기술 문제 해결과 Phi 개선을 위해 일부 계정 및 시스템 정보가 Phinomenon에 전송됩니다. 자세한 내용은 {0} 및 {1}을 참조하세요.",
-    "nl": "Sommige account- en systeemgegevens worden naar Phinomenon gestuurd om technische problemen op te lossen en Phi te verbeteren, zoals beschreven in het {0} en de {1}.",
-    "zh-Hans": "部分账户和系统信息会发送给 Phinomenon，用于帮助解决技术问题和改进 Phi，详见{0}和{1}。",
-    "zh-Hant": "部分帳戶與系統資訊會傳送給 Phinomenon，用於協助解決技術問題並改善 Phi，詳見{0}與{1}。"
+    "de": "Einige Konto- und Systeminformationen werden an Optix AI gesendet, um technische Probleme zu beheben und Nelth zu verbessern, wie in der {0} und den {1} beschrieben.",
+    "es": "Se envía cierta información de la cuenta y del sistema a Optix AI para ayudar a resolver problemas técnicos y mejorar Nelth, según se describe en la {0} y los {1}.",
+    "fr": "Certaines informations de compte et de système sont envoyées à Optix AI pour aider à résoudre les problèmes techniques et améliorer Nelth, comme décrit dans la {0} et les {1}.",
+    "ja": "技術的な問題の解決と Nelth の改善のため、一部のアカウント情報とシステム情報が Optix AI に送信されます。詳細は{0}と{1}をご覧ください。",
+    "ko": "기술 문제 해결과 Nelth 개선을 위해 일부 계정 및 시스템 정보가 Optix AI에 전송됩니다. 자세한 내용은 {0} 및 {1}을 참조하세요.",
+    "nl": "Sommige account- en systeemgegevens worden naar Optix AI gestuurd om technische problemen op te lossen en Nelth te verbeteren, zoals beschreven in het {0} en de {1}.",
+    "zh-Hans": "部分账户和系统信息会发送给 Optix AI，用于帮助解决技术问题和改进 Nelth，详见{0}和{1}。",
+    "zh-Hant": "部分帳戶與系統資訊會傳送給 Optix AI，用於協助解決技術問題並改善 Nelth，詳見{0}與{1}。"
    }
   },
   "feedback.form.privacyPolicyLink": {
@@ -3919,16 +3987,16 @@
   },
   "feedback.form.sent.message": {
    "comment": "feedback — the confirmation's message",
-   "en": "Phi is uploading it in the background. If you're offline or Phi closes first, it finishes the next time Phi runs.",
+   "en": "Nelth is uploading it in the background. If you're offline or Nelth closes first, it finishes the next time Nelth runs.",
    "translations": {
-    "de": "Phi lädt ihn im Hintergrund hoch. Bist du offline oder wird Phi vorher beendet, wird der Upload beim nächsten Start abgeschlossen.",
-    "es": "Phi lo está subiendo en segundo plano. Si no tienes conexión o Phi se cierra antes, terminará la próxima vez que se abra Phi.",
-    "fr": "Phi l'envoie en arrière-plan. Si vous êtes hors ligne ou si Phi se ferme avant, l'envoi se terminera au prochain lancement de Phi.",
-    "ja": "Phi がバックグラウンドでアップロードしています。オフラインの場合や先に Phi を閉じた場合は、次回 Phi の起動時に完了します。",
-    "ko": "Phi가 백그라운드에서 업로드하고 있습니다. 오프라인이거나 Phi가 먼저 종료되면 다음에 Phi를 실행할 때 완료됩니다.",
-    "nl": "Phi uploadt het op de achtergrond. Ben je offline of sluit Phi eerder, dan wordt het afgerond wanneer Phi weer start.",
-    "zh-Hans": "Phi 正在后台上传。如果你处于离线状态或 Phi 先行关闭，将在下次运行 Phi 时完成。",
-    "zh-Hant": "Phi 正在背景上傳。如果你離線或 Phi 先關閉，會在下次執行 Phi 時完成。"
+    "de": "Nelth lädt ihn im Hintergrund hoch. Bist du offline oder wird Nelth vorher beendet, wird der Upload beim nächsten Start abgeschlossen.",
+    "es": "Nelth lo está subiendo en segundo plano. Si no tienes conexión o Nelth se cierra antes, terminará la próxima vez que se abra Nelth.",
+    "fr": "Nelth l'envoie en arrière-plan. Si vous êtes hors ligne ou si Nelth se ferme avant, l'envoi se terminera au prochain lancement de Nelth.",
+    "ja": "Nelth がバックグラウンドでアップロードしています。オフラインの場合や先に Nelth を閉じた場合は、次回 Nelth の起動時に完了します。",
+    "ko": "Nelth가 백그라운드에서 업로드하고 있습니다. 오프라인이거나 Nelth가 먼저 종료되면 다음에 Nelth를 실행할 때 완료됩니다.",
+    "nl": "Nelth uploadt het op de achtergrond. Ben je offline of sluit Nelth eerder, dan wordt het afgerond wanneer Nelth weer start.",
+    "zh-Hans": "Nelth 正在后台上传。如果你处于离线状态或 Nelth 先行关闭，将在下次运行 Nelth 时完成。",
+    "zh-Hant": "Nelth 正在背景上傳。如果你離線或 Nelth 先關閉，會在下次執行 Nelth 時完成。"
    }
   },
   "feedback.form.sent.title": {
@@ -3961,16 +4029,16 @@
   },
   "feedback.form.signIn.message": {
    "comment": "feedback — the sign-in InfoBar's message",
-   "en": "Reports are tied to your Phi account so we can follow up. You can keep writing — nothing is lost.",
+   "en": "Reports are tied to your Nelth account so we can follow up. You can keep writing — nothing is lost.",
    "translations": {
-    "de": "Berichte sind mit deinem Phi-Konto verknüpft, damit wir nachfragen können. Du kannst weiterschreiben – nichts geht verloren.",
-    "es": "Los informes se vinculan a tu cuenta de Phi para que podamos hacer un seguimiento. Puedes seguir escribiendo; no se pierde nada.",
-    "fr": "Les rapports sont liés à votre compte Phi pour que nous puissions assurer le suivi. Vous pouvez continuer à écrire : rien n'est perdu.",
-    "ja": "レポートはフォローアップのため Phi アカウントに関連付けられます。書き続けても内容は失われません。",
-    "ko": "후속 조치를 위해 보고서는 Phi 계정에 연결됩니다. 계속 작성해도 내용은 사라지지 않습니다.",
-    "nl": "Meldingen zijn gekoppeld aan je Phi-account zodat we kunnen opvolgen. Je kunt verder schrijven; er gaat niets verloren.",
-    "zh-Hans": "报告会关联到你的 Phi 账户，方便我们跟进。你可以继续填写，内容不会丢失。",
-    "zh-Hant": "回報會連結到你的 Phi 帳戶，方便我們後續追蹤。你可以繼續填寫，內容不會遺失。"
+    "de": "Berichte sind mit deinem Nelth-Konto verknüpft, damit wir nachfragen können. Du kannst weiterschreiben – nichts geht verloren.",
+    "es": "Los informes se vinculan a tu cuenta de Nelth para que podamos hacer un seguimiento. Puedes seguir escribiendo; no se pierde nada.",
+    "fr": "Les rapports sont liés à votre compte Nelth pour que nous puissions assurer le suivi. Vous pouvez continuer à écrire : rien n'est perdu.",
+    "ja": "レポートはフォローアップのため Nelth アカウントに関連付けられます。書き続けても内容は失われません。",
+    "ko": "후속 조치를 위해 보고서는 Nelth 계정에 연결됩니다. 계속 작성해도 내용은 사라지지 않습니다.",
+    "nl": "Meldingen zijn gekoppeld aan je Nelth-account zodat we kunnen opvolgen. Je kunt verder schrijven; er gaat niets verloren.",
+    "zh-Hans": "报告会关联到你的 Nelth 账户，方便我们跟进。你可以继续填写，内容不会丢失。",
+    "zh-Hant": "回報會連結到你的 Nelth 帳戶，方便我們後續追蹤。你可以繼續填寫，內容不會遺失。"
    }
   },
   "feedback.form.signIn.title": {
@@ -3989,16 +4057,16 @@
   },
   "feedback.form.signInPrompt": {
    "comment": "feedback — asked when Send is pressed while signed out; Windows-only (the Mac shows an error)",
-   "en": "Sign in to your Phi account to send feedback. Sign in now?",
+   "en": "Sign in to your Nelth account to send feedback. Sign in now?",
    "translations": {
-    "de": "Melde dich bei deinem Phi-Konto an, um Feedback zu senden. Jetzt anmelden?",
-    "es": "Inicia sesión en tu cuenta de Phi para enviar comentarios. ¿Iniciar sesión ahora?",
-    "fr": "Connectez-vous à votre compte Phi pour envoyer des commentaires. Se connecter maintenant ?",
-    "ja": "フィードバックを送信するには Phi アカウントにログインしてください。今すぐログインしますか？",
-    "ko": "피드백을 보내려면 Phi 계정에 로그인하세요. 지금 로그인할까요?",
-    "nl": "Log in met je Phi-account om feedback te versturen. Nu inloggen?",
-    "zh-Hans": "登录 Phi 账号后即可发送反馈。现在登录吗？",
-    "zh-Hant": "登入 Phi 帳號後即可傳送意見回饋。要立即登入嗎？"
+    "de": "Melde dich bei deinem Nelth-Konto an, um Feedback zu senden. Jetzt anmelden?",
+    "es": "Inicia sesión en tu cuenta de Nelth para enviar comentarios. ¿Iniciar sesión ahora?",
+    "fr": "Connectez-vous à votre compte Nelth pour envoyer des commentaires. Se connecter maintenant ?",
+    "ja": "フィードバックを送信するには Nelth アカウントにログインしてください。今すぐログインしますか？",
+    "ko": "피드백을 보내려면 Nelth 계정에 로그인하세요. 지금 로그인할까요?",
+    "nl": "Log in met je Nelth-account om feedback te versturen. Nu inloggen?",
+    "zh-Hans": "登录 Nelth 账号后即可发送反馈。现在登录吗？",
+    "zh-Hant": "登入 Nelth 帳號後即可傳送意見回饋。要立即登入嗎？"
    }
   },
   "feedback.form.termsOfServiceLink": {
@@ -4021,16 +4089,16 @@
   },
   "feedback.outbox.abandoned.message": {
    "comment": "feedback — toast message when a queued report is given up on after a week of failed uploads",
-   "en": "Phi tried for a week without success. Please send it again.",
+   "en": "Nelth tried for a week without success. Please send it again.",
    "translations": {
-    "de": "Phi hat es eine Woche lang erfolglos versucht. Bitte sende es erneut.",
-    "es": "Phi lo intentó durante una semana sin éxito. Vuelve a enviarlo.",
-    "fr": "Phi a essayé pendant une semaine, sans succès. Veuillez le renvoyer.",
-    "ja": "Phiは1週間送信を試みましたが、成功しませんでした。もう一度送信してください。",
-    "ko": "Phi가 일주일 동안 시도했지만 보내지 못했어요. 다시 보내 주세요.",
-    "nl": "Phi heeft het een week lang zonder succes geprobeerd. Verstuur het opnieuw.",
-    "zh-Hans": "Phi 尝试了一周仍未成功。请重新发送。",
-    "zh-Hant": "Phi 嘗試了一週仍未成功。請重新傳送。"
+    "de": "Nelth hat es eine Woche lang erfolglos versucht. Bitte sende es erneut.",
+    "es": "Nelth lo intentó durante una semana sin éxito. Vuelve a enviarlo.",
+    "fr": "Nelth a essayé pendant une semaine, sans succès. Veuillez le renvoyer.",
+    "ja": "Nelthは1週間送信を試みましたが、成功しませんでした。もう一度送信してください。",
+    "ko": "Nelth가 일주일 동안 시도했지만 보내지 못했어요. 다시 보내 주세요.",
+    "nl": "Nelth heeft het een week lang zonder succes geprobeerd. Verstuur het opnieuw.",
+    "zh-Hans": "Nelth 尝试了一周仍未成功。请重新发送。",
+    "zh-Hant": "Nelth 嘗試了一週仍未成功。請重新傳送。"
    }
   },
   "feedback.outbox.abandoned.title": {
@@ -4150,31 +4218,31 @@
    "en": "Imported from Guest"
   },
   "menuBar.aboutBody": {
-   "comment": "About Phi alert - body. {0} is the version string",
-   "en": "Phi Browser for Windows {0}\nThe Phi client shell over the Phi framework.",
+   "comment": "About Nelth alert - body. {0} is the version string",
+   "en": "Nelth Browser for Windows {0}\nThe Nelth client shell over the Nelth framework.",
    "translations": {
-    "de": "Phi Browser für Windows {0}\nDie Phi-Client-Shell über dem Phi-Framework.",
-    "es": "Phi Browser para Windows {0}\nEl shell del cliente Phi sobre el framework Phi.",
-    "fr": "Phi Browser pour Windows {0}\nLe shell client Phi au-dessus du framework Phi.",
-    "ja": "Phi Browser for Windows {0}\nPhi フレームワーク上で動作する Phi クライアントシェル。",
-    "ko": "Windows용 Phi Browser {0}\nPhi 프레임워크 위의 Phi 클라이언트 셸입니다.",
-    "nl": "Phi Browser voor Windows {0}\nDe Phi-clientshell boven het Phi-framework.",
-    "zh-Hans": "Phi Browser for Windows {0}\n运行于 Phi 框架之上的 Phi 客户端外壳。",
-    "zh-Hant": "Phi Browser for Windows {0}\n執行於 Phi 框架之上的 Phi 用戶端外殼。"
+    "de": "Nelth Browser für Windows {0}\nDie Nelth-Client-Shell über dem Nelth-Framework.",
+    "es": "Nelth Browser para Windows {0}\nEl shell del cliente Nelth sobre el framework Nelth.",
+    "fr": "Nelth Browser pour Windows {0}\nLe shell client Nelth au-dessus du framework Nelth.",
+    "ja": "Nelth Browser for Windows {0}\nNelth フレームワーク上で動作する Nelth クライアントシェル。",
+    "ko": "Windows용 Nelth Browser {0}\nNelth 프레임워크 위의 Nelth 클라이언트 셸입니다.",
+    "nl": "Nelth Browser voor Windows {0}\nDe Nelth-clientshell boven het Nelth-framework.",
+    "zh-Hans": "Nelth Browser for Windows {0}\n运行于 Nelth 框架之上的 Nelth 客户端外壳。",
+    "zh-Hant": "Nelth Browser for Windows {0}\n執行於 Nelth 框架之上的 Nelth 用戶端外殼。"
    }
   },
   "menuBar.aboutPhi": {
    "comment": "menuBar — used at phi_menu_bar.cc:282",
-   "en": "About Phi",
+   "en": "About Nelth",
    "translations": {
-    "de": "Über Phi",
-    "es": "Acerca de Phi",
-    "fr": "À propos de Phi",
-    "ja": "Phi について",
-    "ko": "Phi 정보",
-    "nl": "Over Phi",
-    "zh-Hans": "关于 Phi",
-    "zh-Hant": "關於 Phi"
+    "de": "Über Nelth",
+    "es": "Acerca de Nelth",
+    "fr": "À propos de Nelth",
+    "ja": "Nelth について",
+    "ko": "Nelth 정보",
+    "nl": "Over Nelth",
+    "zh-Hans": "关于 Nelth",
+    "zh-Hant": "關於 Nelth"
    }
   },
   "menuBar.actualSize": {
@@ -4686,7 +4754,7 @@
   },
   "menuBar.quitPhi": {
    "comment": "menuBar — used at phi_menu_bar.cc:292",
-   "en": "Quit Phi\tCtrl+Shift+Q",
+   "en": "Quit Nelth\tCtrl+Shift+Q",
    "sameAs": "settings.shortcuts.command.quitApp"
   },
   "menuBar.redo": {
@@ -5026,7 +5094,7 @@
   },
   "oobe.guestPrivacy.metricsConsent": {
    "comment": "onboarding — Mac key (translations by key)",
-   "en": "Help make Phi better by sharing usage metrics and crash reports"
+   "en": "Help make Nelth better by sharing usage metrics and crash reports"
   },
   "oobe.guestPrivacy.privacyPolicyLink": {
    "comment": "onboarding — Mac key (translations by key)",
@@ -5034,7 +5102,7 @@
   },
   "oobe.guestPrivacy.requiresSignIn": {
    "comment": "onboarding — Mac key (translations by key)",
-   "en": "Requires a Phi account and sign-in"
+   "en": "Requires a Nelth account and sign-in"
   },
   "oobe.guestPrivacy.signInInstead": {
    "comment": "onboarding — Mac key (translations by key)",
@@ -5186,7 +5254,7 @@
   },
   "oobe.login.continueAsGuestButton": {
    "comment": "onboarding — Mac key (translations by key)",
-   "en": "Explore Phi without signing in"
+   "en": "Explore Nelth without signing in"
   },
   "oobe.login.loginButton": {
    "comment": "onboarding — Mac key (translations by key)",
@@ -5210,7 +5278,7 @@
   },
   "oobe.nextSteps.enjoyPhi": {
    "comment": "onboarding — Mac key (translations by key)",
-   "en": "Enjoy using Phi Browser 🎉"
+   "en": "Enjoy using Nelth Browser 🎉"
   },
   "oobe.nextSteps.importBrowserData": {
    "comment": "onboarding — Mac key (translations by key)",
@@ -5222,7 +5290,7 @@
   },
   "oobe.nextSteps.metricsConsent": {
    "comment": "onboarding — Mac key (translations by key)",
-   "en": "Help make Phi better by sharing usage metrics and crash reports"
+   "en": "Help make Nelth better by sharing usage metrics and crash reports"
   },
   "oobe.nextSteps.onboardAssistant": {
    "comment": "onboarding — Mac key (translations by key)",
@@ -5294,11 +5362,11 @@
   },
   "profile.card.accessibilitySummary": {
    "comment": "onboarding and Settings — Mac key (translations by key); the card for a screen reader",
-   "en": "Phi member card, {0}, joined {1}"
+   "en": "Nelth member card, {0}, joined {1}"
   },
   "profile.card.accessibilitySummaryWithoutDate": {
    "comment": "onboarding and Settings — Mac key (translations by key); the card with no join date",
-   "en": "Phi member card, {0}"
+   "en": "Nelth member card, {0}"
   },
   "profile.card.dateJoined": {
    "comment": "membership card — Mac key (translations by key); used at phi_holographic_card.cc",
@@ -5366,7 +5434,7 @@
    }
   },
   "prompt.cancel": {
-   "comment": "prompt — PhiAlert's cancelling action, used at phi_prompt.cc",
+   "comment": "prompt — NelthAlert's cancelling action, used at phi_prompt.cc",
    "en": "Cancel"
   },
   "prompt.ctrl": {
@@ -5504,7 +5572,7 @@
    "en": "OK"
   },
   "prompt.open": {
-   "comment": "prompt — PhiPromptChoose's confirming action (the 'ask first' Space chooser), used at phi_prompt.cc",
+   "comment": "prompt — NelthPromptChoose's confirming action (the 'ask first' Space chooser), used at phi_prompt.cc",
    "en": "Open"
   },
   "prompt.pagedown": {
@@ -5564,7 +5632,7 @@
    }
   },
   "prompt.shortcut.needsModifier": {
-   "comment": "prompt — the shortcut recorder (phi_prompt.cc PhiPromptShortcut): a bare key was pressed",
+   "comment": "prompt — the shortcut recorder (phi_prompt.cc NelthPromptShortcut): a bare key was pressed",
    "en": "Include Ctrl or Alt",
    "translations": {
     "de": "Mit Ctrl oder Alt kombinieren",
@@ -5578,7 +5646,7 @@
    }
   },
   "prompt.shortcut.placeholder": {
-   "comment": "prompt — the shortcut recorder (phi_prompt.cc PhiPromptShortcut): the resting line",
+   "comment": "prompt — the shortcut recorder (phi_prompt.cc NelthPromptShortcut): the resting line",
    "en": "Type the new shortcut…",
    "translations": {
     "de": "Neuen Tastaturkurzbefehl eingeben…",
@@ -5592,7 +5660,7 @@
    }
   },
   "prompt.shortcut.reservedForAltGr": {
-   "comment": "prompt — the shortcut recorder (phi_prompt.cc PhiPromptShortcut): a Ctrl+Alt+character chord refused (AltGr) — {0} = the chord",
+   "comment": "prompt — the shortcut recorder (phi_prompt.cc NelthPromptShortcut): a Ctrl+Alt+character chord refused (AltGr) — {0} = the chord",
    "en": "{0} types a character on some keyboards. Try another.",
    "translations": {
     "de": "{0} erzeugt auf manchen Tastaturen ein Zeichen. Versuche eine andere Kombination.",
@@ -5606,7 +5674,7 @@
    }
   },
   "prompt.shortcut.reservedForEditing": {
-   "comment": "prompt — the shortcut recorder (phi_prompt.cc PhiPromptShortcut): Ctrl+C/V/X/Z/Y/A refused — {0} = the chord",
+   "comment": "prompt — the shortcut recorder (phi_prompt.cc NelthPromptShortcut): Ctrl+C/V/X/Z/Y/A refused — {0} = the chord",
    "en": "{0} is kept for editing text. Try another.",
    "translations": {
     "de": "{0} ist für die Textbearbeitung reserviert. Versuche eine andere Kombination.",
@@ -5764,12 +5832,12 @@
    "en": "Your card could not be saved. Please try again."
   },
   "settings.account.defaultBrowser.defaultStatus": {
-   "comment": "Account settings - Status text when Phi is the default browser",
-   "en": "Phi is your default browser"
+   "comment": "Account settings - Status text when Nelth is the default browser",
+   "en": "Nelth is your default browser"
   },
   "settings.account.defaultBrowser.notDefaultStatus": {
-   "comment": "Account settings - Status text when Phi is not the default browser",
-   "en": "Phi is not your default browser"
+   "comment": "Account settings - Status text when Nelth is not the default browser",
+   "en": "Nelth is not your default browser"
   },
   "settings.account.defaultBrowser.setDefaultButton": {
    "comment": "Account settings - button that hands the choice to the Windows default-apps page",
@@ -5859,16 +5927,16 @@
   },
   "settings.account.logoutConfirmation.body": {
    "comment": "account — Windows-only",
-   "en": "Your Phi account will be disconnected from this browser. Your tabs, Spaces and bookmarks stay.",
+   "en": "Your Nelth account will be disconnected from this browser. Your tabs, Spaces and bookmarks stay.",
    "translations": {
-    "de": "Dein Phi-Konto wird von diesem Browser getrennt. Deine Tabs, Spaces und Lesezeichen bleiben erhalten.",
-    "es": "Tu cuenta de Phi se desconectará de este navegador. Tus pestañas, Espacios y marcadores se conservan.",
-    "fr": "Votre compte Phi sera déconnecté de ce navigateur. Vos onglets, Espaces et favoris sont conservés.",
-    "ja": "Phi アカウントとこのブラウザの接続が解除されます。タブ、スペース、ブックマークはそのまま残ります。",
-    "ko": "이 브라우저에서 Phi 계정 연결이 해제돼요. 탭, 스페이스, 북마크는 그대로 유지돼요.",
-    "nl": "Je Phi-account wordt losgekoppeld van deze browser. Je tabbladen, Spaces en bladwijzers blijven behouden.",
-    "zh-Hans": "你的 Phi 账号将与此浏览器断开连接。你的标签页、空间和书签都会保留。",
-    "zh-Hant": "你的 Phi 帳號將與此瀏覽器中斷連結。你的分頁、空間和書籤都會保留。"
+    "de": "Dein Nelth-Konto wird von diesem Browser getrennt. Deine Tabs, Spaces und Lesezeichen bleiben erhalten.",
+    "es": "Tu cuenta de Nelth se desconectará de este navegador. Tus pestañas, Espacios y marcadores se conservan.",
+    "fr": "Votre compte Nelth sera déconnecté de ce navigateur. Vos onglets, Espaces et favoris sont conservés.",
+    "ja": "Nelth アカウントとこのブラウザの接続が解除されます。タブ、スペース、ブックマークはそのまま残ります。",
+    "ko": "이 브라우저에서 Nelth 계정 연결이 해제돼요. 탭, 스페이스, 북마크는 그대로 유지돼요.",
+    "nl": "Je Nelth-account wordt losgekoppeld van deze browser. Je tabbladen, Spaces en bladwijzers blijven behouden.",
+    "zh-Hans": "你的 Nelth 账号将与此浏览器断开连接。你的标签页、空间和书签都会保留。",
+    "zh-Hant": "你的 Nelth 帳號將與此瀏覽器中斷連結。你的分頁、空間和書籤都會保留。"
    }
   },
   "settings.account.logoutConfirmation.logoutButton": {
@@ -5877,7 +5945,7 @@
   },
   "settings.account.logoutConfirmation.title": {
    "comment": "account — Mac key (translations by key)",
-   "en": "Sign out of Phi?"
+   "en": "Sign out of Nelth?"
   },
   "settings.account.reauthentication.tooltip": {
    "comment": "account — Mac key (translations by key)",
@@ -5955,6 +6023,22 @@
    "comment": "Mac key (translations by key); settings — Settings window (phi_settings_window.cc)",
    "en": "Agent access, permissions, and the password manager live in the Developer tab."
   },
+  "settings.advanced.keepPinnedTabsLoaded.description": {
+   "comment": "Mac key (translations by key); settings — Advanced ▸ Tabs, hint under the keep pinned tabs loaded switch",
+   "en": "Pinned tabs you have opened stay in memory instead of being unloaded to free it."
+  },
+  "settings.advanced.keepPinnedTabsLoaded.toggle": {
+   "comment": "Mac key (translations by key); settings — Advanced ▸ Tabs, keep pinned tabs loaded switch",
+   "en": "Keep pinned tabs loaded"
+  },
+  "settings.advanced.miniPlayer.offOption": {
+   "comment": "Mac key (translations by key); settings — Mini Player display option: hide the player while media continues playing",
+   "en": "Off"
+  },
+  "settings.advanced.miniPlayer.title": {
+   "comment": "Mac key (translations by key); settings — Settings window (phi_settings_window.cc) (Advanced ▸ Media). Menu for turning Mini Player off or choosing its display mode",
+   "en": "Mini Player"
+  },
   "settings.advanced.openTabIndicators.showToggle": {
    "comment": "Mac key (translations by key); settings — Settings window (phi_settings_window.cc) (Appearance ▸ Tabs)",
    "en": "Show open tab indicators"
@@ -5989,7 +6073,11 @@
   },
   "settings.advanced.restoreLastSession.disabledHint": {
    "comment": "Mac key (translations by key); settings — Settings window (phi_settings_window.cc) (General ▸ Browsing)",
-   "en": "Phi starts with a new window. Closing a window may sign you out of some sites."
+   "en": "Nelth starts with a new window. Closing a window may sign you out of some sites."
+  },
+  "settings.advanced.sidebarMedia.hint": {
+   "comment": "Mac key (translations by key); settings — Settings window (phi_settings_window.cc) (Advanced ▸ Media). Description of the Mini Player",
+   "en": "Control media playing in background tabs from the sidebar."
   },
   "settings.advanced.tabPreview.showToggle": {
    "comment": "Mac key (translations by key); settings — Settings window (phi_settings_window.cc) (Appearance ▸ Tabs)",
@@ -6011,20 +6099,6 @@
    "comment": "Mac key (translations by key); settings — Advanced ▸ the tab-closing card, phi_settings_window.cc",
    "en": "Double-click to close tabs"
   },
-  "settings.advanced.tabs.groupTabsOpenedFromLinksToggle": {
-   "comment": "Mac key (translations by key); settings — Advanced ▸ the tab card, phi_settings_window.cc",
-   "en": "Group tabs opened from links",
-   "interim": {
-    "de": "Aus Links geöffnete Tabs gruppieren",
-    "es": "Agrupar las pestañas abiertas desde enlaces",
-    "fr": "Regrouper les onglets ouverts depuis des liens",
-    "ja": "リンクから開いたタブをグループ化",
-    "ko": "링크에서 연 탭 그룹화",
-    "nl": "Groepeer tabbladen die via links zijn geopend",
-    "zh-Hans": "将从链接打开的标签页归入标签组",
-    "zh-Hant": "將從連結開啟的分頁加入群組"
-   }
-  },
   "settings.advanced.tabs.groupTabsOpenedFromLinksDescriptionCtrl": {
    "comment": "settings — Advanced ▸ the tab card, phi_settings_window.cc; the Mac's settings.advanced.tabs.groupTabsOpenedFromLinksDescription with Ctrl-click for Command-click",
    "en": "When you Ctrl-click a link, the new tab goes into a tab group for the page it came from.",
@@ -6037,6 +6111,20 @@
     "nl": "Als je met Ctrl ingedrukt op een link klikt, komt het nieuwe tabblad in een tabbladgroep voor de pagina waar het vandaan komt.",
     "zh-Hans": "按住 Ctrl 点击链接时，新标签页会归入其来源页面的标签组。",
     "zh-Hant": "按住 Ctrl 點按連結時，新分頁會加入其來源頁面的分頁群組。"
+   }
+  },
+  "settings.advanced.tabs.groupTabsOpenedFromLinksToggle": {
+   "comment": "Mac key (translations by key); settings — Advanced ▸ the tab card, phi_settings_window.cc",
+   "en": "Group tabs opened from links",
+   "interim": {
+    "de": "Aus Links geöffnete Tabs gruppieren",
+    "es": "Agrupar las pestañas abiertas desde enlaces",
+    "fr": "Regrouper les onglets ouverts depuis des liens",
+    "ja": "リンクから開いたタブをグループ化",
+    "ko": "링크에서 연 탭 그룹화",
+    "nl": "Groepeer tabbladen die via links zijn geopend",
+    "zh-Hans": "将从链接打开的标签页归入标签组",
+    "zh-Hant": "將從連結開啟的分頁加入群組"
    }
   },
   "settings.agentAccessPermissionsAndThe": {
@@ -6055,16 +6143,16 @@
   },
   "settings.agentToolsDrivePhiOver": {
    "comment": "settings — used at phi_settings_window.cc:2171",
-   "en": "Agent tools drive Phi over the DevTools Protocol through ",
+   "en": "Agent tools drive Nelth over the DevTools Protocol through ",
    "translations": {
-    "de": "Agententools steuern Phi über das DevTools-Protokoll, und zwar über ",
-    "es": "Las herramientas de agentes controlan Phi mediante el protocolo DevTools a través de ",
-    "fr": "Les outils d'agents pilotent Phi via le protocole DevTools par le biais d'",
-    "ja": "エージェントツールは DevTools Protocol で Phi を操作します。経路は",
-    "ko": "에이전트 도구는 DevTools 프로토콜로 Phi를 제어하며, 이때 ",
-    "nl": "Agent-tools sturen Phi aan via het DevTools Protocol, over ",
-    "zh-Hans": "智能体工具经由 DevTools 协议驱动 Phi，所用通道是",
-    "zh-Hant": "AI 代理工具以 DevTools Protocol 操控 Phi，所用通道是"
+    "de": "Agententools steuern Nelth über das DevTools-Protokoll, und zwar über ",
+    "es": "Las herramientas de agentes controlan Nelth mediante el protocolo DevTools a través de ",
+    "fr": "Les outils d'agents pilotent Nelth via le protocole DevTools par le biais d'",
+    "ja": "エージェントツールは DevTools Protocol で Nelth を操作します。経路は",
+    "ko": "에이전트 도구는 DevTools 프로토콜로 Nelth를 제어하며, 이때 ",
+    "nl": "Agent-tools sturen Nelth aan via het DevTools Protocol, over ",
+    "zh-Hans": "智能体工具经由 DevTools 协议驱动 Nelth，所用通道是",
+    "zh-Hant": "AI 代理工具以 DevTools Protocol 操控 Nelth，所用通道是"
    }
   },
   "settings.ai.browserMemory.manageButtonTitle": {
@@ -6089,7 +6177,7 @@
   },
   "settings.ai.features.enableToggle": {
    "comment": "settings — used at phi_settings_window.cc:1940",
-   "en": "Enable AI features in Phi Browser"
+   "en": "Enable AI features in Nelth Browser"
   },
   "settings.ai.newTabPage.proactiveSuggestionsToggle": {
    "comment": "settings — used at phi_settings_window.cc:1970",
@@ -6101,7 +6189,7 @@
   },
   "settings.ai.phiSentinel.sectionTitle": {
    "comment": "settings — used at phi_settings_window.cc:1955",
-   "en": "Phi Sentinel"
+   "en": "Nelth Sentinel"
   },
   "settings.ai.privateAI.title": {
    "comment": "settings — used at phi_settings_window.cc:1960",
@@ -6213,20 +6301,6 @@
     "zh-Hant": "側邊欄透明度"
    }
   },
-  "settings.appearance.translucentFrame.toggle": {
-   "comment": "settings — Settings window (phi_settings_window.cc): Appearance ▸ Color switch under the sidebar-transparency slider (Windows only, GitHub #10)",
-   "en": "Transparent toolbars",
-   "translations": {
-    "de": "Transparente Symbolleisten",
-    "es": "Barras de herramientas transparentes",
-    "fr": "Barres d’outils transparentes",
-    "ja": "ツールバーを透明にする",
-    "ko": "투명한 도구 모음",
-    "nl": "Transparante werkbalken",
-    "zh-Hans": "透明工具栏",
-    "zh-Hant": "透明工具列"
-   }
-  },
   "settings.appearance.translucentFrame.hint": {
    "comment": "settings — Settings window (phi_settings_window.cc): Appearance ▸ Color, hint under the transparent-toolbars switch",
    "en": "The address bar, bookmarks bar and tab strip show the desktop through as well. Pages stay opaque.",
@@ -6239,6 +6313,20 @@
     "nl": "Ook de adresbalk, bladwijzerbalk en tabbalk laten het bureaublad doorschijnen. Pagina’s blijven ondoorzichtig.",
     "zh-Hans": "地址栏、书签栏和标签栏也透出桌面。网页保持不透明。",
     "zh-Hant": "網址列、書籤列和分頁列也透出桌面。網頁保持不透明。"
+   }
+  },
+  "settings.appearance.translucentFrame.toggle": {
+   "comment": "settings — Settings window (phi_settings_window.cc): Appearance ▸ Color switch under the sidebar-transparency slider (Windows only, GitHub #10)",
+   "en": "Transparent toolbars",
+   "translations": {
+    "de": "Transparente Symbolleisten",
+    "es": "Barras de herramientas transparentes",
+    "fr": "Barres d’outils transparentes",
+    "ja": "ツールバーを透明にする",
+    "ko": "투명한 도구 모음",
+    "nl": "Transparante werkbalken",
+    "zh-Hans": "透明工具栏",
+    "zh-Hant": "透明工具列"
    }
   },
   "settings.approvedAgents": {
@@ -6313,16 +6401,16 @@
   },
   "settings.connectingToControlPhiIs": {
    "comment": "settings — used at phi_settings_window.cc:2179",
-   "en": "connecting to control Phi is approved per connection.",
+   "en": "connecting to control Nelth is approved per connection.",
    "translations": {
-    "de": "Verbindungen zur Steuerung von Phi werden einzeln pro Verbindung genehmigt.",
-    "es": "Las conexiones para controlar Phi se aprueban una por una.",
-    "fr": "Les connexions pour contrôler Phi sont approuvées une par une.",
-    "ja": "Phi を操作するための接続は、接続ごとに承認されます。",
-    "ko": "Phi를 제어하기 위한 연결은 연결마다 승인돼요.",
-    "nl": "Verbindingen om Phi te besturen worden per verbinding goedgekeurd.",
-    "zh-Hans": "控制 Phi 的连接需逐个批准。",
-    "zh-Hant": "控制 Phi 的連線需逐一核准。"
+    "de": "Verbindungen zur Steuerung von Nelth werden einzeln pro Verbindung genehmigt.",
+    "es": "Las conexiones para controlar Nelth se aprueban una por una.",
+    "fr": "Les connexions pour contrôler Nelth sont approuvées une par une.",
+    "ja": "Nelth を操作するための接続は、接続ごとに承認されます。",
+    "ko": "Nelth를 제어하기 위한 연결은 연결마다 승인돼요.",
+    "nl": "Verbindingen om Nelth te besturen worden per verbinding goedgekeurd.",
+    "zh-Hans": "控制 Nelth 的连接需逐个批准。",
+    "zh-Hant": "控制 Nelth 的連線需逐一核准。"
    }
   },
   "settings.connectsLaterCanAskYou": {
@@ -6405,21 +6493,21 @@
   },
   "settings.developer.agentControl.descriptionWindows": {
    "comment": "settings — Settings window (phi_settings_window.cc): Developer, hint under the agent-control switch (Windows: a pipe, no code-signature check)",
-   "en": "Agent tools drive Phi over the DevTools Protocol through a private pipe only this machine's processes can reach. On, any program running as you that can read Phi’s profile folder is admitted without asking; off, the first one to connect asks you to turn this on.",
+   "en": "Agent tools drive Nelth over the DevTools Protocol through a private pipe only this machine's processes can reach. On, any program running as you that can read Nelth’s profile folder is admitted without asking; off, the first one to connect asks you to turn this on.",
    "translations": {
-    "de": "Agententools steuern Phi über das DevTools-Protokoll, und zwar über eine private Pipe, die nur Prozesse auf diesem Computer erreichen können. Wenn aktiviert, wird jedes Programm, das unter deinem Benutzerkonto läuft und den Profilordner von Phi lesen kann, ohne Nachfrage zugelassen; wenn deaktiviert, bittet dich das erste Programm, das sich verbindet, diese Option einzuschalten.",
-    "es": "Las herramientas de agentes controlan Phi mediante el protocolo DevTools a través de una canalización privada a la que solo pueden acceder los procesos de este equipo. Si está activado, cualquier programa que se ejecute con tu usuario y pueda leer la carpeta de perfil de Phi se admite sin preguntar; si está desactivado, el primero que se conecte te pedirá que lo actives.",
-    "fr": "Les outils d'agents pilotent Phi via le protocole DevTools par le biais d'un canal nommé privé accessible uniquement aux processus de cette machine. Si cette option est activée, tout programme exécuté sous votre compte et pouvant lire le dossier de profil de Phi est admis sans demande ; si elle est désactivée, le premier qui se connecte vous demande de l'activer.",
-    "ja": "エージェントツールは、このコンピューターのプロセスだけが到達できるプライベートパイプを介して、DevTools ProtocolでPhiを操作します。オンの場合、あなたのアカウントで実行され、Phiのプロファイルフォルダーを読み取れるプログラムは確認なしで許可されます。オフの場合、最初に接続したプログラムがこの設定をオンにするよう求めます。",
-    "ko": "에이전트 도구는 이 컴퓨터의 프로세스만 접근할 수 있는 전용 파이프를 통해 DevTools 프로토콜로 Phi를 제어해요. 켜면 내 계정으로 실행되고 Phi의 프로필 폴더를 읽을 수 있는 모든 프로그램이 묻지 않고 허용돼요. 끄면 처음 연결하는 프로그램이 이 설정을 켜 달라고 요청해요.",
-    "nl": "Agent-tools sturen Phi aan via het DevTools Protocol, over een privépipe die alleen processen op deze computer kunnen bereiken. Als dit aan staat, wordt elk programma dat onder jouw account draait en de profielmap van Phi kan lezen zonder te vragen toegelaten; als dit uit staat, vraagt het eerste programma dat verbinding maakt je om dit in te schakelen.",
-    "zh-Hans": "智能体工具通过一个仅限本机进程访问的私有管道，经由 DevTools 协议驱动 Phi。开启后，任何以你的身份运行且能读取 Phi 个人资料文件夹的程序都会直接获准连接；关闭后，第一个连接的程序会请求你开启此项。",
-    "zh-Hant": "AI 代理工具透過只有本機程序才能存取的私有管道，以 DevTools Protocol 操控 Phi。開啟後，任何以你的身分執行且能讀取 Phi 設定檔資料夾的程式都會直接獲准連線；關閉後，第一個連線的程式會要求你開啟此選項。"
+    "de": "Agententools steuern Nelth über das DevTools-Protokoll, und zwar über eine private Pipe, die nur Prozesse auf diesem Computer erreichen können. Wenn aktiviert, wird jedes Programm, das unter deinem Benutzerkonto läuft und den Profilordner von Nelth lesen kann, ohne Nachfrage zugelassen; wenn deaktiviert, bittet dich das erste Programm, das sich verbindet, diese Option einzuschalten.",
+    "es": "Las herramientas de agentes controlan Nelth mediante el protocolo DevTools a través de una canalización privada a la que solo pueden acceder los procesos de este equipo. Si está activado, cualquier programa que se ejecute con tu usuario y pueda leer la carpeta de perfil de Nelth se admite sin preguntar; si está desactivado, el primero que se conecte te pedirá que lo actives.",
+    "fr": "Les outils d'agents pilotent Nelth via le protocole DevTools par le biais d'un canal nommé privé accessible uniquement aux processus de cette machine. Si cette option est activée, tout programme exécuté sous votre compte et pouvant lire le dossier de profil de Nelth est admis sans demande ; si elle est désactivée, le premier qui se connecte vous demande de l'activer.",
+    "ja": "エージェントツールは、このコンピューターのプロセスだけが到達できるプライベートパイプを介して、DevTools ProtocolでNelthを操作します。オンの場合、あなたのアカウントで実行され、Nelthのプロファイルフォルダーを読み取れるプログラムは確認なしで許可されます。オフの場合、最初に接続したプログラムがこの設定をオンにするよう求めます。",
+    "ko": "에이전트 도구는 이 컴퓨터의 프로세스만 접근할 수 있는 전용 파이프를 통해 DevTools 프로토콜로 Nelth를 제어해요. 켜면 내 계정으로 실행되고 Nelth의 프로필 폴더를 읽을 수 있는 모든 프로그램이 묻지 않고 허용돼요. 끄면 처음 연결하는 프로그램이 이 설정을 켜 달라고 요청해요.",
+    "nl": "Agent-tools sturen Nelth aan via het DevTools Protocol, over een privépipe die alleen processen op deze computer kunnen bereiken. Als dit aan staat, wordt elk programma dat onder jouw account draait en de profielmap van Nelth kan lezen zonder te vragen toegelaten; als dit uit staat, vraagt het eerste programma dat verbinding maakt je om dit in te schakelen.",
+    "zh-Hans": "智能体工具通过一个仅限本机进程访问的私有管道，经由 DevTools 协议驱动 Nelth。开启后，任何以你的身份运行且能读取 Nelth 个人资料文件夹的程序都会直接获准连接；关闭后，第一个连接的程序会请求你开启此项。",
+    "zh-Hant": "AI 代理工具透過只有本機程序才能存取的私有管道，以 DevTools Protocol 操控 Nelth。開啟後，任何以你的身分執行且能讀取 Nelth 設定檔資料夾的程式都會直接獲准連線；關閉後，第一個連線的程式會要求你開啟此選項。"
    }
   },
   "settings.developer.agentControl.enableToggle": {
    "comment": "settings — used at phi_settings_window.cc:2168",
-   "en": "Allow agents to control Phi (CDP)"
+   "en": "Allow agents to control Nelth (CDP)"
   },
   "settings.developer.agentControl.sectionTitle": {
    "comment": "settings — used at phi_settings_window.cc:2167",
@@ -6473,16 +6561,16 @@
   },
   "settings.developer.skillInstall.description": {
    "comment": "settings — Developer ▸ phi-browser skill installer; used at phi_settings_window.cc",
-   "en": "Links the skill bundled in this app into an AI coding agent’s skills folder so it can drive Phi over the DevTools Protocol. Requires Node 22+.",
+   "en": "Links the skill bundled in this app into an AI coding agent’s skills folder so it can drive Nelth over the DevTools Protocol. Requires Node 22+.",
    "translations": {
-    "de": "Verknüpft den in dieser App enthaltenen Skill mit dem Skills-Ordner eines KI-Coding-Agenten, damit dieser Phi über das DevTools-Protokoll steuern kann. Erfordert Node 22+.",
-    "es": "Vincula la habilidad incluida en esta app a la carpeta de habilidades de un agente de programación con IA para que pueda controlar Phi mediante el protocolo DevTools. Requiere Node 22 o posterior.",
-    "fr": "Ajoute le Skill intégré à cette app au dossier de Skills d'un agent de codage IA pour qu'il puisse piloter Phi via le protocole DevTools. Nécessite Node 22+.",
-    "ja": "このアプリに同梱されているスキルをAIコーディングエージェントのスキルフォルダにリンクし、DevTools ProtocolでPhiを操作できるようにします。Node 22以降が必要です。",
-    "ko": "이 앱에 포함된 스킬을 AI 코딩 에이전트의 스킬 폴더에 연결해 DevTools 프로토콜로 Phi를 제어할 수 있게 해요. Node 22 이상이 필요해요.",
-    "nl": "Koppelt de skill die met deze app wordt meegeleverd aan de skills-map van een AI-coding-agent, zodat die Phi via het DevTools Protocol kan aansturen. Vereist Node 22+.",
-    "zh-Hans": "将此应用内置的 Skill 链接到 AI 编程智能体的 skills 文件夹中，使其能够通过 DevTools 协议驱动 Phi。需要 Node 22+。",
-    "zh-Hant": "將此 App 內建的 Skill 連結到 AI 程式開發代理的 Skill 資料夾，讓它能透過 DevTools Protocol 操控 Phi。需要 Node 22 或更新版本。"
+    "de": "Verknüpft den in dieser App enthaltenen Skill mit dem Skills-Ordner eines KI-Coding-Agenten, damit dieser Nelth über das DevTools-Protokoll steuern kann. Erfordert Node 22+.",
+    "es": "Vincula la habilidad incluida en esta app a la carpeta de habilidades de un agente de programación con IA para que pueda controlar Nelth mediante el protocolo DevTools. Requiere Node 22 o posterior.",
+    "fr": "Ajoute le Skill intégré à cette app au dossier de Skills d'un agent de codage IA pour qu'il puisse piloter Nelth via le protocole DevTools. Nécessite Node 22+.",
+    "ja": "このアプリに同梱されているスキルをAIコーディングエージェントのスキルフォルダにリンクし、DevTools ProtocolでNelthを操作できるようにします。Node 22以降が必要です。",
+    "ko": "이 앱에 포함된 스킬을 AI 코딩 에이전트의 스킬 폴더에 연결해 DevTools 프로토콜로 Nelth를 제어할 수 있게 해요. Node 22 이상이 필요해요.",
+    "nl": "Koppelt de skill die met deze app wordt meegeleverd aan de skills-map van een AI-coding-agent, zodat die Nelth via het DevTools Protocol kan aansturen. Vereist Node 22+.",
+    "zh-Hans": "将此应用内置的 Skill 链接到 AI 编程智能体的 skills 文件夹中，使其能够通过 DevTools 协议驱动 Nelth。需要 Node 22+。",
+    "zh-Hant": "將此 App 內建的 Skill 連結到 AI 程式開發代理的 Skill 資料夾，讓它能透過 DevTools Protocol 操控 Nelth。需要 Node 22 或更新版本。"
    }
   },
   "settings.developer.skillInstall.linkError": {
@@ -6501,11 +6589,11 @@
   },
   "settings.developer.skillInstall.missingResourcesError": {
    "comment": "settings — Developer ▸ phi-browser skill installer; used at phi_settings_window.cc",
-   "en": "This build doesn’t include the phi-browser skill resources. Rebuild Phi Browser and try again."
+   "en": "This build doesn’t include the phi-browser skill resources. Rebuild Nelth Browser and try again."
   },
   "settings.developer.skillInstall.overwriteConfirmation.message": {
    "comment": "settings — Developer ▸ phi-browser skill installer; used at phi_settings_window.cc; {0} is the path",
-   "en": "“{0}” already exists and isn’t a link created by Phi Browser. Replace it with a link to this app’s bundled skill?"
+   "en": "“{0}” already exists and isn’t a link created by Nelth Browser. Replace it with a link to this app’s bundled skill?"
   },
   "settings.developer.skillInstall.overwriteConfirmation.replaceButton": {
    "comment": "settings — Developer ▸ phi-browser skill installer; used at phi_settings_window.cc",
@@ -6671,16 +6759,16 @@
   },
   "settings.general.analytics.hint": {
    "comment": "settings — hint under the analytics toggle",
-   "en": "Send anonymous usage statistics and crash reports to help improve Phi. Never your pages, searches or account.",
+   "en": "Send anonymous usage statistics and crash reports to help improve Nelth. Never your pages, searches or account.",
    "translations": {
-    "de": "Sende anonyme Nutzungsstatistiken und Absturzberichte, um Phi zu verbessern. Niemals deine Seiten, Suchanfragen oder Kontodaten.",
-    "es": "Envía estadísticas de uso anónimas e informes de fallos para ayudar a mejorar Phi. Nunca tus páginas, búsquedas ni tu cuenta.",
-    "fr": "Envoyez des statistiques d'utilisation anonymes et des rapports de plantage pour aider à améliorer Phi. Jamais vos pages, vos recherches ni votre compte.",
-    "ja": "Phiの改善のため、匿名の使用状況統計とクラッシュレポートを送信します。閲覧したページ、検索内容、アカウント情報が送信されることはありません。",
-    "ko": "Phi 개선을 위해 익명 사용 통계와 충돌 보고서를 보내요. 방문한 페이지, 검색어, 계정 정보는 절대 보내지 않아요.",
-    "nl": "Stuur anonieme gebruiksstatistieken en crashrapporten om Phi te helpen verbeteren. Nooit je pagina's, zoekopdrachten of account.",
-    "zh-Hans": "发送匿名使用统计信息和崩溃报告，帮助改进 Phi。绝不包含你的页面、搜索内容或账号信息。",
-    "zh-Hant": "傳送匿名使用統計資料和當機報告，協助改善 Phi。絕不包含你的頁面、搜尋內容或帳號資訊。"
+    "de": "Sende anonyme Nutzungsstatistiken und Absturzberichte, um Nelth zu verbessern. Niemals deine Seiten, Suchanfragen oder Kontodaten.",
+    "es": "Envía estadísticas de uso anónimas e informes de fallos para ayudar a mejorar Nelth. Nunca tus páginas, búsquedas ni tu cuenta.",
+    "fr": "Envoyez des statistiques d'utilisation anonymes et des rapports de plantage pour aider à améliorer Nelth. Jamais vos pages, vos recherches ni votre compte.",
+    "ja": "Nelthの改善のため、匿名の使用状況統計とクラッシュレポートを送信します。閲覧したページ、検索内容、アカウント情報が送信されることはありません。",
+    "ko": "Nelth 개선을 위해 익명 사용 통계와 충돌 보고서를 보내요. 방문한 페이지, 검색어, 계정 정보는 절대 보내지 않아요.",
+    "nl": "Stuur anonieme gebruiksstatistieken en crashrapporten om Nelth te helpen verbeteren. Nooit je pagina's, zoekopdrachten of account.",
+    "zh-Hans": "发送匿名使用统计信息和崩溃报告，帮助改进 Nelth。绝不包含你的页面、搜索内容或账号信息。",
+    "zh-Hant": "傳送匿名使用統計資料和當機報告，協助改善 Nelth。絕不包含你的頁面、搜尋內容或帳號資訊。"
    }
   },
   "settings.general.analytics.toggle": {
@@ -6811,6 +6899,34 @@
    "comment": "settings — used at phi_settings_window.cc:724",
    "en": "New tab behavior"
   },
+  "settings.general.newTabsAtTop.description": {
+   "comment": "Mac key (translations by key); settings — General ▸ Browsing, phi_settings_window.cc",
+   "en": "In sidebar layouts, place new tabs at the top of the tab list. Comfortable always opens new tabs at the end.",
+   "interim": {
+    "de": "In Layouts mit Seitenleiste werden neue Tabs oben in der Tab-Liste platziert. „Komfortabel“ öffnet neue Tabs immer am Ende.",
+    "es": "En los diseños con barra lateral, coloca las pestañas nuevas al principio de la lista de pestañas. Cómodo siempre abre las pestañas nuevas al final.",
+    "fr": "Dans les dispositions avec barre latérale, place les nouveaux onglets en haut de la liste des onglets. Confortable ouvre toujours les nouveaux onglets à la fin.",
+    "ja": "サイドバーレイアウトでは、新しいタブをタブリストの一番上に配置します。「ゆったり」では、新しいタブは常に末尾に開きます。",
+    "ko": "사이드바 레이아웃에서는 새 탭을 탭 목록 맨 위에 배치해요. 여유 레이아웃에서는 새 탭이 항상 맨 끝에 열려요.",
+    "nl": "Plaats nieuwe tabbladen in lay-outs met een zijbalk boven aan de tabbladenlijst. Comfortabel opent nieuwe tabbladen altijd aan het einde.",
+    "zh-Hans": "在侧边栏布局中，将新标签页放在标签页列表顶部。“舒适”布局始终在末尾打开新标签页。",
+    "zh-Hant": "在側邊欄版面配置中，將新分頁放在分頁列表頂端。「舒適」版面配置一律在最後開啟新分頁。"
+   }
+  },
+  "settings.general.newTabsAtTop.title": {
+   "comment": "Mac key (translations by key); settings — General ▸ Browsing, phi_settings_window.cc",
+   "en": "Open new tabs at top",
+   "interim": {
+    "de": "Neue Tabs oben öffnen",
+    "es": "Abrir las pestañas nuevas arriba",
+    "fr": "Ouvrir les nouveaux onglets en haut",
+    "ja": "新しいタブを一番上に開く",
+    "ko": "새 탭을 맨 위에 열기",
+    "nl": "Open nieuwe tabbladen bovenaan",
+    "zh-Hans": "在顶部打开新标签页",
+    "zh-Hant": "在頂端開啟新分頁"
+   }
+  },
   "settings.general.pictureInPicture.normalDescription": {
    "comment": "settings — used at phi_settings_window.cc:762",
    "en": "Pop out playing video when you switch tabs or apps"
@@ -6841,39 +6957,23 @@
   },
   "settings.general.restoreLastSession.enabledHint": {
    "comment": "settings — used at phi_settings_window.cc:774",
-   "en": "Reopen your windows and tabs the next time you open Phi."
-  },
-  "settings.general.newTabsAtTop.title": {
-   "comment": "Mac key (translations by key); settings — General ▸ Browsing, phi_settings_window.cc",
-   "en": "Open new tabs at top",
-   "interim": {
-    "de": "Neue Tabs oben öffnen",
-    "es": "Abrir las pestañas nuevas arriba",
-    "fr": "Ouvrir les nouveaux onglets en haut",
-    "ja": "新しいタブを一番上に開く",
-    "ko": "새 탭을 맨 위에 열기",
-    "nl": "Open nieuwe tabbladen bovenaan",
-    "zh-Hans": "在顶部打开新标签页",
-    "zh-Hant": "在頂端開啟新分頁"
-   }
-  },
-  "settings.general.newTabsAtTop.description": {
-   "comment": "Mac key (translations by key); settings — General ▸ Browsing, phi_settings_window.cc",
-   "en": "In sidebar layouts, place new tabs at the top of the tab list. Comfortable always opens new tabs at the end.",
-   "interim": {
-    "de": "In Layouts mit Seitenleiste werden neue Tabs oben in der Tab-Liste platziert. „Komfortabel“ öffnet neue Tabs immer am Ende.",
-    "es": "En los diseños con barra lateral, coloca las pestañas nuevas al principio de la lista de pestañas. Cómodo siempre abre las pestañas nuevas al final.",
-    "fr": "Dans les dispositions avec barre latérale, place les nouveaux onglets en haut de la liste des onglets. Confortable ouvre toujours les nouveaux onglets à la fin.",
-    "ja": "サイドバーレイアウトでは、新しいタブをタブリストの一番上に配置します。「ゆったり」では、新しいタブは常に末尾に開きます。",
-    "ko": "사이드바 레이아웃에서는 새 탭을 탭 목록 맨 위에 배치해요. 여유 레이아웃에서는 새 탭이 항상 맨 끝에 열려요.",
-    "nl": "Plaats nieuwe tabbladen in lay-outs met een zijbalk boven aan de tabbladenlijst. Comfortabel opent nieuwe tabbladen altijd aan het einde.",
-    "zh-Hans": "在侧边栏布局中，将新标签页放在标签页列表顶部。“舒适”布局始终在末尾打开新标签页。",
-    "zh-Hant": "在側邊欄版面配置中，將新分頁放在分頁列表頂端。「舒適」版面配置一律在最後開啟新分頁。"
-   }
+   "en": "Reopen your windows and tabs the next time you open Nelth."
   },
   "settings.general.restoreLastSession.toggle": {
    "comment": "settings — used at phi_settings_window.cc:772",
    "en": "Restore last session"
+  },
+  "settings.general.sidebarMedia.alwaysCompactOption": {
+   "comment": "Mac key (translations by key); settings — Mini Player display option: keep transport controls compact",
+   "en": "Always compact"
+  },
+  "settings.general.sidebarMedia.alwaysExpandedOption": {
+   "comment": "Mac key (translations by key); settings — Mini Player display option: show the full player whenever background media is available",
+   "en": "Always expanded"
+  },
+  "settings.general.sidebarMedia.dynamicOption": {
+   "comment": "Mac key (translations by key); settings — Mini Player display option: expand after a brief pointer hover",
+   "en": "Auto"
   },
   "settings.general.theme.colorTitle": {
    "comment": "settings — used at phi_settings_window.cc:599",
@@ -6945,16 +7045,16 @@
   },
   "settings.languageHint": {
    "comment": "Language picker - sub-hint clarifying that this is the app UI language, not the page language",
-   "en": "The language Phi’s own menus and settings are shown in.",
+   "en": "The language Nelth’s own menus and settings are shown in.",
    "translations": {
-    "de": "Die Sprache, in der Phis eigene Menüs und Einstellungen angezeigt werden.",
-    "es": "El idioma en el que se muestran los menús y ajustes de Phi.",
-    "fr": "La langue dans laquelle les menus et réglages de Phi sont affichés.",
-    "ja": "Phi のメニューと設定を表示する言語です。",
-    "ko": "Phi의 메뉴와 설정이 표시되는 언어입니다.",
-    "nl": "De taal waarin de menu’s en instellingen van Phi worden weergegeven.",
-    "zh-Hans": "Phi 的菜单和设置所使用的语言。",
-    "zh-Hant": "Phi 的選單與設定所使用的語言。"
+    "de": "Die Sprache, in der Nelths eigene Menüs und Einstellungen angezeigt werden.",
+    "es": "El idioma en el que se muestran los menús y ajustes de Nelth.",
+    "fr": "La langue dans laquelle les menus et réglages de Nelth sont affichés.",
+    "ja": "Nelth のメニューと設定を表示する言語です。",
+    "ko": "Nelth의 메뉴와 설정이 표시되는 언어입니다.",
+    "nl": "De taal waarin de menu’s en instellingen van Nelth worden weergegeven.",
+    "zh-Hans": "Nelth 的菜单和设置所使用的语言。",
+    "zh-Hant": "Nelth 的選單與設定所使用的語言。"
    }
   },
   "settings.languageSystemDefault": {
@@ -6973,16 +7073,16 @@
   },
   "settings.launchPhiSentinelAutomaticallyAt": {
    "comment": "settings — used at phi_settings_window.cc:1956",
-   "en": "Launch Phi Sentinel automatically at login",
+   "en": "Launch Nelth Sentinel automatically at login",
    "translations": {
-    "de": "Phi Sentinel bei der Anmeldung automatisch starten",
-    "es": "Abrir Phi Sentinel automáticamente al iniciar sesión",
-    "fr": "Lancer Phi Sentinel automatiquement à l'ouverture de session",
-    "ja": "ログイン時にPhi Sentinelを自動的に起動",
-    "ko": "로그인 시 Phi Sentinel 자동 실행",
-    "nl": "Phi Sentinel automatisch starten bij aanmelden",
-    "zh-Hans": "登录时自动启动 Phi Sentinel",
-    "zh-Hant": "登入時自動啟動 Phi Sentinel"
+    "de": "Nelth Sentinel bei der Anmeldung automatisch starten",
+    "es": "Abrir Nelth Sentinel automáticamente al iniciar sesión",
+    "fr": "Lancer Nelth Sentinel automatiquement à l'ouverture de session",
+    "ja": "ログイン時にNelth Sentinelを自動的に起動",
+    "ko": "로그인 시 Nelth Sentinel 자동 실행",
+    "nl": "Nelth Sentinel automatisch starten bij aanmelden",
+    "zh-Hans": "登录时自动启动 Nelth Sentinel",
+    "zh-Hant": "登入時自動啟動 Nelth Sentinel"
    }
   },
   "settings.liveInTheDeveloperTab": {
@@ -7001,16 +7101,16 @@
   },
   "settings.loginsForPhiAndAgent": {
    "comment": "settings — used at phi_settings_window.cc:2252",
-   "en": "Logins for Phi and agent requests, held by a separate ",
+   "en": "Logins for Nelth and agent requests, held by a separate ",
    "translations": {
-    "de": "Anmeldedaten für Phi und Agent-Anfragen, verwahrt von einem separaten ",
-    "es": "Inicios de sesión para Phi y para las solicitudes de los agentes, guardados por un ",
-    "fr": "Identifiants pour Phi et pour les requêtes des agents, conservés par un ",
-    "ja": "Phiとエージェントのリクエストで使うログイン情報を、",
-    "ko": "Phi와 에이전트 요청에 쓰이는 로그인 정보를 ",
-    "nl": "Inloggegevens voor Phi en agentverzoeken, bewaard door een aparte ",
-    "zh-Hans": "为 Phi 和智能体请求提供登录信息，由独立的",
-    "zh-Hant": "供 Phi 和 AI 代理要求使用的登入資訊，由獨立的"
+    "de": "Anmeldedaten für Nelth und Agent-Anfragen, verwahrt von einem separaten ",
+    "es": "Inicios de sesión para Nelth y para las solicitudes de los agentes, guardados por un ",
+    "fr": "Identifiants pour Nelth et pour les requêtes des agents, conservés par un ",
+    "ja": "Nelthとエージェントのリクエストで使うログイン情報を、",
+    "ko": "Nelth와 에이전트 요청에 쓰이는 로그인 정보를 ",
+    "nl": "Inloggegevens voor Nelth en agentverzoeken, bewaard door een aparte ",
+    "zh-Hans": "为 Nelth 和智能体请求提供登录信息，由独立的",
+    "zh-Hant": "供 Nelth 和 AI 代理要求使用的登入資訊，由獨立的"
    }
   },
   "settings.navigation.aboutTitle": {
@@ -7033,7 +7133,7 @@
   },
   "settings.navigation.aiTitle": {
    "comment": "Mac key (translations by key); settings — Settings window (phi_settings_window.cc): navigation rail page",
-   "en": "Phi & AI"
+   "en": "Nelth & AI"
   },
   "settings.navigation.developerTitle": {
    "comment": "Mac key (translations by key); settings — Settings window (phi_settings_window.cc): navigation rail page",
@@ -7185,16 +7285,16 @@
   },
   "settings.phiAi": {
    "comment": "settings — used at phi_settings_window.cc:116",
-   "en": "Phi & AI",
+   "en": "Nelth & AI",
    "translations": {
-    "de": "Phi & KI",
-    "es": "Phi e IA",
-    "fr": "Phi et IA",
-    "ja": "PhiとAI",
-    "ko": "Phi 및 AI",
-    "nl": "Phi & AI",
-    "zh-Hans": "Phi 与 AI",
-    "zh-Hant": "Phi 與 AI"
+    "de": "Nelth & KI",
+    "es": "Nelth e IA",
+    "fr": "Nelth et IA",
+    "ja": "NelthとAI",
+    "ko": "Nelth 및 AI",
+    "nl": "Nelth & AI",
+    "zh-Hans": "Nelth 与 AI",
+    "zh-Hant": "Nelth 與 AI"
    }
   },
   "settings.pinnedTabsAreSharedAcross": {
@@ -7377,18 +7477,18 @@
     "ja": "このリストについて",
     "ko": "이 목록 정보",
     "nl": "Over deze lijst",
+    "pt-BR": "Sobre esta lista",
     "zh-Hans": "关于此列表",
-    "zh-Hant": "關於此清單",
-    "pt-BR": "Sobre esta lista"
+    "zh-Hant": "關於此清單"
    }
   },
   "settings.privacy.contentBlocking.list.phiSpecific.desc": {
-   "comment": "settings — the content blocking rule set chooser and its Custom filter form (phi_content_blocking_window.cc); the Mac's key: Privacy settings - Description of Phi's own first-party filter list",
-   "en": "Fixes and rules maintained by Phi. Keep this on unless a site misbehaves."
+   "comment": "settings — the content blocking rule set chooser and its Custom filter form (phi_content_blocking_window.cc); the Mac's key: Privacy settings - Description of Nelth's own first-party filter list",
+   "en": "Fixes and rules maintained by Nelth. Keep this on unless a site misbehaves."
   },
   "settings.privacy.contentBlocking.list.phiSpecific.title": {
-   "comment": "settings — Settings ▸ Profiles ▸ Content blocking (phi_settings_window.cc); the Mac's key: Privacy settings - Name of Phi's own first-party filter list",
-   "en": "Phi Blocklists"
+   "comment": "settings — Settings ▸ Profiles ▸ Content blocking (phi_settings_window.cc); the Mac's key: Privacy settings - Name of Nelth's own first-party filter list",
+   "en": "Nelth Blocklists"
   },
   "settings.privacy.contentBlocking.list.remove": {
    "comment": "settings — the content blocking rule set chooser and its Custom filter form (phi_content_blocking_window.cc); the Mac's key: Advanced ad block settings - Tooltip of the button removing a custom filter list",
@@ -7396,7 +7496,7 @@
   },
   "settings.privacy.contentBlocking.listInfo.builtIn": {
    "comment": "settings — the content blocking rule set chooser and its Custom filter form (phi_content_blocking_window.cc); the Mac's key: Advanced ad block settings - Details line for a filter list shipped with the browser",
-   "en": "Built into Phi"
+   "en": "Built into Nelth"
   },
   "settings.privacy.contentBlocking.listInfo.close": {
    "comment": "settings — the rule set chooser (phi_content_blocking_window.cc): button closing a filter list's details",
@@ -7959,8 +8059,8 @@
    "en": "Print…"
   },
   "settings.shortcuts.command.quitApp": {
-   "comment": "Mac key (translations by key); settings — Shortcuts pane fixed row title (phi_settings_types.h PhiBuildShortcutRows)",
-   "en": "Quit Phi"
+   "comment": "Mac key (translations by key); settings — Shortcuts pane fixed row title (phi_settings_types.h NelthBuildShortcutRows)",
+   "en": "Quit Nelth"
   },
   "settings.shortcuts.command.reloadPage": {
    "comment": "Mac key (translations by key); settings — Shortcuts pane row title (phi_preferences.cc kRebindableShortcuts)",
@@ -7991,7 +8091,7 @@
    "en": "Next Space"
   },
   "settings.shortcuts.command.selectNextTab": {
-   "comment": "Mac key (translations by key); settings — Shortcuts pane fixed row title (phi_settings_types.h PhiBuildShortcutRows)",
+   "comment": "Mac key (translations by key); settings — Shortcuts pane fixed row title (phi_settings_types.h NelthBuildShortcutRows)",
    "en": "Select Next Tab"
   },
   "settings.shortcuts.command.selectPreviousSpace": {
@@ -7999,7 +8099,7 @@
    "en": "Previous Space"
   },
   "settings.shortcuts.command.selectPreviousTab": {
-   "comment": "Mac key (translations by key); settings — Shortcuts pane fixed row title (phi_settings_types.h PhiBuildShortcutRows)",
+   "comment": "Mac key (translations by key); settings — Shortcuts pane fixed row title (phi_settings_types.h NelthBuildShortcutRows)",
    "en": "Select Previous Tab"
   },
   "settings.shortcuts.command.showDownloads": {
@@ -8224,16 +8324,16 @@
   },
   "settings.signInToUseYour": {
    "comment": "settings — used at phi_settings_window.cc:1878",
-   "en": "Sign in to use your Phi account.",
+   "en": "Sign in to use your Nelth account.",
    "translations": {
-    "de": "Melde dich an, um dein Phi-Konto zu nutzen.",
-    "es": "Inicia sesión para usar tu cuenta de Phi.",
-    "fr": "Connectez-vous pour utiliser votre compte Phi.",
-    "ja": "Phiアカウントを使用するにはログインしてください。",
-    "ko": "Phi 계정을 사용하려면 로그인하세요.",
-    "nl": "Log in om je Phi-account te gebruiken.",
-    "zh-Hans": "登录后即可使用你的 Phi 账号。",
-    "zh-Hant": "登入即可使用你的 Phi 帳號。"
+    "de": "Melde dich an, um dein Nelth-Konto zu nutzen.",
+    "es": "Inicia sesión para usar tu cuenta de Nelth.",
+    "fr": "Connectez-vous pour utiliser votre compte Nelth.",
+    "ja": "Nelthアカウントを使用するにはログインしてください。",
+    "ko": "Nelth 계정을 사용하려면 로그인하세요.",
+    "nl": "Log in om je Nelth-account te gebruiken.",
+    "zh-Hans": "登录后即可使用你的 Nelth 账号。",
+    "zh-Hant": "登入即可使用你的 Nelth 帳號。"
    }
   },
   "settings.spaces": {
@@ -8990,6 +9090,72 @@
     "zh-Hant": "隱藏側邊欄"
    }
   },
+  "sidebar.media.dismiss": {
+   "comment": "Mac key (translations by key); sidebar — Mini Player (phi_mini_player.cc). Hide this media source without changing playback",
+   "en": "Dismiss media player"
+  },
+  "sidebar.media.enterPictureInPicture": {
+   "comment": "Mac key (translations by key); sidebar — Mini Player (phi_mini_player.cc). Pop the playing video into a floating picture-in-picture window",
+   "en": "Open picture in picture"
+  },
+  "sidebar.media.exitPictureInPicture": {
+   "comment": "Mac key (translations by key); sidebar — Mini Player (phi_mini_player.cc). Return a picture-in-picture video to its page",
+   "en": "Close picture in picture"
+  },
+  "sidebar.media.mute": {
+   "comment": "Tab mute — the Mute tab row of the tab-row, pinned-cell and bookmark-row context menus, and the speaker button tooltip (the Mac's sidebar.media.mute), phi_shell_menus.cc.",
+   "en": "Mute tab"
+  },
+  "sidebar.media.nextTrack": {
+   "comment": "Mac key (translations by key); sidebar — Mini Player (phi_mini_player.cc). Play the next track in the page queue",
+   "en": "Next track"
+  },
+  "sidebar.media.openTab": {
+   "comment": "Mac key (translations by key); sidebar — Mini Player (phi_mini_player.cc). Switch to the tab that owns the media",
+   "en": "Show playing tab"
+  },
+  "sidebar.media.pause": {
+   "comment": "Mac key (translations by key); sidebar — Mini Player (phi_mini_player.cc). Pause the current page media",
+   "en": "Pause"
+  },
+  "sidebar.media.play": {
+   "comment": "Mac key (translations by key); sidebar — Mini Player (phi_mini_player.cc). Resume the current page media",
+   "en": "Play"
+  },
+  "sidebar.media.previousTrack": {
+   "comment": "Mac key (translations by key); sidebar — Mini Player (phi_mini_player.cc). Play the previous track in the page queue",
+   "en": "Previous track"
+  },
+  "sidebar.media.progress": {
+   "comment": "Mac key (translations by key); sidebar — Mini Player (phi_mini_player.cc). Tooltip of the seek timeline",
+   "en": "Playback position"
+  },
+  "sidebar.media.unmute": {
+   "comment": "Tab mute — the Unmute tab row of the tab-row, pinned-cell and bookmark-row context menus, and the speaker button tooltip on a muted tab (the Mac's sidebar.media.unmute), phi_shell_menus.cc.",
+   "en": "Unmute tab"
+  },
+  "sidebar.media.untitled": {
+   "comment": "Mac key (translations by key); sidebar — Mini Player (phi_mini_player.cc). Fallback title when the page and media session have no title",
+   "en": "Media"
+  },
+  "sidebar.media.volumeButtonAlt": {
+   "comment": "Windows-only; sidebar — Mini Player (phi_mini_player.cc). Open the volume slider; Alt-click toggles the player's mute (the Mac's sidebar.media.volumeButton says Option)",
+   "en": "Volume (Alt-click to toggle mute)",
+   "translations": {
+    "de": "Lautstärke (Alt-Klick: Stummschaltung ein/aus)",
+    "es": "Volumen (Alt-clic para silenciar o activar el sonido)",
+    "fr": "Volume (Alt-clic pour couper ou réactiver le son)",
+    "ja": "音量（Alt-クリックでミュートを切り替え）",
+    "ko": "음량 (Alt-클릭으로 음소거 전환)",
+    "nl": "Volume (Alt-klik om geluid in of uit te schakelen)",
+    "zh-Hans": "音量（按住 Alt 键点击可切换静音）",
+    "zh-Hant": "音量（Alt-按一下可切換靜音）"
+   }
+  },
+  "sidebar.media.volumeSlider": {
+   "comment": "Mac key (translations by key); sidebar — Mini Player (phi_mini_player.cc). Adjust the tab playback volume from zero to one hundred percent",
+   "en": "Playback volume"
+  },
   "sidebar.newSpaceWithNewProfile": {
    "comment": "sidebar — used at phi_shell_window.cc:5158",
    "en": "New Space with New Profile...",
@@ -9008,13 +9174,13 @@
    "comment": "Mac key (translations by key); sidebar — the \"+ New Tab\" row heading the tab list (phi_sidebar_view.cc)",
    "en": "New Tab"
   },
-  "sidebar.pinnedTabContextMenu.editSubmenu": {
-   "comment": "Mac key (translations by key); contextMenu — pinned cell: submenu holding Edit URL and Replace Saved URL with Current",
-   "en": "Edit Pinned Tab"
-  },
   "sidebar.pinnedTabContextMenu.changeIcon": {
    "comment": "sidebar — used at phi_shell_menus.cc (pinned cell Change Icon…)",
    "en": "Change Icon…"
+  },
+  "sidebar.pinnedTabContextMenu.editSubmenu": {
+   "comment": "Mac key (translations by key); contextMenu — pinned cell: submenu holding Edit URL and Replace Saved URL with Current",
+   "en": "Edit Pinned Tab"
   },
   "sidebar.pinnedTabContextMenu.replaceSavedURL": {
    "comment": "Mac key (translations by key); contextMenu — pinned cell: saves the open page's address as the pin's",
@@ -9600,7 +9766,7 @@
   },
   "sync.reconfigure.explanation": {
    "comment": "Sync recovery after a server reset or incomplete local cleanup.",
-   "en": "The account’s sync data has changed. Syncing Phi data is paused. Review your account and connection before setting up sync again."
+   "en": "The account’s sync data has changed. Syncing Nelth data is paused. Review your account and connection before setting up sync again."
   },
   "sync.reconfigure.failed.windows": {
    "comment": "Sync recovery after a server reset or incomplete local cleanup.",
@@ -9996,7 +10162,7 @@
   },
   "sync.setup.profiles.unreadable": {
    "comment": "sync setup — phi_sync_setup_window.cc (Mac KeyLayerView / PairingWizard)",
-   "en": "Can’t be read right now — Phi keeps retrying in the background"
+   "en": "Can’t be read right now — Nelth keeps retrying in the background"
   },
   "sync.setup.saveFailed": {
    "comment": "sync setup — phi_sync_setup_window.cc (Mac KeyLayerView / RecoveryCodeEntryView)",
@@ -10080,7 +10246,7 @@
   },
   "sync.status.phiData": {
    "comment": "settings — Sync status card: the native sync context's name",
-   "en": "Phi data"
+   "en": "Nelth data"
   },
   "sync.status.profile": {
    "comment": "settings — Sync status card: an unnamed profile",
@@ -10170,10 +10336,6 @@
    "comment": "Mac key (translations by key); spaces — Space theme editor toolbar, select two linked neighboring colors 45 degrees apart (used at phi_space_theme_panel.cc)",
    "en": "Analogous colors"
   },
-  "theme.editor.colorHandle": {
-   "comment": "Mac key (translations by key); spaces — Space theme editor, accessible name of a color handle; {0} is the color number, one to three (used at phi_space_theme_panel.cc)",
-   "en": "Color {0}"
-  },
   "theme.editor.brightness": {
    "comment": "Windows only; theme editor — name of the slider that makes the Space colour darker or brighter (used at phi_space_theme_panel.cc)",
    "en": "Brightness",
@@ -10187,6 +10349,10 @@
     "zh-Hans": "亮度",
     "zh-Hant": "亮度"
    }
+  },
+  "theme.editor.colorHandle": {
+   "comment": "Mac key (translations by key); spaces — Space theme editor, accessible name of a color handle; {0} is the color number, one to three (used at phi_space_theme_panel.cc)",
+   "en": "Color {0}"
   },
   "theme.editor.deleteColor": {
    "comment": "Mac key (translations by key); theme editor — remove a saved swatch",
@@ -10267,172 +10433,6 @@
   "themes.theme.pure.name": {
    "comment": "Mac key (translations by key); settings — Settings window (phi_settings_window.cc): a theme dot's accessible name",
    "en": "Pure"
-  },
-  "app.viewMenu.appearance": {
-   "comment": "Mac key (translations by key); appMenu — Layout ▸ Appearance submenu (System / Light / Dark)",
-   "en": "Appearance"
-  },
-  "common.tabAreaContextMenu.bottomButtonsSubmenu": {
-   "comment": "Mac key (translations by key); contextMenu — sidebar area menu, submenu choosing the bottom bar buttons",
-   "en": "Bottom Buttons"
-  },
-  "common.tabAreaContextMenu.bottomButtons.profile": {
-   "comment": "Mac key (translations by key); contextMenu — Bottom Buttons ▸ profile button",
-   "en": "Profile"
-  },
-  "common.tabAreaContextMenu.bottomButtons.downloads": {
-   "comment": "Mac key (translations by key); contextMenu — Bottom Buttons ▸ Downloads button",
-   "en": "Downloads"
-  },
-  "common.tabAreaContextMenu.bottomButtons.feedback": {
-   "comment": "Mac key (translations by key); contextMenu — Bottom Buttons ▸ Feedback button",
-   "en": "Feedback"
-  },
-  "settings.advanced.keepPinnedTabsLoaded.toggle": {
-   "comment": "Mac key (translations by key); settings — Advanced ▸ Tabs, keep pinned tabs loaded switch",
-   "en": "Keep pinned tabs loaded"
-  },
-  "settings.advanced.keepPinnedTabsLoaded.description": {
-   "comment": "Mac key (translations by key); settings — Advanced ▸ Tabs, hint under the keep pinned tabs loaded switch",
-   "en": "Pinned tabs you have opened stay in memory instead of being unloaded to free it."
-  },
-  "common.bookmarkEditor.editSplitTitle": {
-   "comment": "Mac key (translations by key); prompt — the editor of a split bookmark or pinned split (PhiPromptPanes)",
-   "en": "Edit Split Bookmark"
-  },
-  "common.bookmarkEditor.editSplitSubtitle": {
-   "comment": "Mac key (translations by key); prompt — the editor of a split bookmark or pinned split (PhiPromptPanes)",
-   "en": "Edit the name and both addresses for this split-view bookmark."
-  },
-  "common.bookmarkEditor.editMultiPaneSplitSubtitle": {
-   "comment": "Mac key (translations by key); prompt — the editor of a split bookmark or pinned split (PhiPromptPanes)",
-   "en": "Edit the name and address for each pane of this split-view bookmark."
-  },
-  "common.bookmarkEditor.paneNameField.label": {
-   "comment": "Mac key (translations by key); prompt — the editor of a split bookmark or pinned split (PhiPromptPanes); {0} is the pane's position, from 1",
-   "en": "Pane {0} Name"
-  },
-  "common.bookmarkEditor.paneURLField.label": {
-   "comment": "Mac key (translations by key); prompt — the editor of a split bookmark or pinned split (PhiPromptPanes); {0} is the pane's position, from 1",
-   "en": "Pane {0} URL"
-  },
-  "common.bookmarkEditor.primaryNameField.label": {
-   "comment": "Mac key (translations by key); prompt — the editor of a split bookmark or pinned split (PhiPromptPanes)",
-   "en": "Left Name"
-  },
-  "common.bookmarkEditor.primaryURLField.label": {
-   "comment": "Mac key (translations by key); prompt — the editor of a split bookmark or pinned split (PhiPromptPanes)",
-   "en": "Left URL"
-  },
-  "common.bookmarkEditor.secondaryNameField.label": {
-   "comment": "Mac key (translations by key); prompt — the editor of a split bookmark or pinned split (PhiPromptPanes)",
-   "en": "Right Name"
-  },
-  "common.bookmarkEditor.secondaryURLField.label": {
-   "comment": "Mac key (translations by key); prompt — the editor of a split bookmark or pinned split (PhiPromptPanes)",
-   "en": "Right URL"
-  },
-  "common.pinnedTabEditor.editSplitTitle": {
-   "comment": "Mac key (translations by key); prompt — the editor of a split bookmark or pinned split (PhiPromptPanes)",
-   "en": "Edit Pinned Split"
-  },
-  "common.pinnedTabEditor.editSplitSubtitle": {
-   "comment": "Mac key (translations by key); prompt — the editor of a split bookmark or pinned split (PhiPromptPanes)",
-   "en": "Edit the names and addresses for both panes of this pinned split."
-  },
-  "common.pinnedTabEditor.editMultiPaneSplitSubtitle": {
-   "comment": "Mac key (translations by key); prompt — the editor of a split bookmark or pinned split (PhiPromptPanes)",
-   "en": "Edit the name and address for each pane of this pinned split."
-  },
-  "settings.advanced.miniPlayer.title": {
-   "comment": "Mac key (translations by key); settings — Settings window (phi_settings_window.cc) (Advanced ▸ Media). Menu for turning Mini Player off or choosing its display mode",
-   "en": "Mini Player"
-  },
-  "settings.advanced.sidebarMedia.hint": {
-   "comment": "Mac key (translations by key); settings — Settings window (phi_settings_window.cc) (Advanced ▸ Media). Description of the Mini Player",
-   "en": "Control media playing in background tabs from the sidebar."
-  },
-  "settings.advanced.miniPlayer.offOption": {
-   "comment": "Mac key (translations by key); settings — Mini Player display option: hide the player while media continues playing",
-   "en": "Off"
-  },
-  "settings.general.sidebarMedia.dynamicOption": {
-   "comment": "Mac key (translations by key); settings — Mini Player display option: expand after a brief pointer hover",
-   "en": "Auto"
-  },
-  "settings.general.sidebarMedia.alwaysExpandedOption": {
-   "comment": "Mac key (translations by key); settings — Mini Player display option: show the full player whenever background media is available",
-   "en": "Always expanded"
-  },
-  "settings.general.sidebarMedia.alwaysCompactOption": {
-   "comment": "Mac key (translations by key); settings — Mini Player display option: keep transport controls compact",
-   "en": "Always compact"
-  },
-  "sidebar.media.untitled": {
-   "comment": "Mac key (translations by key); sidebar — Mini Player (phi_mini_player.cc). Fallback title when the page and media session have no title",
-   "en": "Media"
-  },
-  "sidebar.media.openTab": {
-   "comment": "Mac key (translations by key); sidebar — Mini Player (phi_mini_player.cc). Switch to the tab that owns the media",
-   "en": "Show playing tab"
-  },
-  "sidebar.media.previousTrack": {
-   "comment": "Mac key (translations by key); sidebar — Mini Player (phi_mini_player.cc). Play the previous track in the page queue",
-   "en": "Previous track"
-  },
-  "sidebar.media.nextTrack": {
-   "comment": "Mac key (translations by key); sidebar — Mini Player (phi_mini_player.cc). Play the next track in the page queue",
-   "en": "Next track"
-  },
-  "sidebar.media.play": {
-   "comment": "Mac key (translations by key); sidebar — Mini Player (phi_mini_player.cc). Resume the current page media",
-   "en": "Play"
-  },
-  "sidebar.media.pause": {
-   "comment": "Mac key (translations by key); sidebar — Mini Player (phi_mini_player.cc). Pause the current page media",
-   "en": "Pause"
-  },
-  "sidebar.media.dismiss": {
-   "comment": "Mac key (translations by key); sidebar — Mini Player (phi_mini_player.cc). Hide this media source without changing playback",
-   "en": "Dismiss media player"
-  },
-  "sidebar.media.enterPictureInPicture": {
-   "comment": "Mac key (translations by key); sidebar — Mini Player (phi_mini_player.cc). Pop the playing video into a floating picture-in-picture window",
-   "en": "Open picture in picture"
-  },
-  "sidebar.media.exitPictureInPicture": {
-   "comment": "Mac key (translations by key); sidebar — Mini Player (phi_mini_player.cc). Return a picture-in-picture video to its page",
-   "en": "Close picture in picture"
-  },
-  "sidebar.media.volumeSlider": {
-   "comment": "Mac key (translations by key); sidebar — Mini Player (phi_mini_player.cc). Adjust the tab playback volume from zero to one hundred percent",
-   "en": "Playback volume"
-  },
-  "sidebar.media.progress": {
-   "comment": "Mac key (translations by key); sidebar — Mini Player (phi_mini_player.cc). Tooltip of the seek timeline",
-   "en": "Playback position"
-  },
-  "sidebar.media.volumeButtonAlt": {
-   "comment": "Windows-only; sidebar — Mini Player (phi_mini_player.cc). Open the volume slider; Alt-click toggles the player's mute (the Mac's sidebar.media.volumeButton says Option)",
-   "en": "Volume (Alt-click to toggle mute)",
-   "translations": {
-    "de": "Lautstärke (Alt-Klick: Stummschaltung ein/aus)",
-    "es": "Volumen (Alt-clic para silenciar o activar el sonido)",
-    "fr": "Volume (Alt-clic pour couper ou réactiver le son)",
-    "ja": "音量（Alt-クリックでミュートを切り替え）",
-    "ko": "음량 (Alt-클릭으로 음소거 전환)",
-    "nl": "Volume (Alt-klik om geluid in of uit te schakelen)",
-    "zh-Hans": "音量（按住 Alt 键点击可切换静音）",
-    "zh-Hant": "音量（Alt-按一下可切換靜音）"
-   }
-  },
-  "sidebar.media.mute": {
-   "comment": "Tab mute — the Mute tab row of the tab-row, pinned-cell and bookmark-row context menus, and the speaker button tooltip (the Mac's sidebar.media.mute), phi_shell_menus.cc.",
-   "en": "Mute tab"
-  },
-  "sidebar.media.unmute": {
-   "comment": "Tab mute — the Unmute tab row of the tab-row, pinned-cell and bookmark-row context menus, and the speaker button tooltip on a muted tab (the Mac's sidebar.media.unmute), phi_shell_menus.cc.",
-   "en": "Unmute tab"
   }
  }
 }

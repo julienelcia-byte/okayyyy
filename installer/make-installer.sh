@@ -1,6 +1,6 @@
 #!/bin/bash
-# Builds PhiBrowserSetup-<version>.<build>.exe (x64) or
-# PhiBrowserSetup-<version>.<build>-arm64.exe
+# Builds NelthBrowserSetup-<version>.<build>.exe (x64) or
+# NelthBrowserSetup-<version>.<build>-arm64.exe
 # on THIS machine: the payload is staged straight from the ship out dir into
 # installer/stage/<arch> in the installed layout, and makensis (the Debian
 # `nsis` package) packs it. The Windows box plays no part.
@@ -95,7 +95,7 @@ esac
   echo "$OUT has no Phi.exe + chrome.dll (build-fx.sh chrome phi_client, then build-fx-client.sh)" >&2; exit 1; }
 command -v makensis >/dev/null || { echo "makensis not found (apt install nsis)" >&2; exit 1; }
 FULL_VERSION="$VERSION.$BUILD_NUMBER"
-SETUP="PhiBrowserSetup-$FULL_VERSION$SUFFIX.exe"
+SETUP="NelthBrowserSetup-$FULL_VERSION$SUFFIX.exe"
 STAGE="$HERE/stage/$ARCH"
 DIST="$HERE/dist"
 echo "version: $FULL_VERSION  arch: $ARCH  out: $OUT"

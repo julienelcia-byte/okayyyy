@@ -36,19 +36,19 @@ BEGIN
     // 0409 = en-US, 04B0 = Unicode.
     BLOCK "040904B0"
     BEGIN
-      VALUE "CompanyName", "Phinomenon Inc."
-      VALUE "FileDescription", "Phi Browser"
+      VALUE "CompanyName", "Optix AI"
+      VALUE "FileDescription", "Nelth Browser"
       VALUE "FileVersion", PHI_RC_VERSION_DOTTED
-      VALUE "InternalName", "Phi"
-      VALUE "LegalCopyright", "Copyright 2026 Phinomenon Inc."
+      VALUE "InternalName", "Nelth"
+      VALUE "LegalCopyright", "Copyright 2026 Optix AI. Based on Phi Browser (Apache 2.0)."
       VALUE "OriginalFilename", "Phi.exe"
-      VALUE "ProductName", "Phi Browser"
+      VALUE "ProductName", "Nelth Browser"
       VALUE "ProductVersion", PHI_RC_VERSION_DOTTED
       // Crashpad's prod/ver annotations (install_static::
       // GetExecutableVersionDetails) read these two. A build the release
       // pipeline stamped (a nonzero build number) is a shipped one; an
       // unstamped local build keeps upstream's "-devel" suffix on ver.
-      VALUE "ProductShortName", "Phi"
+      VALUE "ProductShortName", "Nelth"
 #if PHI_WIN_VERSION_BUILD != 0
       VALUE "Official Build", "1"
 #endif

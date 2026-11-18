@@ -762,15 +762,15 @@
    "zh-Hant": "Español"
   },
   "app.feedback.windowTitle": {
-   "de": "Feedback an Phi senden",
-   "en": "Send Feedback to Phi",
-   "es": "Enviar comentarios a Phi",
-   "fr": "Envoyer des commentaires à Phi",
-   "ja": "Phiにフィードバックを送信",
-   "ko": "Phi에 피드백 보내기",
-   "nl": "Stuur feedback naar Phi",
-   "zh-Hans": "向 Phi 发送反馈",
-   "zh-Hant": "傳送意見回饋給 Phi"
+   "de": "Feedback an Nelth senden",
+   "en": "Send Feedback to Nelth",
+   "es": "Enviar comentarios a Nelth",
+   "fr": "Envoyer des commentaires à Nelth",
+   "ja": "Nelthにフィードバックを送信",
+   "ko": "Nelth에 피드백 보내기",
+   "nl": "Stuur feedback naar Nelth",
+   "zh-Hans": "向 Nelth 发送反馈",
+   "zh-Hant": "傳送意見回饋給 Nelth"
   },
   "app.fileMenu.createNewIncognitoSpace": {
    "de": "Neuer Inkognito-Space",
@@ -993,48 +993,48 @@
    "zh-Hant": "開啟位址"
   },
   "app.phi": {
-   "de": "Phi",
-   "en": "Phi",
-   "es": "Phi",
-   "fr": "Phi",
-   "ja": "Phi",
-   "ko": "Phi",
-   "nl": "Phi",
-   "zh-Hans": "Phi",
-   "zh-Hant": "Phi"
+   "de": "Nelth",
+   "en": "Nelth",
+   "es": "Nelth",
+   "fr": "Nelth",
+   "ja": "Nelth",
+   "ko": "Nelth",
+   "nl": "Nelth",
+   "zh-Hans": "Nelth",
+   "zh-Hant": "Nelth"
   },
   "app.phiAgentAccessRequest": {
-   "de": "Phi – Zugriffsanfrage eines Agenten",
-   "en": "Phi — Agent access request",
-   "es": "Phi — Solicitud de acceso de un agente",
-   "fr": "Phi — Demande d'accès d'un agent",
-   "ja": "Phi — エージェントのアクセスリクエスト",
-   "ko": "Phi — 에이전트 접근 요청",
-   "nl": "Phi — Toegangsverzoek van agent",
-   "zh-Hans": "Phi — 智能体访问请求",
-   "zh-Hant": "Phi — AI 代理存取要求"
+   "de": "Nelth – Zugriffsanfrage eines Agenten",
+   "en": "Nelth — Agent access request",
+   "es": "Nelth — Solicitud de acceso de un agente",
+   "fr": "Nelth — Demande d'accès d'un agent",
+   "ja": "Nelth — エージェントのアクセスリクエスト",
+   "ko": "Nelth — 에이전트 접근 요청",
+   "nl": "Nelth — Toegangsverzoek van agent",
+   "zh-Hans": "Nelth — 智能体访问请求",
+   "zh-Hant": "Nelth — AI 代理存取要求"
   },
   "app.phiBrowser": {
-   "de": "Phi Browser",
-   "en": "Phi Browser",
-   "es": "Phi Browser",
-   "fr": "Phi Browser",
-   "ja": "Phi Browser",
-   "ko": "Phi Browser",
-   "nl": "Phi Browser",
-   "zh-Hans": "Phi Browser",
-   "zh-Hant": "Phi Browser"
+   "de": "Nelth Browser",
+   "en": "Nelth Browser",
+   "es": "Nelth Browser",
+   "fr": "Nelth Browser",
+   "ja": "Nelth Browser",
+   "ko": "Nelth Browser",
+   "nl": "Nelth Browser",
+   "zh-Hans": "Nelth Browser",
+   "zh-Hant": "Nelth Browser"
   },
   "app.phiCredentialRequest": {
-   "de": "Phi – Zugangsdaten-Anfrage",
-   "en": "Phi — Credential request",
-   "es": "Phi — Solicitud de credenciales",
-   "fr": "Phi — Demande d'identifiant",
-   "ja": "Phi — 認証情報のリクエスト",
-   "ko": "Phi — 로그인 정보 요청",
-   "nl": "Phi — Verzoek om inloggegevens",
-   "zh-Hans": "Phi — 凭据请求",
-   "zh-Hant": "Phi — 憑證要求"
+   "de": "Nelth – Zugangsdaten-Anfrage",
+   "en": "Nelth — Credential request",
+   "es": "Nelth — Solicitud de credenciales",
+   "fr": "Nelth — Demande d'identifiant",
+   "ja": "Nelth — 認証情報のリクエスト",
+   "ko": "Nelth — 로그인 정보 요청",
+   "nl": "Nelth — Verzoek om inloggegevens",
+   "zh-Hans": "Nelth — 凭据请求",
+   "zh-Hant": "Nelth — 憑證要求"
   },
   "app.phiMenu.checkForUpdatesMenuItem": {
    "de": "Nach Updates suchen…",
@@ -1059,15 +1059,15 @@
    "zh-Hant": "從其他瀏覽器匯入…"
   },
   "app.phiTypesTheSecretInto": {
-   "de": "Phi trägt die Zugangsdaten selbst in die Seite ein. Der Agent sieht sie nie.",
-   "en": "Phi types the secret into the page. The agent never sees it.",
-   "es": "Phi escribe el secreto en la página. El agente nunca lo ve.",
-   "fr": "Phi saisit le secret dans la page. L'agent ne le voit jamais.",
-   "ja": "Phiが機密情報をページに入力します。エージェントがそれを見ることはありません。",
-   "ko": "Phi가 비밀 정보를 페이지에 직접 입력해요. 에이전트는 이를 볼 수 없어요.",
-   "nl": "Phi typt het geheim in de pagina. De agent ziet het nooit.",
-   "zh-Hans": "Phi 会将机密信息直接输入页面，智能体永远看不到它。",
-   "zh-Hant": "Phi 會將機密資訊輸入頁面，AI 代理永遠看不到。"
+   "de": "Nelth trägt die Zugangsdaten selbst in die Seite ein. Der Agent sieht sie nie.",
+   "en": "Nelth types the secret into the page. The agent never sees it.",
+   "es": "Nelth escribe el secreto en la página. El agente nunca lo ve.",
+   "fr": "Nelth saisit le secret dans la page. L'agent ne le voit jamais.",
+   "ja": "Nelthが機密情報をページに入力します。エージェントがそれを見ることはありません。",
+   "ko": "Nelth가 비밀 정보를 페이지에 직접 입력해요. 에이전트는 이를 볼 수 없어요.",
+   "nl": "Nelth typt het geheim in de pagina. De agent ziet het nooit.",
+   "zh-Hans": "Nelth 会将机密信息直接输入页面，智能体永远看不到它。",
+   "zh-Hant": "Nelth 會將機密資訊輸入頁面，AI 代理永遠看不到。"
   },
   "app.previousSpace": {
    "de": "Vorheriger Space",
@@ -1389,26 +1389,26 @@
    "zh-Hant": "顯示或隱藏側邊欄\tCtrl+S"
   },
   "app.wantsToControlPhiTabs": {
-   "de": ") möchte Phi steuern – Tabs, Navigation und Seiteninhalte.",
-   "en": ") wants to control Phi — tabs, navigation, and page content.",
-   "es": ") quiere controlar Phi: pestañas, navegación y contenido de las páginas.",
-   "fr": ") souhaite contrôler Phi : onglets, navigation et contenu des pages.",
-   "ja": "）が Phi の操作を求めています（タブ、ナビゲーション、ページの内容）。",
-   "ko": ")에서 Phi를 제어하려고 해요(탭, 탐색, 페이지 콘텐츠).",
-   "nl": ") wil Phi besturen: tabbladen, navigatie en pagina-inhoud.",
-   "zh-Hans": "）请求控制 Phi：标签页、导航和页面内容。",
-   "zh-Hant": "）要求控制 Phi：分頁、瀏覽和頁面內容。"
+   "de": ") möchte Nelth steuern – Tabs, Navigation und Seiteninhalte.",
+   "en": ") wants to control Nelth — tabs, navigation, and page content.",
+   "es": ") quiere controlar Nelth: pestañas, navegación y contenido de las páginas.",
+   "fr": ") souhaite contrôler Nelth : onglets, navigation et contenu des pages.",
+   "ja": "）が Nelth の操作を求めています（タブ、ナビゲーション、ページの内容）。",
+   "ko": ")에서 Nelth를 제어하려고 해요(탭, 탐색, 페이지 콘텐츠).",
+   "nl": ") wil Nelth besturen: tabbladen, navigatie en pagina-inhoud.",
+   "zh-Hans": "）请求控制 Nelth：标签页、导航和页面内容。",
+   "zh-Hant": "）要求控制 Nelth：分頁、瀏覽和頁面內容。"
   },
   "appMenu.about": {
-   "de": "Über Phi",
-   "en": "About Phi",
-   "es": "Acerca de Phi",
-   "fr": "À propos de Phi",
-   "ja": "Phi について",
-   "ko": "Phi 정보",
-   "nl": "Over Phi",
-   "zh-Hans": "关于 Phi",
-   "zh-Hant": "關於 Phi"
+   "de": "Über Nelth",
+   "en": "About Nelth",
+   "es": "Acerca de Nelth",
+   "fr": "À propos de Nelth",
+   "ja": "Nelth について",
+   "ko": "Nelth 정보",
+   "nl": "Over Nelth",
+   "zh-Hans": "关于 Nelth",
+   "zh-Hant": "關於 Nelth"
   },
   "appMenu.actualSize": {
    "de": "Tatsächliche Größe\tCtrl+0",
@@ -4887,15 +4887,15 @@
    "zh-Hant": "詳細描述問題"
   },
   "feedback.form.diagnostics.extensions": {
-   "de": "Phi-Erweiterungen",
-   "en": "Phi extensions",
-   "es": "Extensiones de Phi",
-   "fr": "Extensions Phi",
-   "ja": "Phi 拡張機能",
-   "ko": "Phi 확장 프로그램",
-   "nl": "Phi-extensies",
-   "zh-Hans": "Phi 扩展程序",
-   "zh-Hant": "Phi 擴充功能"
+   "de": "Nelth-Erweiterungen",
+   "en": "Nelth extensions",
+   "es": "Extensiones de Nelth",
+   "fr": "Extensions Nelth",
+   "ja": "Nelth 拡張機能",
+   "ko": "Nelth 확장 프로그램",
+   "nl": "Nelth-extensies",
+   "zh-Hans": "Nelth 扩展程序",
+   "zh-Hant": "Nelth 擴充功能"
   },
   "feedback.form.diagnostics.logs": {
    "de": "Browser-Protokolle",
@@ -4942,26 +4942,26 @@
    "zh-Hant": "頁面標題"
   },
   "feedback.form.diagnostics.phi": {
-   "de": "Phi",
-   "en": "Phi",
-   "es": "Phi",
-   "fr": "Phi",
-   "ja": "Phi",
-   "ko": "Phi",
-   "nl": "Phi",
-   "zh-Hans": "Phi",
-   "zh-Hant": "Phi"
+   "de": "Nelth",
+   "en": "Nelth",
+   "es": "Nelth",
+   "fr": "Nelth",
+   "ja": "Nelth",
+   "ko": "Nelth",
+   "nl": "Nelth",
+   "zh-Hans": "Nelth",
+   "zh-Hant": "Nelth"
   },
   "feedback.form.diagnostics.subtitle": {
-   "de": "Phi- und Windows-Version, Erweiterungen und aktuelle Browser-Protokolle",
-   "en": "Phi and Windows versions, extensions and recent browser logs",
-   "es": "Versiones de Phi y Windows, extensiones y registros recientes del navegador",
-   "fr": "Versions de Phi et de Windows, extensions et journaux récents du navigateur",
-   "ja": "Phi と Windows のバージョン、拡張機能、最近のブラウザーログ",
-   "ko": "Phi 및 Windows 버전, 확장 프로그램, 최근 브라우저 로그",
-   "nl": "Phi- en Windows-versies, extensies en recente browserlogboeken",
-   "zh-Hans": "Phi 和 Windows 版本、扩展程序及最近的浏览器日志",
-   "zh-Hant": "Phi 與 Windows 版本、擴充功能及最近的瀏覽器記錄"
+   "de": "Nelth- und Windows-Version, Erweiterungen und aktuelle Browser-Protokolle",
+   "en": "Nelth and Windows versions, extensions and recent browser logs",
+   "es": "Versiones de Nelth y Windows, extensiones y registros recientes del navegador",
+   "fr": "Versions de Nelth et de Windows, extensions et journaux récents du navigateur",
+   "ja": "Nelth と Windows のバージョン、拡張機能、最近のブラウザーログ",
+   "ko": "Nelth 및 Windows 버전, 확장 프로그램, 최근 브라우저 로그",
+   "nl": "Nelth- en Windows-versies, extensies en recente browserlogboeken",
+   "zh-Hans": "Nelth 和 Windows 版本、扩展程序及最近的浏览器日志",
+   "zh-Hant": "Nelth 與 Windows 版本、擴充功能及最近的瀏覽器記錄"
   },
   "feedback.form.diagnostics.title": {
    "de": "Diagnoseinformationen sind enthalten",
@@ -5085,26 +5085,26 @@
    "zh-Hant": "頁面"
   },
   "feedback.form.privacyNotice": {
-   "de": "Möglicherweise werden einige Konto- und Systeminformationen an Phinomenon gesendet. Wir verwenden die Informationen, die du uns gibst, um technische Probleme zu beheben und unsere Dienste zu verbessern, gemäß unserer Datenschutzerklärung und unseren Nutzungsbedingungen.",
-   "en": "Some account and system information may be sent to Phinomenon. We will use the information you give us to help address technical issues and to improve our services, subject to our Privacy Policy and Terms of Service.",
-   "es": "Es posible que se envíe cierta información de la cuenta y del sistema a Phinomenon. Usaremos la información que nos des para ayudar a resolver problemas técnicos y mejorar nuestros servicios, conforme a nuestra Política de Privacidad y a nuestros Términos del Servicio.",
-   "fr": "Certaines informations relatives à votre compte et à votre système peuvent être envoyées à Phinomenon. Nous utiliserons les informations que vous nous communiquez pour résoudre les problèmes techniques et améliorer nos services, conformément à nos Règles de confidentialité et à nos Conditions d'utilisation.",
-   "ja": "アカウントやシステムに関する一部の情報がPhinomenonに送信される場合があります。ご提供いただいた情報は、プライバシーポリシーおよび利用規約に従って、技術的な問題の解決とサービスの改善のために使用します。",
-   "ko": "일부 계정 및 시스템 정보가 Phinomenon에 전송될 수 있어요. 보내 주신 정보는 개인정보처리방침과 서비스 약관에 따라 기술적 문제를 해결하고 서비스를 개선하는 데 사용해요.",
-   "nl": "Mogelijk worden er account- en systeemgegevens naar Phinomenon gestuurd. We gebruiken de informatie die je ons geeft om technische problemen op te lossen en onze diensten te verbeteren, in overeenstemming met ons privacybeleid en onze servicevoorwaarden.",
-   "zh-Hans": "部分账号和系统信息可能会发送给 Phinomenon。我们会使用你提供的信息来帮助解决技术问题并改进我们的服务，具体以我们的隐私政策和服务条款为准。",
-   "zh-Hant": "部分帳號與系統資訊可能會傳送給 Phinomenon。我們會依照隱私權政策與服務條款，使用你提供的資訊來協助解決技術問題並改善我們的服務。"
+   "de": "Möglicherweise werden einige Konto- und Systeminformationen an Optix AI gesendet. Wir verwenden die Informationen, die du uns gibst, um technische Probleme zu beheben und unsere Dienste zu verbessern, gemäß unserer Datenschutzerklärung und unseren Nutzungsbedingungen.",
+   "en": "Some account and system information may be sent to Optix AI. We will use the information you give us to help address technical issues and to improve our services, subject to our Privacy Policy and Terms of Service.",
+   "es": "Es posible que se envíe cierta información de la cuenta y del sistema a Optix AI. Usaremos la información que nos des para ayudar a resolver problemas técnicos y mejorar nuestros servicios, conforme a nuestra Política de Privacidad y a nuestros Términos del Servicio.",
+   "fr": "Certaines informations relatives à votre compte et à votre système peuvent être envoyées à Optix AI. Nous utiliserons les informations que vous nous communiquez pour résoudre les problèmes techniques et améliorer nos services, conformément à nos Règles de confidentialité et à nos Conditions d'utilisation.",
+   "ja": "アカウントやシステムに関する一部の情報がOptix AIに送信される場合があります。ご提供いただいた情報は、プライバシーポリシーおよび利用規約に従って、技術的な問題の解決とサービスの改善のために使用します。",
+   "ko": "일부 계정 및 시스템 정보가 Optix AI에 전송될 수 있어요. 보내 주신 정보는 개인정보처리방침과 서비스 약관에 따라 기술적 문제를 해결하고 서비스를 개선하는 데 사용해요.",
+   "nl": "Mogelijk worden er account- en systeemgegevens naar Optix AI gestuurd. We gebruiken de informatie die je ons geeft om technische problemen op te lossen en onze diensten te verbeteren, in overeenstemming met ons privacybeleid en onze servicevoorwaarden.",
+   "zh-Hans": "部分账号和系统信息可能会发送给 Optix AI。我们会使用你提供的信息来帮助解决技术问题并改进我们的服务，具体以我们的隐私政策和服务条款为准。",
+   "zh-Hant": "部分帳號與系統資訊可能會傳送給 Optix AI。我們會依照隱私權政策與服務條款，使用你提供的資訊來協助解決技術問題並改善我們的服務。"
   },
   "feedback.form.privacyNotice2": {
-   "de": "Einige Konto- und Systeminformationen werden an Phinomenon gesendet, um technische Probleme zu beheben und Phi zu verbessern, wie in der {0} und den {1} beschrieben.",
-   "en": "Some account and system information is sent to Phinomenon to help fix technical issues and improve Phi, as described in the {0} and {1}.",
-   "es": "Se envía cierta información de la cuenta y del sistema a Phinomenon para ayudar a resolver problemas técnicos y mejorar Phi, según se describe en la {0} y los {1}.",
-   "fr": "Certaines informations de compte et de système sont envoyées à Phinomenon pour aider à résoudre les problèmes techniques et améliorer Phi, comme décrit dans la {0} et les {1}.",
-   "ja": "技術的な問題の解決と Phi の改善のため、一部のアカウント情報とシステム情報が Phinomenon に送信されます。詳細は{0}と{1}をご覧ください。",
-   "ko": "기술 문제 해결과 Phi 개선을 위해 일부 계정 및 시스템 정보가 Phinomenon에 전송됩니다. 자세한 내용은 {0} 및 {1}을 참조하세요.",
-   "nl": "Sommige account- en systeemgegevens worden naar Phinomenon gestuurd om technische problemen op te lossen en Phi te verbeteren, zoals beschreven in het {0} en de {1}.",
-   "zh-Hans": "部分账户和系统信息会发送给 Phinomenon，用于帮助解决技术问题和改进 Phi，详见{0}和{1}。",
-   "zh-Hant": "部分帳戶與系統資訊會傳送給 Phinomenon，用於協助解決技術問題並改善 Phi，詳見{0}與{1}。"
+   "de": "Einige Konto- und Systeminformationen werden an Optix AI gesendet, um technische Probleme zu beheben und Nelth zu verbessern, wie in der {0} und den {1} beschrieben.",
+   "en": "Some account and system information is sent to Optix AI to help fix technical issues and improve Nelth, as described in the {0} and {1}.",
+   "es": "Se envía cierta información de la cuenta y del sistema a Optix AI para ayudar a resolver problemas técnicos y mejorar Nelth, según se describe en la {0} y los {1}.",
+   "fr": "Certaines informations de compte et de système sont envoyées à Optix AI pour aider à résoudre les problèmes techniques et améliorer Nelth, comme décrit dans la {0} et les {1}.",
+   "ja": "技術的な問題の解決と Nelth の改善のため、一部のアカウント情報とシステム情報が Optix AI に送信されます。詳細は{0}と{1}をご覧ください。",
+   "ko": "기술 문제 해결과 Nelth 개선을 위해 일부 계정 및 시스템 정보가 Optix AI에 전송됩니다. 자세한 내용은 {0} 및 {1}을 참조하세요.",
+   "nl": "Sommige account- en systeemgegevens worden naar Optix AI gestuurd om technische problemen op te lossen en Nelth te verbeteren, zoals beschreven in het {0} en de {1}.",
+   "zh-Hans": "部分账户和系统信息会发送给 Optix AI，用于帮助解决技术问题和改进 Nelth，详见{0}和{1}。",
+   "zh-Hant": "部分帳戶與系統資訊會傳送給 Optix AI，用於協助解決技術問題並改善 Nelth，詳見{0}與{1}。"
   },
   "feedback.form.privacyPolicyLink": {
    "de": "Datenschutzerklärung",
@@ -5151,15 +5151,15 @@
    "zh-Hant": "以 {0} 的身分傳送"
   },
   "feedback.form.sent.message": {
-   "de": "Phi lädt ihn im Hintergrund hoch. Bist du offline oder wird Phi vorher beendet, wird der Upload beim nächsten Start abgeschlossen.",
-   "en": "Phi is uploading it in the background. If you're offline or Phi closes first, it finishes the next time Phi runs.",
-   "es": "Phi lo está subiendo en segundo plano. Si no tienes conexión o Phi se cierra antes, terminará la próxima vez que se abra Phi.",
-   "fr": "Phi l'envoie en arrière-plan. Si vous êtes hors ligne ou si Phi se ferme avant, l'envoi se terminera au prochain lancement de Phi.",
-   "ja": "Phi がバックグラウンドでアップロードしています。オフラインの場合や先に Phi を閉じた場合は、次回 Phi の起動時に完了します。",
-   "ko": "Phi가 백그라운드에서 업로드하고 있습니다. 오프라인이거나 Phi가 먼저 종료되면 다음에 Phi를 실행할 때 완료됩니다.",
-   "nl": "Phi uploadt het op de achtergrond. Ben je offline of sluit Phi eerder, dan wordt het afgerond wanneer Phi weer start.",
-   "zh-Hans": "Phi 正在后台上传。如果你处于离线状态或 Phi 先行关闭，将在下次运行 Phi 时完成。",
-   "zh-Hant": "Phi 正在背景上傳。如果你離線或 Phi 先關閉，會在下次執行 Phi 時完成。"
+   "de": "Nelth lädt ihn im Hintergrund hoch. Bist du offline oder wird Nelth vorher beendet, wird der Upload beim nächsten Start abgeschlossen.",
+   "en": "Nelth is uploading it in the background. If you're offline or Nelth closes first, it finishes the next time Nelth runs.",
+   "es": "Nelth lo está subiendo en segundo plano. Si no tienes conexión o Nelth se cierra antes, terminará la próxima vez que se abra Nelth.",
+   "fr": "Nelth l'envoie en arrière-plan. Si vous êtes hors ligne ou si Nelth se ferme avant, l'envoi se terminera au prochain lancement de Nelth.",
+   "ja": "Nelth がバックグラウンドでアップロードしています。オフラインの場合や先に Nelth を閉じた場合は、次回 Nelth の起動時に完了します。",
+   "ko": "Nelth가 백그라운드에서 업로드하고 있습니다. 오프라인이거나 Nelth가 먼저 종료되면 다음에 Nelth를 실행할 때 완료됩니다.",
+   "nl": "Nelth uploadt het op de achtergrond. Ben je offline of sluit Nelth eerder, dan wordt het afgerond wanneer Nelth weer start.",
+   "zh-Hans": "Nelth 正在后台上传。如果你处于离线状态或 Nelth 先行关闭，将在下次运行 Nelth 时完成。",
+   "zh-Hant": "Nelth 正在背景上傳。如果你離線或 Nelth 先關閉，會在下次執行 Nelth 時完成。"
   },
   "feedback.form.sent.title": {
    "de": "Danke für deinen Bericht",
@@ -5184,15 +5184,15 @@
    "zh-Hant": "登入"
   },
   "feedback.form.signIn.message": {
-   "de": "Berichte sind mit deinem Phi-Konto verknüpft, damit wir nachfragen können. Du kannst weiterschreiben – nichts geht verloren.",
-   "en": "Reports are tied to your Phi account so we can follow up. You can keep writing — nothing is lost.",
-   "es": "Los informes se vinculan a tu cuenta de Phi para que podamos hacer un seguimiento. Puedes seguir escribiendo; no se pierde nada.",
-   "fr": "Les rapports sont liés à votre compte Phi pour que nous puissions assurer le suivi. Vous pouvez continuer à écrire : rien n'est perdu.",
-   "ja": "レポートはフォローアップのため Phi アカウントに関連付けられます。書き続けても内容は失われません。",
-   "ko": "후속 조치를 위해 보고서는 Phi 계정에 연결됩니다. 계속 작성해도 내용은 사라지지 않습니다.",
-   "nl": "Meldingen zijn gekoppeld aan je Phi-account zodat we kunnen opvolgen. Je kunt verder schrijven; er gaat niets verloren.",
-   "zh-Hans": "报告会关联到你的 Phi 账户，方便我们跟进。你可以继续填写，内容不会丢失。",
-   "zh-Hant": "回報會連結到你的 Phi 帳戶，方便我們後續追蹤。你可以繼續填寫，內容不會遺失。"
+   "de": "Berichte sind mit deinem Nelth-Konto verknüpft, damit wir nachfragen können. Du kannst weiterschreiben – nichts geht verloren.",
+   "en": "Reports are tied to your Nelth account so we can follow up. You can keep writing — nothing is lost.",
+   "es": "Los informes se vinculan a tu cuenta de Nelth para que podamos hacer un seguimiento. Puedes seguir escribiendo; no se pierde nada.",
+   "fr": "Les rapports sont liés à votre compte Nelth pour que nous puissions assurer le suivi. Vous pouvez continuer à écrire : rien n'est perdu.",
+   "ja": "レポートはフォローアップのため Nelth アカウントに関連付けられます。書き続けても内容は失われません。",
+   "ko": "후속 조치를 위해 보고서는 Nelth 계정에 연결됩니다. 계속 작성해도 내용은 사라지지 않습니다.",
+   "nl": "Meldingen zijn gekoppeld aan je Nelth-account zodat we kunnen opvolgen. Je kunt verder schrijven; er gaat niets verloren.",
+   "zh-Hans": "报告会关联到你的 Nelth 账户，方便我们跟进。你可以继续填写，内容不会丢失。",
+   "zh-Hant": "回報會連結到你的 Nelth 帳戶，方便我們後續追蹤。你可以繼續填寫，內容不會遺失。"
   },
   "feedback.form.signIn.title": {
    "de": "Zum Senden anmelden",
@@ -5206,15 +5206,15 @@
    "zh-Hant": "登入後傳送"
   },
   "feedback.form.signInPrompt": {
-   "de": "Melde dich bei deinem Phi-Konto an, um Feedback zu senden. Jetzt anmelden?",
-   "en": "Sign in to your Phi account to send feedback. Sign in now?",
-   "es": "Inicia sesión en tu cuenta de Phi para enviar comentarios. ¿Iniciar sesión ahora?",
-   "fr": "Connectez-vous à votre compte Phi pour envoyer des commentaires. Se connecter maintenant ?",
-   "ja": "フィードバックを送信するには Phi アカウントにログインしてください。今すぐログインしますか？",
-   "ko": "피드백을 보내려면 Phi 계정에 로그인하세요. 지금 로그인할까요?",
-   "nl": "Log in met je Phi-account om feedback te versturen. Nu inloggen?",
-   "zh-Hans": "登录 Phi 账号后即可发送反馈。现在登录吗？",
-   "zh-Hant": "登入 Phi 帳號後即可傳送意見回饋。要立即登入嗎？"
+   "de": "Melde dich bei deinem Nelth-Konto an, um Feedback zu senden. Jetzt anmelden?",
+   "en": "Sign in to your Nelth account to send feedback. Sign in now?",
+   "es": "Inicia sesión en tu cuenta de Nelth para enviar comentarios. ¿Iniciar sesión ahora?",
+   "fr": "Connectez-vous à votre compte Nelth pour envoyer des commentaires. Se connecter maintenant ?",
+   "ja": "フィードバックを送信するには Nelth アカウントにログインしてください。今すぐログインしますか？",
+   "ko": "피드백을 보내려면 Nelth 계정에 로그인하세요. 지금 로그인할까요?",
+   "nl": "Log in met je Nelth-account om feedback te versturen. Nu inloggen?",
+   "zh-Hans": "登录 Nelth 账号后即可发送反馈。现在登录吗？",
+   "zh-Hant": "登入 Nelth 帳號後即可傳送意見回饋。要立即登入嗎？"
   },
   "feedback.form.termsOfServiceLink": {
    "de": "Nutzungsbedingungen",
@@ -5239,15 +5239,15 @@
    "zh-Hant": "網址"
   },
   "feedback.outbox.abandoned.message": {
-   "de": "Phi hat es eine Woche lang erfolglos versucht. Bitte sende es erneut.",
-   "en": "Phi tried for a week without success. Please send it again.",
-   "es": "Phi lo intentó durante una semana sin éxito. Vuelve a enviarlo.",
-   "fr": "Phi a essayé pendant une semaine, sans succès. Veuillez le renvoyer.",
-   "ja": "Phiは1週間送信を試みましたが、成功しませんでした。もう一度送信してください。",
-   "ko": "Phi가 일주일 동안 시도했지만 보내지 못했어요. 다시 보내 주세요.",
-   "nl": "Phi heeft het een week lang zonder succes geprobeerd. Verstuur het opnieuw.",
-   "zh-Hans": "Phi 尝试了一周仍未成功。请重新发送。",
-   "zh-Hant": "Phi 嘗試了一週仍未成功。請重新傳送。"
+   "de": "Nelth hat es eine Woche lang erfolglos versucht. Bitte sende es erneut.",
+   "en": "Nelth tried for a week without success. Please send it again.",
+   "es": "Nelth lo intentó durante una semana sin éxito. Vuelve a enviarlo.",
+   "fr": "Nelth a essayé pendant une semaine, sans succès. Veuillez le renvoyer.",
+   "ja": "Nelthは1週間送信を試みましたが、成功しませんでした。もう一度送信してください。",
+   "ko": "Nelth가 일주일 동안 시도했지만 보내지 못했어요. 다시 보내 주세요.",
+   "nl": "Nelth heeft het een week lang zonder succes geprobeerd. Verstuur het opnieuw.",
+   "zh-Hans": "Nelth 尝试了一周仍未成功。请重新发送。",
+   "zh-Hant": "Nelth 嘗試了一週仍未成功。請重新傳送。"
   },
   "feedback.outbox.abandoned.title": {
    "de": "Dein Feedback konnte nicht gesendet werden",
@@ -5514,26 +5514,26 @@
    "zh-Hant": "從訪客匯入"
   },
   "menuBar.aboutBody": {
-   "de": "Phi Browser für Windows {0}\nDie Phi-Client-Shell über dem Phi-Framework.",
-   "en": "Phi Browser for Windows {0}\nThe Phi client shell over the Phi framework.",
-   "es": "Phi Browser para Windows {0}\nEl shell del cliente Phi sobre el framework Phi.",
-   "fr": "Phi Browser pour Windows {0}\nLe shell client Phi au-dessus du framework Phi.",
-   "ja": "Phi Browser for Windows {0}\nPhi フレームワーク上で動作する Phi クライアントシェル。",
-   "ko": "Windows용 Phi Browser {0}\nPhi 프레임워크 위의 Phi 클라이언트 셸입니다.",
-   "nl": "Phi Browser voor Windows {0}\nDe Phi-clientshell boven het Phi-framework.",
-   "zh-Hans": "Phi Browser for Windows {0}\n运行于 Phi 框架之上的 Phi 客户端外壳。",
-   "zh-Hant": "Phi Browser for Windows {0}\n執行於 Phi 框架之上的 Phi 用戶端外殼。"
+   "de": "Nelth Browser für Windows {0}\nDie Nelth-Client-Shell über dem Nelth-Framework.",
+   "en": "Nelth Browser for Windows {0}\nThe Nelth client shell over the Nelth framework.",
+   "es": "Nelth Browser para Windows {0}\nEl shell del cliente Nelth sobre el framework Nelth.",
+   "fr": "Nelth Browser pour Windows {0}\nLe shell client Nelth au-dessus du framework Nelth.",
+   "ja": "Nelth Browser for Windows {0}\nNelth フレームワーク上で動作する Nelth クライアントシェル。",
+   "ko": "Windows용 Nelth Browser {0}\nNelth 프레임워크 위의 Nelth 클라이언트 셸입니다.",
+   "nl": "Nelth Browser voor Windows {0}\nDe Nelth-clientshell boven het Nelth-framework.",
+   "zh-Hans": "Nelth Browser for Windows {0}\n运行于 Nelth 框架之上的 Nelth 客户端外壳。",
+   "zh-Hant": "Nelth Browser for Windows {0}\n執行於 Nelth 框架之上的 Nelth 用戶端外殼。"
   },
   "menuBar.aboutPhi": {
-   "de": "Über Phi",
-   "en": "About Phi",
-   "es": "Acerca de Phi",
-   "fr": "À propos de Phi",
-   "ja": "Phi について",
-   "ko": "Phi 정보",
-   "nl": "Over Phi",
-   "zh-Hans": "关于 Phi",
-   "zh-Hant": "關於 Phi"
+   "de": "Über Nelth",
+   "en": "About Nelth",
+   "es": "Acerca de Nelth",
+   "fr": "À propos de Nelth",
+   "ja": "Nelth について",
+   "ko": "Nelth 정보",
+   "nl": "Over Nelth",
+   "zh-Hans": "关于 Nelth",
+   "zh-Hant": "關於 Nelth"
   },
   "menuBar.actualSize": {
    "de": "Tatsächliche Größe\tCtrl+0",
@@ -5987,15 +5987,15 @@
    "zh-Hant": "{0} — 已被空間使用"
   },
   "menuBar.quitPhi": {
-   "de": "Phi beenden\tCtrl+Shift+Q",
-   "en": "Quit Phi\tCtrl+Shift+Q",
-   "es": "Salir de Phi\tCtrl+Shift+Q",
-   "fr": "Quitter Phi\tCtrl+Shift+Q",
-   "ja": "Phiを終了\tCtrl+Shift+Q",
-   "ko": "Phi 종료\tCtrl+Shift+Q",
-   "nl": "Stop Phi\tCtrl+Shift+Q",
-   "zh-Hans": "退出 Phi\tCtrl+Shift+Q",
-   "zh-Hant": "結束 Phi\tCtrl+Shift+Q"
+   "de": "Nelth beenden\tCtrl+Shift+Q",
+   "en": "Quit Nelth\tCtrl+Shift+Q",
+   "es": "Salir de Nelth\tCtrl+Shift+Q",
+   "fr": "Quitter Nelth\tCtrl+Shift+Q",
+   "ja": "Nelthを終了\tCtrl+Shift+Q",
+   "ko": "Nelth 종료\tCtrl+Shift+Q",
+   "nl": "Stop Nelth\tCtrl+Shift+Q",
+   "zh-Hans": "退出 Nelth\tCtrl+Shift+Q",
+   "zh-Hant": "結束 Nelth\tCtrl+Shift+Q"
   },
   "menuBar.redo": {
    "de": "Wiederholen\tCtrl+Shift+Z",
@@ -6361,15 +6361,15 @@
    "zh-Hant": "我同意{1}和{0}"
   },
   "oobe.guestPrivacy.metricsConsent": {
-   "de": "Hilf mit, Phi zu verbessern, indem du Nutzungsstatistiken und Absturzberichte teilst",
-   "en": "Help make Phi better by sharing usage metrics and crash reports",
-   "es": "Ayuda a mejorar Phi compartiendo métricas de uso e informes de errores",
-   "fr": "Contribuer à améliorer Phi en partageant les statistiques d'utilisation et les rapports d'erreur",
-   "ja": "使用状況データとクラッシュレポートを共有してPhiの改善に協力する",
-   "ko": "사용 통계 및 오류 보고서를 공유해 Phi 개선에 참여하기",
-   "nl": "Help Phi te verbeteren door gebruiksstatistieken en crashrapporten te delen",
-   "zh-Hans": "分享使用统计信息和崩溃报告，帮助改进 Phi",
-   "zh-Hant": "分享使用統計資料和當機報告，協助改善 Phi"
+   "de": "Hilf mit, Nelth zu verbessern, indem du Nutzungsstatistiken und Absturzberichte teilst",
+   "en": "Help make Nelth better by sharing usage metrics and crash reports",
+   "es": "Ayuda a mejorar Nelth compartiendo métricas de uso e informes de errores",
+   "fr": "Contribuer à améliorer Nelth en partageant les statistiques d'utilisation et les rapports d'erreur",
+   "ja": "使用状況データとクラッシュレポートを共有してNelthの改善に協力する",
+   "ko": "사용 통계 및 오류 보고서를 공유해 Nelth 개선에 참여하기",
+   "nl": "Help Nelth te verbeteren door gebruiksstatistieken en crashrapporten te delen",
+   "zh-Hans": "分享使用统计信息和崩溃报告，帮助改进 Nelth",
+   "zh-Hant": "分享使用統計資料和當機報告，協助改善 Nelth"
   },
   "oobe.guestPrivacy.privacyPolicyLink": {
    "de": "Datenschutzerklärung",
@@ -6383,15 +6383,15 @@
    "zh-Hant": "隱私權政策"
   },
   "oobe.guestPrivacy.requiresSignIn": {
-   "de": "Phi-Konto und Anmeldung erforderlich",
-   "en": "Requires a Phi account and sign-in",
-   "es": "Requiere una cuenta de Phi e iniciar sesión",
-   "fr": "Nécessite un compte Phi et une connexion",
-   "ja": "Phiアカウントとログインが必要",
-   "ko": "Phi 계정 및 로그인 필요",
-   "nl": "Vereist een Phi-account en inloggen",
-   "zh-Hans": "需要 Phi 账号并登录",
-   "zh-Hant": "需要 Phi 帳號並登入"
+   "de": "Nelth-Konto und Anmeldung erforderlich",
+   "en": "Requires a Nelth account and sign-in",
+   "es": "Requiere una cuenta de Nelth e iniciar sesión",
+   "fr": "Nécessite un compte Nelth et une connexion",
+   "ja": "Nelthアカウントとログインが必要",
+   "ko": "Nelth 계정 및 로그인 필요",
+   "nl": "Vereist een Nelth-account en inloggen",
+   "zh-Hans": "需要 Nelth 账号并登录",
+   "zh-Hant": "需要 Nelth 帳號並登入"
   },
   "oobe.guestPrivacy.signInInstead": {
    "de": "Stattdessen anmelden",
@@ -6691,15 +6691,15 @@
    "zh-Hant": "選擇版面配置"
   },
   "oobe.login.continueAsGuestButton": {
-   "de": "Phi ohne Anmeldung erkunden",
-   "en": "Explore Phi without signing in",
-   "es": "Explora Phi sin iniciar sesión",
-   "fr": "Découvrir Phi sans se connecter",
-   "ja": "ログインせずにPhiを試す",
-   "ko": "로그인 없이 Phi 둘러보기",
-   "nl": "Phi verkennen zonder in te loggen",
-   "zh-Hans": "不登录也能体验 Phi",
-   "zh-Hant": "不登入，直接探索 Phi"
+   "de": "Nelth ohne Anmeldung erkunden",
+   "en": "Explore Nelth without signing in",
+   "es": "Explora Nelth sin iniciar sesión",
+   "fr": "Découvrir Nelth sans se connecter",
+   "ja": "ログインせずにNelthを試す",
+   "ko": "로그인 없이 Nelth 둘러보기",
+   "nl": "Nelth verkennen zonder in te loggen",
+   "zh-Hans": "不登录也能体验 Nelth",
+   "zh-Hant": "不登入，直接探索 Nelth"
   },
   "oobe.login.loginButton": {
    "de": "Anmelden",
@@ -6757,15 +6757,15 @@
    "zh-Hant": "開始使用"
   },
   "oobe.nextSteps.enjoyPhi": {
-   "de": "Viel Spaß mit Phi Browser 🎉",
-   "en": "Enjoy using Phi Browser 🎉",
-   "es": "Disfruta de Phi Browser 🎉",
-   "fr": "Profitez de Phi Browser 🎉",
-   "ja": "Phi Browserをお楽しみください🎉",
-   "ko": "Phi Browser를 즐겁게 사용해 보세요 🎉",
-   "nl": "Veel plezier met Phi Browser 🎉",
-   "zh-Hans": "祝你使用 Phi Browser 愉快 🎉",
-   "zh-Hant": "盡情使用 Phi Browser 🎉"
+   "de": "Viel Spaß mit Nelth Browser 🎉",
+   "en": "Enjoy using Nelth Browser 🎉",
+   "es": "Disfruta de Nelth Browser 🎉",
+   "fr": "Profitez de Nelth Browser 🎉",
+   "ja": "Nelth Browserをお楽しみください🎉",
+   "ko": "Nelth Browser를 즐겁게 사용해 보세요 🎉",
+   "nl": "Veel plezier met Nelth Browser 🎉",
+   "zh-Hans": "祝你使用 Nelth Browser 愉快 🎉",
+   "zh-Hant": "盡情使用 Nelth Browser 🎉"
   },
   "oobe.nextSteps.importBrowserData": {
    "de": "Daten aus einem anderen Browser importieren",
@@ -6790,15 +6790,15 @@
    "zh-Hant": "我同意{0}和{1}"
   },
   "oobe.nextSteps.metricsConsent": {
-   "de": "Hilf mit, Phi zu verbessern, indem du Nutzungsstatistiken und Absturzberichte teilst",
-   "en": "Help make Phi better by sharing usage metrics and crash reports",
-   "es": "Ayuda a mejorar Phi compartiendo métricas de uso e informes de errores",
-   "fr": "Contribuer à améliorer Phi en partageant les statistiques d'utilisation et les rapports d'erreur",
-   "ja": "使用状況データとクラッシュレポートを共有してPhiの改善に協力する",
-   "ko": "사용 통계 및 오류 보고서를 공유해 Phi 개선에 참여하기",
-   "nl": "Help Phi te verbeteren door gebruiksstatistieken en crashrapporten te delen",
-   "zh-Hans": "分享使用统计信息和崩溃报告，帮助改进 Phi",
-   "zh-Hant": "分享使用統計資料和當機報告，協助改善 Phi"
+   "de": "Hilf mit, Nelth zu verbessern, indem du Nutzungsstatistiken und Absturzberichte teilst",
+   "en": "Help make Nelth better by sharing usage metrics and crash reports",
+   "es": "Ayuda a mejorar Nelth compartiendo métricas de uso e informes de errores",
+   "fr": "Contribuer à améliorer Nelth en partageant les statistiques d'utilisation et les rapports d'erreur",
+   "ja": "使用状況データとクラッシュレポートを共有してNelthの改善に協力する",
+   "ko": "사용 통계 및 오류 보고서를 공유해 Nelth 개선에 참여하기",
+   "nl": "Help Nelth te verbeteren door gebruiksstatistieken en crashrapporten te delen",
+   "zh-Hans": "分享使用统计信息和崩溃报告，帮助改进 Nelth",
+   "zh-Hant": "分享使用統計資料和當機報告，協助改善 Nelth"
   },
   "oobe.nextSteps.onboardAssistant": {
    "de": "Deinen KI-Assistenten einrichten",
@@ -6988,26 +6988,26 @@
    "zh-Hant": "設定檔選單"
   },
   "profile.card.accessibilitySummary": {
-   "de": "Phi-Mitgliedskarte, {0}, Mitglied seit {1}",
-   "en": "Phi member card, {0}, joined {1}",
-   "es": "Tarjeta de miembro de Phi, {0}, miembro desde {1}",
-   "fr": "Carte de membre Phi, {0}, membre depuis {1}",
-   "ja": "Phiメンバーカード、{0}、{1}に登録",
-   "ko": "Phi 회원 카드, {0}, {1} 가입",
-   "nl": "Phi-lidmaatschapskaart, {0}, lid sinds {1}",
-   "zh-Hans": "Phi 会员卡片，{0}，加入于 {1}",
-   "zh-Hant": "Phi 會員卡，{0}，於 {1} 加入"
+   "de": "Nelth-Mitgliedskarte, {0}, Mitglied seit {1}",
+   "en": "Nelth member card, {0}, joined {1}",
+   "es": "Tarjeta de miembro de Nelth, {0}, miembro desde {1}",
+   "fr": "Carte de membre Nelth, {0}, membre depuis {1}",
+   "ja": "Nelthメンバーカード、{0}、{1}に登録",
+   "ko": "Nelth 회원 카드, {0}, {1} 가입",
+   "nl": "Nelth-lidmaatschapskaart, {0}, lid sinds {1}",
+   "zh-Hans": "Nelth 会员卡片，{0}，加入于 {1}",
+   "zh-Hant": "Nelth 會員卡，{0}，於 {1} 加入"
   },
   "profile.card.accessibilitySummaryWithoutDate": {
-   "de": "Phi-Mitgliedskarte, {0}",
-   "en": "Phi member card, {0}",
-   "es": "Tarjeta de miembro de Phi, {0}",
-   "fr": "Carte de membre Phi, {0}",
-   "ja": "Phiメンバーカード、{0}",
-   "ko": "Phi 회원 카드, {0}",
-   "nl": "Phi-lidmaatschapskaart, {0}",
-   "zh-Hans": "Phi 会员卡片，{0}",
-   "zh-Hant": "Phi 會員卡，{0}"
+   "de": "Nelth-Mitgliedskarte, {0}",
+   "en": "Nelth member card, {0}",
+   "es": "Tarjeta de miembro de Nelth, {0}",
+   "fr": "Carte de membre Nelth, {0}",
+   "ja": "Nelthメンバーカード、{0}",
+   "ko": "Nelth 회원 카드, {0}",
+   "nl": "Nelth-lidmaatschapskaart, {0}",
+   "zh-Hans": "Nelth 会员卡片，{0}",
+   "zh-Hant": "Nelth 會員卡，{0}"
   },
   "profile.card.dateJoined": {
    "de": "Mitglied seit",
@@ -7538,26 +7538,26 @@
    "zh-Hant": "無法儲存你的卡片。請再試一次。"
   },
   "settings.account.defaultBrowser.defaultStatus": {
-   "de": "Phi ist dein Standardbrowser",
-   "en": "Phi is your default browser",
-   "es": "Phi es tu navegador predeterminado",
-   "fr": "Phi est votre navigateur par défaut",
-   "ja": "Phiはデフォルトのブラウザです",
-   "ko": "Phi가 기본 브라우저예요",
-   "nl": "Phi is je standaardbrowser",
-   "zh-Hans": "Phi 是你的默认浏览器",
-   "zh-Hant": "Phi 是你的預設瀏覽器"
+   "de": "Nelth ist dein Standardbrowser",
+   "en": "Nelth is your default browser",
+   "es": "Nelth es tu navegador predeterminado",
+   "fr": "Nelth est votre navigateur par défaut",
+   "ja": "Nelthはデフォルトのブラウザです",
+   "ko": "Nelth가 기본 브라우저예요",
+   "nl": "Nelth is je standaardbrowser",
+   "zh-Hans": "Nelth 是你的默认浏览器",
+   "zh-Hant": "Nelth 是你的預設瀏覽器"
   },
   "settings.account.defaultBrowser.notDefaultStatus": {
-   "de": "Phi ist nicht dein Standardbrowser",
-   "en": "Phi is not your default browser",
-   "es": "Phi no es tu navegador predeterminado",
-   "fr": "Phi n'est pas votre navigateur par défaut",
-   "ja": "Phiはデフォルトのブラウザではありません",
-   "ko": "Phi가 기본 브라우저가 아니에요",
-   "nl": "Phi is niet je standaardbrowser",
-   "zh-Hans": "Phi 不是你的默认浏览器",
-   "zh-Hant": "Phi 不是你的預設瀏覽器"
+   "de": "Nelth ist nicht dein Standardbrowser",
+   "en": "Nelth is not your default browser",
+   "es": "Nelth no es tu navegador predeterminado",
+   "fr": "Nelth n'est pas votre navigateur par défaut",
+   "ja": "Nelthはデフォルトのブラウザではありません",
+   "ko": "Nelth가 기본 브라우저가 아니에요",
+   "nl": "Nelth is niet je standaardbrowser",
+   "zh-Hans": "Nelth 不是你的默认浏览器",
+   "zh-Hant": "Nelth 不是你的預設瀏覽器"
   },
   "settings.account.defaultBrowser.setDefaultButton": {
    "de": "Als Standard festlegen",
@@ -7659,15 +7659,15 @@
    "zh-Hant": "登出"
   },
   "settings.account.logoutConfirmation.body": {
-   "de": "Dein Phi-Konto wird von diesem Browser getrennt. Deine Tabs, Spaces und Lesezeichen bleiben erhalten.",
-   "en": "Your Phi account will be disconnected from this browser. Your tabs, Spaces and bookmarks stay.",
-   "es": "Tu cuenta de Phi se desconectará de este navegador. Tus pestañas, Espacios y marcadores se conservan.",
-   "fr": "Votre compte Phi sera déconnecté de ce navigateur. Vos onglets, Espaces et favoris sont conservés.",
-   "ja": "Phi アカウントとこのブラウザの接続が解除されます。タブ、スペース、ブックマークはそのまま残ります。",
-   "ko": "이 브라우저에서 Phi 계정 연결이 해제돼요. 탭, 스페이스, 북마크는 그대로 유지돼요.",
-   "nl": "Je Phi-account wordt losgekoppeld van deze browser. Je tabbladen, Spaces en bladwijzers blijven behouden.",
-   "zh-Hans": "你的 Phi 账号将与此浏览器断开连接。你的标签页、空间和书签都会保留。",
-   "zh-Hant": "你的 Phi 帳號將與此瀏覽器中斷連結。你的分頁、空間和書籤都會保留。"
+   "de": "Dein Nelth-Konto wird von diesem Browser getrennt. Deine Tabs, Spaces und Lesezeichen bleiben erhalten.",
+   "en": "Your Nelth account will be disconnected from this browser. Your tabs, Spaces and bookmarks stay.",
+   "es": "Tu cuenta de Nelth se desconectará de este navegador. Tus pestañas, Espacios y marcadores se conservan.",
+   "fr": "Votre compte Nelth sera déconnecté de ce navigateur. Vos onglets, Espaces et favoris sont conservés.",
+   "ja": "Nelth アカウントとこのブラウザの接続が解除されます。タブ、スペース、ブックマークはそのまま残ります。",
+   "ko": "이 브라우저에서 Nelth 계정 연결이 해제돼요. 탭, 스페이스, 북마크는 그대로 유지돼요.",
+   "nl": "Je Nelth-account wordt losgekoppeld van deze browser. Je tabbladen, Spaces en bladwijzers blijven behouden.",
+   "zh-Hans": "你的 Nelth 账号将与此浏览器断开连接。你的标签页、空间和书签都会保留。",
+   "zh-Hant": "你的 Nelth 帳號將與此瀏覽器中斷連結。你的分頁、空間和書籤都會保留。"
   },
   "settings.account.logoutConfirmation.logoutButton": {
    "de": "Abmelden",
@@ -7681,15 +7681,15 @@
    "zh-Hant": "登出"
   },
   "settings.account.logoutConfirmation.title": {
-   "de": "Von Phi abmelden?",
-   "en": "Sign out of Phi?",
-   "es": "¿Cerrar sesión en Phi?",
-   "fr": "Se déconnecter de Phi ?",
-   "ja": "Phiからログアウトしますか?",
-   "ko": "Phi에서 로그아웃할까요?",
-   "nl": "Uitloggen bij Phi?",
-   "zh-Hans": "要退出 Phi 登录吗？",
-   "zh-Hant": "要登出 Phi 嗎？"
+   "de": "Von Nelth abmelden?",
+   "en": "Sign out of Nelth?",
+   "es": "¿Cerrar sesión en Nelth?",
+   "fr": "Se déconnecter de Nelth ?",
+   "ja": "Nelthからログアウトしますか?",
+   "ko": "Nelth에서 로그아웃할까요?",
+   "nl": "Uitloggen bij Nelth?",
+   "zh-Hans": "要退出 Nelth 登录吗？",
+   "zh-Hant": "要登出 Nelth 嗎？"
   },
   "settings.account.reauthentication.tooltip": {
    "de": "Authentifiziere dich erneut, um die Kontofunktionen wiederherzustellen.",
@@ -7978,15 +7978,15 @@
    "zh-Hant": "自動子母畫面"
   },
   "settings.advanced.restoreLastSession.disabledHint": {
-   "de": "Phi startet mit einem neuen Fenster. Wenn du ein Fenster schließt, wirst du auf manchen Websites möglicherweise abgemeldet.",
-   "en": "Phi starts with a new window. Closing a window may sign you out of some sites.",
-   "es": "Phi se abre con una ventana nueva. Al cerrar una ventana, es posible que se cierre tu sesión en algunos sitios.",
-   "fr": "Phi démarre avec une nouvelle fenêtre. La fermeture d'une fenêtre peut vous déconnecter de certains sites.",
-   "ja": "Phiは新しいウインドウで起動します。ウインドウを閉じると、一部のサイトからログアウトされる場合があります。",
-   "ko": "Phi가 새 윈도우로 시작해요. 윈도우를 닫으면 일부 사이트에서 로그아웃될 수 있어요.",
-   "nl": "Phi start met een nieuw venster. Als je een venster sluit, word je bij sommige sites mogelijk uitgelogd.",
-   "zh-Hans": "Phi 启动时打开新窗口。关闭窗口可能会让你在部分网站上退出登录。",
-   "zh-Hant": "Phi 會以新視窗啟動。關閉視窗可能會讓你從某些網站登出。"
+   "de": "Nelth startet mit einem neuen Fenster. Wenn du ein Fenster schließt, wirst du auf manchen Websites möglicherweise abgemeldet.",
+   "en": "Nelth starts with a new window. Closing a window may sign you out of some sites.",
+   "es": "Nelth se abre con una ventana nueva. Al cerrar una ventana, es posible que se cierre tu sesión en algunos sitios.",
+   "fr": "Nelth démarre avec une nouvelle fenêtre. La fermeture d'une fenêtre peut vous déconnecter de certains sites.",
+   "ja": "Nelthは新しいウインドウで起動します。ウインドウを閉じると、一部のサイトからログアウトされる場合があります。",
+   "ko": "Nelth가 새 윈도우로 시작해요. 윈도우를 닫으면 일부 사이트에서 로그아웃될 수 있어요.",
+   "nl": "Nelth start met een nieuw venster. Als je een venster sluit, word je bij sommige sites mogelijk uitgelogd.",
+   "zh-Hans": "Nelth 启动时打开新窗口。关闭窗口可能会让你在部分网站上退出登录。",
+   "zh-Hant": "Nelth 會以新視窗啟動。關閉視窗可能會讓你從某些網站登出。"
   },
   "settings.advanced.sidebarMedia.hint": {
    "de": "Steuere Medien, die in Hintergrund-Tabs wiedergegeben werden, über die Seitenleiste.",
@@ -8088,15 +8088,15 @@
    "zh-Hant": "AI 代理存取、權限與密碼管理員"
   },
   "settings.agentToolsDrivePhiOver": {
-   "de": "Agententools steuern Phi über das DevTools-Protokoll, und zwar über ",
-   "en": "Agent tools drive Phi over the DevTools Protocol through ",
-   "es": "Las herramientas de agentes controlan Phi mediante el protocolo DevTools a través de ",
-   "fr": "Les outils d'agents pilotent Phi via le protocole DevTools par le biais d'",
-   "ja": "エージェントツールは DevTools Protocol で Phi を操作します。経路は",
-   "ko": "에이전트 도구는 DevTools 프로토콜로 Phi를 제어하며, 이때 ",
-   "nl": "Agent-tools sturen Phi aan via het DevTools Protocol, over ",
-   "zh-Hans": "智能体工具经由 DevTools 协议驱动 Phi，所用通道是",
-   "zh-Hant": "AI 代理工具以 DevTools Protocol 操控 Phi，所用通道是"
+   "de": "Agententools steuern Nelth über das DevTools-Protokoll, und zwar über ",
+   "en": "Agent tools drive Nelth over the DevTools Protocol through ",
+   "es": "Las herramientas de agentes controlan Nelth mediante el protocolo DevTools a través de ",
+   "fr": "Les outils d'agents pilotent Nelth via le protocole DevTools par le biais d'",
+   "ja": "エージェントツールは DevTools Protocol で Nelth を操作します。経路は",
+   "ko": "에이전트 도구는 DevTools 프로토콜로 Nelth를 제어하며, 이때 ",
+   "nl": "Agent-tools sturen Nelth aan via het DevTools Protocol, over ",
+   "zh-Hans": "智能体工具经由 DevTools 协议驱动 Nelth，所用通道是",
+   "zh-Hant": "AI 代理工具以 DevTools Protocol 操控 Nelth，所用通道是"
   },
   "settings.ai.browserMemory.manageButtonTitle": {
    "de": "Deine Browser-Erinnerungen ansehen und verwalten",
@@ -8154,15 +8154,15 @@
    "zh-Hant": "外部資料連接器"
   },
   "settings.ai.features.enableToggle": {
-   "de": "KI-Funktionen im Phi Browser aktivieren",
-   "en": "Enable AI features in Phi Browser",
-   "es": "Activar las funciones de IA en Phi Browser",
-   "fr": "Activer les fonctionnalités IA dans Phi Browser",
-   "ja": "Phi BrowserのAI機能を有効にする",
-   "ko": "Phi Browser에서 AI 기능 사용",
-   "nl": "AI-functies in Phi Browser inschakelen",
-   "zh-Hans": "在 Phi Browser 中启用 AI 功能",
-   "zh-Hant": "在 Phi Browser 中啟用 AI 功能"
+   "de": "KI-Funktionen im Nelth Browser aktivieren",
+   "en": "Enable AI features in Nelth Browser",
+   "es": "Activar las funciones de IA en Nelth Browser",
+   "fr": "Activer les fonctionnalités IA dans Nelth Browser",
+   "ja": "Nelth BrowserのAI機能を有効にする",
+   "ko": "Nelth Browser에서 AI 기능 사용",
+   "nl": "AI-functies in Nelth Browser inschakelen",
+   "zh-Hans": "在 Nelth Browser 中启用 AI 功能",
+   "zh-Hant": "在 Nelth Browser 中啟用 AI 功能"
   },
   "settings.ai.newTabPage.proactiveSuggestionsToggle": {
    "de": "Proaktive Vorschläge auf der Seite „Neuer Tab“ anzeigen",
@@ -8187,15 +8187,15 @@
    "zh-Hant": "新分頁頁面"
   },
   "settings.ai.phiSentinel.sectionTitle": {
-   "de": "Phi Sentinel",
-   "en": "Phi Sentinel",
-   "es": "Phi Sentinel",
-   "fr": "Phi Sentinel",
-   "ja": "Phi Sentinel",
-   "ko": "Phi Sentinel",
-   "nl": "Phi Sentinel",
-   "zh-Hans": "Phi Sentinel",
-   "zh-Hant": "Phi Sentinel"
+   "de": "Nelth Sentinel",
+   "en": "Nelth Sentinel",
+   "es": "Nelth Sentinel",
+   "fr": "Nelth Sentinel",
+   "ja": "Nelth Sentinel",
+   "ko": "Nelth Sentinel",
+   "nl": "Nelth Sentinel",
+   "zh-Hans": "Nelth Sentinel",
+   "zh-Hant": "Nelth Sentinel"
   },
   "settings.ai.privateAI.title": {
    "de": "Private KI",
@@ -8385,15 +8385,15 @@
    "zh-Hant": "變更快速鍵"
   },
   "settings.connectingToControlPhiIs": {
-   "de": "Verbindungen zur Steuerung von Phi werden einzeln pro Verbindung genehmigt.",
-   "en": "connecting to control Phi is approved per connection.",
-   "es": "Las conexiones para controlar Phi se aprueban una por una.",
-   "fr": "Les connexions pour contrôler Phi sont approuvées une par une.",
-   "ja": "Phi を操作するための接続は、接続ごとに承認されます。",
-   "ko": "Phi를 제어하기 위한 연결은 연결마다 승인돼요.",
-   "nl": "Verbindingen om Phi te besturen worden per verbinding goedgekeurd.",
-   "zh-Hans": "控制 Phi 的连接需逐个批准。",
-   "zh-Hant": "控制 Phi 的連線需逐一核准。"
+   "de": "Verbindungen zur Steuerung von Nelth werden einzeln pro Verbindung genehmigt.",
+   "en": "connecting to control Nelth is approved per connection.",
+   "es": "Las conexiones para controlar Nelth se aprueban una por una.",
+   "fr": "Les connexions pour contrôler Nelth sont approuvées une par une.",
+   "ja": "Nelth を操作するための接続は、接続ごとに承認されます。",
+   "ko": "Nelth를 제어하기 위한 연결은 연결마다 승인돼요.",
+   "nl": "Verbindingen om Nelth te besturen worden per verbinding goedgekeurd.",
+   "zh-Hans": "控制 Nelth 的连接需逐个批准。",
+   "zh-Hant": "控制 Nelth 的連線需逐一核准。"
   },
   "settings.connectsLaterCanAskYou": {
    "de": "später verbindet, kann dich bitten, ihn wieder einzuschalten.",
@@ -8473,26 +8473,26 @@
    "zh-Hant": "允許 AI 代理操作你的空間"
   },
   "settings.developer.agentControl.descriptionWindows": {
-   "de": "Agententools steuern Phi über das DevTools-Protokoll, und zwar über eine private Pipe, die nur Prozesse auf diesem Computer erreichen können. Wenn aktiviert, wird jedes Programm, das unter deinem Benutzerkonto läuft und den Profilordner von Phi lesen kann, ohne Nachfrage zugelassen; wenn deaktiviert, bittet dich das erste Programm, das sich verbindet, diese Option einzuschalten.",
-   "en": "Agent tools drive Phi over the DevTools Protocol through a private pipe only this machine's processes can reach. On, any program running as you that can read Phi’s profile folder is admitted without asking; off, the first one to connect asks you to turn this on.",
-   "es": "Las herramientas de agentes controlan Phi mediante el protocolo DevTools a través de una canalización privada a la que solo pueden acceder los procesos de este equipo. Si está activado, cualquier programa que se ejecute con tu usuario y pueda leer la carpeta de perfil de Phi se admite sin preguntar; si está desactivado, el primero que se conecte te pedirá que lo actives.",
-   "fr": "Les outils d'agents pilotent Phi via le protocole DevTools par le biais d'un canal nommé privé accessible uniquement aux processus de cette machine. Si cette option est activée, tout programme exécuté sous votre compte et pouvant lire le dossier de profil de Phi est admis sans demande ; si elle est désactivée, le premier qui se connecte vous demande de l'activer.",
-   "ja": "エージェントツールは、このコンピューターのプロセスだけが到達できるプライベートパイプを介して、DevTools ProtocolでPhiを操作します。オンの場合、あなたのアカウントで実行され、Phiのプロファイルフォルダーを読み取れるプログラムは確認なしで許可されます。オフの場合、最初に接続したプログラムがこの設定をオンにするよう求めます。",
-   "ko": "에이전트 도구는 이 컴퓨터의 프로세스만 접근할 수 있는 전용 파이프를 통해 DevTools 프로토콜로 Phi를 제어해요. 켜면 내 계정으로 실행되고 Phi의 프로필 폴더를 읽을 수 있는 모든 프로그램이 묻지 않고 허용돼요. 끄면 처음 연결하는 프로그램이 이 설정을 켜 달라고 요청해요.",
-   "nl": "Agent-tools sturen Phi aan via het DevTools Protocol, over een privépipe die alleen processen op deze computer kunnen bereiken. Als dit aan staat, wordt elk programma dat onder jouw account draait en de profielmap van Phi kan lezen zonder te vragen toegelaten; als dit uit staat, vraagt het eerste programma dat verbinding maakt je om dit in te schakelen.",
-   "zh-Hans": "智能体工具通过一个仅限本机进程访问的私有管道，经由 DevTools 协议驱动 Phi。开启后，任何以你的身份运行且能读取 Phi 个人资料文件夹的程序都会直接获准连接；关闭后，第一个连接的程序会请求你开启此项。",
-   "zh-Hant": "AI 代理工具透過只有本機程序才能存取的私有管道，以 DevTools Protocol 操控 Phi。開啟後，任何以你的身分執行且能讀取 Phi 設定檔資料夾的程式都會直接獲准連線；關閉後，第一個連線的程式會要求你開啟此選項。"
+   "de": "Agententools steuern Nelth über das DevTools-Protokoll, und zwar über eine private Pipe, die nur Prozesse auf diesem Computer erreichen können. Wenn aktiviert, wird jedes Programm, das unter deinem Benutzerkonto läuft und den Profilordner von Nelth lesen kann, ohne Nachfrage zugelassen; wenn deaktiviert, bittet dich das erste Programm, das sich verbindet, diese Option einzuschalten.",
+   "en": "Agent tools drive Nelth over the DevTools Protocol through a private pipe only this machine's processes can reach. On, any program running as you that can read Nelth’s profile folder is admitted without asking; off, the first one to connect asks you to turn this on.",
+   "es": "Las herramientas de agentes controlan Nelth mediante el protocolo DevTools a través de una canalización privada a la que solo pueden acceder los procesos de este equipo. Si está activado, cualquier programa que se ejecute con tu usuario y pueda leer la carpeta de perfil de Nelth se admite sin preguntar; si está desactivado, el primero que se conecte te pedirá que lo actives.",
+   "fr": "Les outils d'agents pilotent Nelth via le protocole DevTools par le biais d'un canal nommé privé accessible uniquement aux processus de cette machine. Si cette option est activée, tout programme exécuté sous votre compte et pouvant lire le dossier de profil de Nelth est admis sans demande ; si elle est désactivée, le premier qui se connecte vous demande de l'activer.",
+   "ja": "エージェントツールは、このコンピューターのプロセスだけが到達できるプライベートパイプを介して、DevTools ProtocolでNelthを操作します。オンの場合、あなたのアカウントで実行され、Nelthのプロファイルフォルダーを読み取れるプログラムは確認なしで許可されます。オフの場合、最初に接続したプログラムがこの設定をオンにするよう求めます。",
+   "ko": "에이전트 도구는 이 컴퓨터의 프로세스만 접근할 수 있는 전용 파이프를 통해 DevTools 프로토콜로 Nelth를 제어해요. 켜면 내 계정으로 실행되고 Nelth의 프로필 폴더를 읽을 수 있는 모든 프로그램이 묻지 않고 허용돼요. 끄면 처음 연결하는 프로그램이 이 설정을 켜 달라고 요청해요.",
+   "nl": "Agent-tools sturen Nelth aan via het DevTools Protocol, over een privépipe die alleen processen op deze computer kunnen bereiken. Als dit aan staat, wordt elk programma dat onder jouw account draait en de profielmap van Nelth kan lezen zonder te vragen toegelaten; als dit uit staat, vraagt het eerste programma dat verbinding maakt je om dit in te schakelen.",
+   "zh-Hans": "智能体工具通过一个仅限本机进程访问的私有管道，经由 DevTools 协议驱动 Nelth。开启后，任何以你的身份运行且能读取 Nelth 个人资料文件夹的程序都会直接获准连接；关闭后，第一个连接的程序会请求你开启此项。",
+   "zh-Hant": "AI 代理工具透過只有本機程序才能存取的私有管道，以 DevTools Protocol 操控 Nelth。開啟後，任何以你的身分執行且能讀取 Nelth 設定檔資料夾的程式都會直接獲准連線；關閉後，第一個連線的程式會要求你開啟此選項。"
   },
   "settings.developer.agentControl.enableToggle": {
-   "de": "Agenten dürfen Phi steuern (CDP)",
-   "en": "Allow agents to control Phi (CDP)",
-   "es": "Permitir que los agentes controlen Phi (CDP)",
-   "fr": "Autoriser les agents à contrôler Phi (CDP)",
-   "ja": "エージェントにPhiの操作を許可（CDP）",
-   "ko": "에이전트가 Phi를 제어하도록 허용 (CDP)",
-   "nl": "Agents toestaan Phi te besturen (CDP)",
-   "zh-Hans": "允许智能体控制 Phi（CDP）",
-   "zh-Hant": "允許 AI 代理控制 Phi（CDP）"
+   "de": "Agenten dürfen Nelth steuern (CDP)",
+   "en": "Allow agents to control Nelth (CDP)",
+   "es": "Permitir que los agentes controlen Nelth (CDP)",
+   "fr": "Autoriser les agents à contrôler Nelth (CDP)",
+   "ja": "エージェントにNelthの操作を許可（CDP）",
+   "ko": "에이전트가 Nelth를 제어하도록 허용 (CDP)",
+   "nl": "Agents toestaan Nelth te besturen (CDP)",
+   "zh-Hans": "允许智能体控制 Nelth（CDP）",
+   "zh-Hant": "允許 AI 代理控制 Nelth（CDP）"
   },
   "settings.developer.agentControl.sectionTitle": {
    "de": "Agentensteuerung",
@@ -8605,15 +8605,15 @@
    "zh-Hant": "所有 AI 代理"
   },
   "settings.developer.skillInstall.description": {
-   "de": "Verknüpft den in dieser App enthaltenen Skill mit dem Skills-Ordner eines KI-Coding-Agenten, damit dieser Phi über das DevTools-Protokoll steuern kann. Erfordert Node 22+.",
-   "en": "Links the skill bundled in this app into an AI coding agent’s skills folder so it can drive Phi over the DevTools Protocol. Requires Node 22+.",
-   "es": "Vincula la habilidad incluida en esta app a la carpeta de habilidades de un agente de programación con IA para que pueda controlar Phi mediante el protocolo DevTools. Requiere Node 22 o posterior.",
-   "fr": "Ajoute le Skill intégré à cette app au dossier de Skills d'un agent de codage IA pour qu'il puisse piloter Phi via le protocole DevTools. Nécessite Node 22+.",
-   "ja": "このアプリに同梱されているスキルをAIコーディングエージェントのスキルフォルダにリンクし、DevTools ProtocolでPhiを操作できるようにします。Node 22以降が必要です。",
-   "ko": "이 앱에 포함된 스킬을 AI 코딩 에이전트의 스킬 폴더에 연결해 DevTools 프로토콜로 Phi를 제어할 수 있게 해요. Node 22 이상이 필요해요.",
-   "nl": "Koppelt de skill die met deze app wordt meegeleverd aan de skills-map van een AI-coding-agent, zodat die Phi via het DevTools Protocol kan aansturen. Vereist Node 22+.",
-   "zh-Hans": "将此应用内置的 Skill 链接到 AI 编程智能体的 skills 文件夹中，使其能够通过 DevTools 协议驱动 Phi。需要 Node 22+。",
-   "zh-Hant": "將此 App 內建的 Skill 連結到 AI 程式開發代理的 Skill 資料夾，讓它能透過 DevTools Protocol 操控 Phi。需要 Node 22 或更新版本。"
+   "de": "Verknüpft den in dieser App enthaltenen Skill mit dem Skills-Ordner eines KI-Coding-Agenten, damit dieser Nelth über das DevTools-Protokoll steuern kann. Erfordert Node 22+.",
+   "en": "Links the skill bundled in this app into an AI coding agent’s skills folder so it can drive Nelth over the DevTools Protocol. Requires Node 22+.",
+   "es": "Vincula la habilidad incluida en esta app a la carpeta de habilidades de un agente de programación con IA para que pueda controlar Nelth mediante el protocolo DevTools. Requiere Node 22 o posterior.",
+   "fr": "Ajoute le Skill intégré à cette app au dossier de Skills d'un agent de codage IA pour qu'il puisse piloter Nelth via le protocole DevTools. Nécessite Node 22+.",
+   "ja": "このアプリに同梱されているスキルをAIコーディングエージェントのスキルフォルダにリンクし、DevTools ProtocolでNelthを操作できるようにします。Node 22以降が必要です。",
+   "ko": "이 앱에 포함된 스킬을 AI 코딩 에이전트의 스킬 폴더에 연결해 DevTools 프로토콜로 Nelth를 제어할 수 있게 해요. Node 22 이상이 필요해요.",
+   "nl": "Koppelt de skill die met deze app wordt meegeleverd aan de skills-map van een AI-coding-agent, zodat die Nelth via het DevTools Protocol kan aansturen. Vereist Node 22+.",
+   "zh-Hans": "将此应用内置的 Skill 链接到 AI 编程智能体的 skills 文件夹中，使其能够通过 DevTools 协议驱动 Nelth。需要 Node 22+。",
+   "zh-Hant": "將此 App 內建的 Skill 連結到 AI 程式開發代理的 Skill 資料夾，讓它能透過 DevTools Protocol 操控 Nelth。需要 Node 22 或更新版本。"
   },
   "settings.developer.skillInstall.linkError": {
    "de": "{0} konnte nicht verknüpft werden: {1}",
@@ -8627,26 +8627,26 @@
    "zh-Hant": "無法連結 {0}：{1}"
   },
   "settings.developer.skillInstall.missingResourcesError": {
-   "de": "Dieser Build enthält die Ressourcen des phi-browser-Skills nicht. Erstelle Phi Browser neu und versuche es erneut.",
-   "en": "This build doesn’t include the phi-browser skill resources. Rebuild Phi Browser and try again.",
-   "es": "Esta compilación no incluye los recursos de la habilidad phi-browser. Vuelve a compilar Phi Browser e inténtalo de nuevo.",
-   "fr": "Cette version ne contient pas les ressources du Skill phi-browser. Recompilez Phi Browser et réessayez.",
-   "ja": "このビルドにはphi-browserスキルのリソースが含まれていません。Phi Browserを再ビルドして、もう一度お試しください。",
-   "ko": "이 빌드에는 phi-browser 스킬 리소스가 없어요. Phi Browser를 다시 빌드하고 다시 시도해 주세요.",
-   "nl": "Deze build bevat de skillbronnen van phi-browser niet. Bouw Phi Browser opnieuw en probeer het opnieuw.",
-   "zh-Hans": "此版本不包含 phi-browser Skill 资源。请重新构建 Phi Browser 后重试。",
-   "zh-Hant": "此版本未包含 phi-browser Skill 資源。請重新建置 Phi Browser 後再試一次。"
+   "de": "Dieser Build enthält die Ressourcen des phi-browser-Skills nicht. Erstelle Nelth Browser neu und versuche es erneut.",
+   "en": "This build doesn’t include the phi-browser skill resources. Rebuild Nelth Browser and try again.",
+   "es": "Esta compilación no incluye los recursos de la habilidad phi-browser. Vuelve a compilar Nelth Browser e inténtalo de nuevo.",
+   "fr": "Cette version ne contient pas les ressources du Skill phi-browser. Recompilez Nelth Browser et réessayez.",
+   "ja": "このビルドにはphi-browserスキルのリソースが含まれていません。Nelth Browserを再ビルドして、もう一度お試しください。",
+   "ko": "이 빌드에는 phi-browser 스킬 리소스가 없어요. Nelth Browser를 다시 빌드하고 다시 시도해 주세요.",
+   "nl": "Deze build bevat de skillbronnen van phi-browser niet. Bouw Nelth Browser opnieuw en probeer het opnieuw.",
+   "zh-Hans": "此版本不包含 phi-browser Skill 资源。请重新构建 Nelth Browser 后重试。",
+   "zh-Hant": "此版本未包含 phi-browser Skill 資源。請重新建置 Nelth Browser 後再試一次。"
   },
   "settings.developer.skillInstall.overwriteConfirmation.message": {
-   "de": "„{0}“ existiert bereits und ist kein von Phi Browser erstellter Link. Durch einen Link auf den in dieser App enthaltenen Skill ersetzen?",
-   "en": "“{0}” already exists and isn’t a link created by Phi Browser. Replace it with a link to this app’s bundled skill?",
-   "es": "“{0}” ya existe y no es un enlace creado por Phi Browser. ¿Reemplazarlo por un enlace a la habilidad incluida en esta app?",
-   "fr": "« {0} » existe déjà et n'est pas un lien créé par Phi Browser. Le remplacer par un lien vers le skill fourni avec cette app ?",
-   "ja": "「{0}」はすでに存在し、Phi Browserが作成したリンクではありません。このアプリに同梱されているスキルへのリンクに置き換えますか？",
-   "ko": "“{0}”이(가) 이미 존재하지만 Phi Browser가 만든 링크가 아니에요. 이 앱에 포함된 스킬로 연결되는 링크로 교체할까요?",
-   "nl": "“{0}” bestaat al en is geen koppeling die door Phi Browser is aangemaakt. Wil je deze vervangen door een koppeling naar de meegeleverde skill van deze app?",
-   "zh-Hans": "「{0}」已存在，且不是由 Phi Browser 创建的链接。要将其替换为指向本应用内置 Skill 的链接吗？",
-   "zh-Hant": "「{0}」已存在，且不是 Phi Browser 建立的連結。要將它取代為指向此 App 內建 Skill 的連結嗎？"
+   "de": "„{0}“ existiert bereits und ist kein von Nelth Browser erstellter Link. Durch einen Link auf den in dieser App enthaltenen Skill ersetzen?",
+   "en": "“{0}” already exists and isn’t a link created by Nelth Browser. Replace it with a link to this app’s bundled skill?",
+   "es": "“{0}” ya existe y no es un enlace creado por Nelth Browser. ¿Reemplazarlo por un enlace a la habilidad incluida en esta app?",
+   "fr": "« {0} » existe déjà et n'est pas un lien créé par Nelth Browser. Le remplacer par un lien vers le skill fourni avec cette app ?",
+   "ja": "「{0}」はすでに存在し、Nelth Browserが作成したリンクではありません。このアプリに同梱されているスキルへのリンクに置き換えますか？",
+   "ko": "“{0}”이(가) 이미 존재하지만 Nelth Browser가 만든 링크가 아니에요. 이 앱에 포함된 스킬로 연결되는 링크로 교체할까요?",
+   "nl": "“{0}” bestaat al en is geen koppeling die door Nelth Browser is aangemaakt. Wil je deze vervangen door een koppeling naar de meegeleverde skill van deze app?",
+   "zh-Hans": "「{0}」已存在，且不是由 Nelth Browser 创建的链接。要将其替换为指向本应用内置 Skill 的链接吗？",
+   "zh-Hant": "「{0}」已存在，且不是 Nelth Browser 建立的連結。要將它取代為指向此 App 內建 Skill 的連結嗎？"
   },
   "settings.developer.skillInstall.overwriteConfirmation.replaceButton": {
    "de": "Ersetzen",
@@ -8847,15 +8847,15 @@
    "zh-Hant": "一律顯示完整網址"
   },
   "settings.general.analytics.hint": {
-   "de": "Sende anonyme Nutzungsstatistiken und Absturzberichte, um Phi zu verbessern. Niemals deine Seiten, Suchanfragen oder Kontodaten.",
-   "en": "Send anonymous usage statistics and crash reports to help improve Phi. Never your pages, searches or account.",
-   "es": "Envía estadísticas de uso anónimas e informes de fallos para ayudar a mejorar Phi. Nunca tus páginas, búsquedas ni tu cuenta.",
-   "fr": "Envoyez des statistiques d'utilisation anonymes et des rapports de plantage pour aider à améliorer Phi. Jamais vos pages, vos recherches ni votre compte.",
-   "ja": "Phiの改善のため、匿名の使用状況統計とクラッシュレポートを送信します。閲覧したページ、検索内容、アカウント情報が送信されることはありません。",
-   "ko": "Phi 개선을 위해 익명 사용 통계와 충돌 보고서를 보내요. 방문한 페이지, 검색어, 계정 정보는 절대 보내지 않아요.",
-   "nl": "Stuur anonieme gebruiksstatistieken en crashrapporten om Phi te helpen verbeteren. Nooit je pagina's, zoekopdrachten of account.",
-   "zh-Hans": "发送匿名使用统计信息和崩溃报告，帮助改进 Phi。绝不包含你的页面、搜索内容或账号信息。",
-   "zh-Hant": "傳送匿名使用統計資料和當機報告，協助改善 Phi。絕不包含你的頁面、搜尋內容或帳號資訊。"
+   "de": "Sende anonyme Nutzungsstatistiken und Absturzberichte, um Nelth zu verbessern. Niemals deine Seiten, Suchanfragen oder Kontodaten.",
+   "en": "Send anonymous usage statistics and crash reports to help improve Nelth. Never your pages, searches or account.",
+   "es": "Envía estadísticas de uso anónimas e informes de fallos para ayudar a mejorar Nelth. Nunca tus páginas, búsquedas ni tu cuenta.",
+   "fr": "Envoyez des statistiques d'utilisation anonymes et des rapports de plantage pour aider à améliorer Nelth. Jamais vos pages, vos recherches ni votre compte.",
+   "ja": "Nelthの改善のため、匿名の使用状況統計とクラッシュレポートを送信します。閲覧したページ、検索内容、アカウント情報が送信されることはありません。",
+   "ko": "Nelth 개선을 위해 익명 사용 통계와 충돌 보고서를 보내요. 방문한 페이지, 검색어, 계정 정보는 절대 보내지 않아요.",
+   "nl": "Stuur anonieme gebruiksstatistieken en crashrapporten om Nelth te helpen verbeteren. Nooit je pagina's, zoekopdrachten of account.",
+   "zh-Hans": "发送匿名使用统计信息和崩溃报告，帮助改进 Nelth。绝不包含你的页面、搜索内容或账号信息。",
+   "zh-Hant": "傳送匿名使用統計資料和當機報告，協助改善 Nelth。絕不包含你的頁面、搜尋內容或帳號資訊。"
   },
   "settings.general.analytics.toggle": {
    "de": "Anonyme Nutzungsanalysen und Absturzberichte teilen",
@@ -9199,15 +9199,15 @@
    "zh-Hant": "設定檔"
   },
   "settings.general.restoreLastSession.enabledHint": {
-   "de": "Deine Fenster und Tabs werden beim nächsten Start von Phi wieder geöffnet.",
-   "en": "Reopen your windows and tabs the next time you open Phi.",
-   "es": "Se volverán a abrir tus ventanas y pestañas la próxima vez que abras Phi.",
-   "fr": "Rouvre vos fenêtres et vos onglets à la prochaine ouverture de Phi.",
-   "ja": "次にPhiを起動したときに、ウインドウとタブを再度開きます。",
-   "ko": "다음에 Phi를 열 때 윈도우와 탭을 다시 열어요.",
-   "nl": "Open je vensters en tabbladen opnieuw wanneer je Phi de volgende keer start.",
-   "zh-Hans": "下次打开 Phi 时重新打开你的窗口和标签页。",
-   "zh-Hant": "下次開啟 Phi 時，重新開啟你的視窗和分頁。"
+   "de": "Deine Fenster und Tabs werden beim nächsten Start von Nelth wieder geöffnet.",
+   "en": "Reopen your windows and tabs the next time you open Nelth.",
+   "es": "Se volverán a abrir tus ventanas y pestañas la próxima vez que abras Nelth.",
+   "fr": "Rouvre vos fenêtres et vos onglets à la prochaine ouverture de Nelth.",
+   "ja": "次にNelthを起動したときに、ウインドウとタブを再度開きます。",
+   "ko": "다음에 Nelth를 열 때 윈도우와 탭을 다시 열어요.",
+   "nl": "Open je vensters en tabbladen opnieuw wanneer je Nelth de volgende keer start.",
+   "zh-Hans": "下次打开 Nelth 时重新打开你的窗口和标签页。",
+   "zh-Hant": "下次開啟 Nelth 時，重新開啟你的視窗和分頁。"
   },
   "settings.general.restoreLastSession.toggle": {
    "de": "Letzte Sitzung wiederherstellen",
@@ -9331,15 +9331,15 @@
    "zh-Hant": "自己的 Cookie、歷史記錄和擴充功能。"
   },
   "settings.languageHint": {
-   "de": "Die Sprache, in der Phis eigene Menüs und Einstellungen angezeigt werden.",
-   "en": "The language Phi’s own menus and settings are shown in.",
-   "es": "El idioma en el que se muestran los menús y ajustes de Phi.",
-   "fr": "La langue dans laquelle les menus et réglages de Phi sont affichés.",
-   "ja": "Phi のメニューと設定を表示する言語です。",
-   "ko": "Phi의 메뉴와 설정이 표시되는 언어입니다.",
-   "nl": "De taal waarin de menu’s en instellingen van Phi worden weergegeven.",
-   "zh-Hans": "Phi 的菜单和设置所使用的语言。",
-   "zh-Hant": "Phi 的選單與設定所使用的語言。"
+   "de": "Die Sprache, in der Nelths eigene Menüs und Einstellungen angezeigt werden.",
+   "en": "The language Nelth’s own menus and settings are shown in.",
+   "es": "El idioma en el que se muestran los menús y ajustes de Nelth.",
+   "fr": "La langue dans laquelle les menus et réglages de Nelth sont affichés.",
+   "ja": "Nelth のメニューと設定を表示する言語です。",
+   "ko": "Nelth의 메뉴와 설정이 표시되는 언어입니다.",
+   "nl": "De taal waarin de menu’s en instellingen van Nelth worden weergegeven.",
+   "zh-Hans": "Nelth 的菜单和设置所使用的语言。",
+   "zh-Hant": "Nelth 的選單與設定所使用的語言。"
   },
   "settings.languageSystemDefault": {
    "de": "Systemstandard",
@@ -9353,15 +9353,15 @@
    "zh-Hant": "系統預設"
   },
   "settings.launchPhiSentinelAutomaticallyAt": {
-   "de": "Phi Sentinel bei der Anmeldung automatisch starten",
-   "en": "Launch Phi Sentinel automatically at login",
-   "es": "Abrir Phi Sentinel automáticamente al iniciar sesión",
-   "fr": "Lancer Phi Sentinel automatiquement à l'ouverture de session",
-   "ja": "ログイン時にPhi Sentinelを自動的に起動",
-   "ko": "로그인 시 Phi Sentinel 자동 실행",
-   "nl": "Phi Sentinel automatisch starten bij aanmelden",
-   "zh-Hans": "登录时自动启动 Phi Sentinel",
-   "zh-Hant": "登入時自動啟動 Phi Sentinel"
+   "de": "Nelth Sentinel bei der Anmeldung automatisch starten",
+   "en": "Launch Nelth Sentinel automatically at login",
+   "es": "Abrir Nelth Sentinel automáticamente al iniciar sesión",
+   "fr": "Lancer Nelth Sentinel automatiquement à l'ouverture de session",
+   "ja": "ログイン時にNelth Sentinelを自動的に起動",
+   "ko": "로그인 시 Nelth Sentinel 자동 실행",
+   "nl": "Nelth Sentinel automatisch starten bij aanmelden",
+   "zh-Hans": "登录时自动启动 Nelth Sentinel",
+   "zh-Hant": "登入時自動啟動 Nelth Sentinel"
   },
   "settings.liveInTheDeveloperTab": {
    "de": "findest du im Tab „Entwickler“.",
@@ -9375,15 +9375,15 @@
    "zh-Hant": "都在「開發者」分頁中。"
   },
   "settings.loginsForPhiAndAgent": {
-   "de": "Anmeldedaten für Phi und Agent-Anfragen, verwahrt von einem separaten ",
-   "en": "Logins for Phi and agent requests, held by a separate ",
-   "es": "Inicios de sesión para Phi y para las solicitudes de los agentes, guardados por un ",
-   "fr": "Identifiants pour Phi et pour les requêtes des agents, conservés par un ",
-   "ja": "Phiとエージェントのリクエストで使うログイン情報を、",
-   "ko": "Phi와 에이전트 요청에 쓰이는 로그인 정보를 ",
-   "nl": "Inloggegevens voor Phi en agentverzoeken, bewaard door een aparte ",
-   "zh-Hans": "为 Phi 和智能体请求提供登录信息，由独立的",
-   "zh-Hant": "供 Phi 和 AI 代理要求使用的登入資訊，由獨立的"
+   "de": "Anmeldedaten für Nelth und Agent-Anfragen, verwahrt von einem separaten ",
+   "en": "Logins for Nelth and agent requests, held by a separate ",
+   "es": "Inicios de sesión para Nelth y para las solicitudes de los agentes, guardados por un ",
+   "fr": "Identifiants pour Nelth et pour les requêtes des agents, conservés par un ",
+   "ja": "Nelthとエージェントのリクエストで使うログイン情報を、",
+   "ko": "Nelth와 에이전트 요청에 쓰이는 로그인 정보를 ",
+   "nl": "Inloggegevens voor Nelth en agentverzoeken, bewaard door een aparte ",
+   "zh-Hans": "为 Nelth 和智能体请求提供登录信息，由独立的",
+   "zh-Hant": "供 Nelth 和 AI 代理要求使用的登入資訊，由獨立的"
   },
   "settings.navigation.aboutTitle": {
    "de": "Info",
@@ -9408,15 +9408,15 @@
    "zh-Hant": "進階"
   },
   "settings.navigation.aiTitle": {
-   "de": "Phi & KI",
-   "en": "Phi & AI",
-   "es": "Phi e IA",
-   "fr": "Phi et IA",
-   "ja": "PhiとAI",
-   "ko": "Phi 및 AI",
-   "nl": "Phi & AI",
-   "zh-Hans": "Phi 与 AI",
-   "zh-Hant": "Phi 與 AI"
+   "de": "Nelth & KI",
+   "en": "Nelth & AI",
+   "es": "Nelth e IA",
+   "fr": "Nelth et IA",
+   "ja": "NelthとAI",
+   "ko": "Nelth 및 AI",
+   "nl": "Nelth & AI",
+   "zh-Hans": "Nelth 与 AI",
+   "zh-Hant": "Nelth 與 AI"
   },
   "settings.navigation.developerTitle": {
    "de": "Entwickler",
@@ -9661,15 +9661,15 @@
    "zh-Hant": "沒有長期核准。每個憑證要求都需"
   },
   "settings.phiAi": {
-   "de": "Phi & KI",
-   "en": "Phi & AI",
-   "es": "Phi e IA",
-   "fr": "Phi et IA",
-   "ja": "PhiとAI",
-   "ko": "Phi 및 AI",
-   "nl": "Phi & AI",
-   "zh-Hans": "Phi 与 AI",
-   "zh-Hant": "Phi 與 AI"
+   "de": "Nelth & KI",
+   "en": "Nelth & AI",
+   "es": "Nelth e IA",
+   "fr": "Nelth et IA",
+   "ja": "NelthとAI",
+   "ko": "Nelth 및 AI",
+   "nl": "Nelth & AI",
+   "zh-Hans": "Nelth 与 AI",
+   "zh-Hant": "Nelth 與 AI"
   },
   "settings.pinnedTabsAreSharedAcross": {
    "de": "Angeheftete Tabs werden von allen Profilen und ",
@@ -10124,26 +10124,26 @@
    "zh-Hant": "關於此清單"
   },
   "settings.privacy.contentBlocking.list.phiSpecific.desc": {
-   "de": "Von Phi gepflegte Korrekturen und Regeln. Lass diese Liste aktiviert, es sei denn, eine Website macht Probleme.",
-   "en": "Fixes and rules maintained by Phi. Keep this on unless a site misbehaves.",
-   "es": "Correcciones y reglas mantenidas por Phi. Mantenla activada a menos que un sitio funcione mal.",
-   "fr": "Correctifs et règles maintenus par Phi. Laissez cette liste activée, sauf si un site fonctionne mal.",
-   "ja": "Phiが管理する修正とルールです。サイトの動作に問題が出ない限り、オンのままにしてください。",
-   "ko": "Phi가 관리하는 수정 사항과 규칙이에요. 사이트가 오작동하는 경우가 아니라면 켜 두세요.",
-   "nl": "Correcties en regels die door Phi worden onderhouden. Laat dit aan staan, tenzij een site niet goed werkt.",
-   "zh-Hans": "由 Phi 维护的修复和规则。除非网站出现异常，否则请保持开启。",
-   "zh-Hant": "由 Phi 維護的修正與規則。除非網站出現異常，否則請保持開啟。"
+   "de": "Von Nelth gepflegte Korrekturen und Regeln. Lass diese Liste aktiviert, es sei denn, eine Website macht Probleme.",
+   "en": "Fixes and rules maintained by Nelth. Keep this on unless a site misbehaves.",
+   "es": "Correcciones y reglas mantenidas por Nelth. Mantenla activada a menos que un sitio funcione mal.",
+   "fr": "Correctifs et règles maintenus par Nelth. Laissez cette liste activée, sauf si un site fonctionne mal.",
+   "ja": "Nelthが管理する修正とルールです。サイトの動作に問題が出ない限り、オンのままにしてください。",
+   "ko": "Nelth가 관리하는 수정 사항과 규칙이에요. 사이트가 오작동하는 경우가 아니라면 켜 두세요.",
+   "nl": "Correcties en regels die door Nelth worden onderhouden. Laat dit aan staan, tenzij een site niet goed werkt.",
+   "zh-Hans": "由 Nelth 维护的修复和规则。除非网站出现异常，否则请保持开启。",
+   "zh-Hant": "由 Nelth 維護的修正與規則。除非網站出現異常，否則請保持開啟。"
   },
   "settings.privacy.contentBlocking.list.phiSpecific.title": {
-   "de": "Phi Blocklists",
-   "en": "Phi Blocklists",
-   "es": "Phi Blocklists",
-   "fr": "Phi Blocklists",
-   "ja": "Phi Blocklists",
-   "ko": "Phi Blocklists",
-   "nl": "Phi Blocklists",
-   "zh-Hans": "Phi Blocklists",
-   "zh-Hant": "Phi Blocklists"
+   "de": "Nelth Blocklists",
+   "en": "Nelth Blocklists",
+   "es": "Nelth Blocklists",
+   "fr": "Nelth Blocklists",
+   "ja": "Nelth Blocklists",
+   "ko": "Nelth Blocklists",
+   "nl": "Nelth Blocklists",
+   "zh-Hans": "Nelth Blocklists",
+   "zh-Hant": "Nelth Blocklists"
   },
   "settings.privacy.contentBlocking.list.remove": {
    "de": "Diesen Filter entfernen",
@@ -10157,15 +10157,15 @@
    "zh-Hant": "移除此過濾器"
   },
   "settings.privacy.contentBlocking.listInfo.builtIn": {
-   "de": "In Phi integriert",
-   "en": "Built into Phi",
-   "es": "Integrada en Phi",
-   "fr": "Intégrée à Phi",
-   "ja": "Phiに内蔵",
-   "ko": "Phi에 기본 내장됨",
-   "nl": "Ingebouwd in Phi",
-   "zh-Hans": "Phi 内置",
-   "zh-Hant": "Phi 內建"
+   "de": "In Nelth integriert",
+   "en": "Built into Nelth",
+   "es": "Integrada en Nelth",
+   "fr": "Intégrée à Nelth",
+   "ja": "Nelthに内蔵",
+   "ko": "Nelth에 기본 내장됨",
+   "nl": "Ingebouwd in Nelth",
+   "zh-Hans": "Nelth 内置",
+   "zh-Hant": "Nelth 內建"
   },
   "settings.privacy.contentBlocking.listInfo.close": {
    "de": "Schließen",
@@ -11158,15 +11158,15 @@
    "zh-Hant": "列印…"
   },
   "settings.shortcuts.command.quitApp": {
-   "de": "Phi beenden",
-   "en": "Quit Phi",
-   "es": "Salir de Phi",
-   "fr": "Quitter Phi",
-   "ja": "Phiを終了",
-   "ko": "Phi 종료",
-   "nl": "Stop Phi",
-   "zh-Hans": "退出 Phi",
-   "zh-Hant": "結束 Phi"
+   "de": "Nelth beenden",
+   "en": "Quit Nelth",
+   "es": "Salir de Nelth",
+   "fr": "Quitter Nelth",
+   "ja": "Nelthを終了",
+   "ko": "Nelth 종료",
+   "nl": "Stop Nelth",
+   "zh-Hans": "退出 Nelth",
+   "zh-Hant": "結束 Nelth"
   },
   "settings.shortcuts.command.reloadPage": {
    "de": "Seite neu laden",
@@ -11664,15 +11664,15 @@
    "zh-Hant": "顯示分頁預覽卡片"
   },
   "settings.signInToUseYour": {
-   "de": "Melde dich an, um dein Phi-Konto zu nutzen.",
-   "en": "Sign in to use your Phi account.",
-   "es": "Inicia sesión para usar tu cuenta de Phi.",
-   "fr": "Connectez-vous pour utiliser votre compte Phi.",
-   "ja": "Phiアカウントを使用するにはログインしてください。",
-   "ko": "Phi 계정을 사용하려면 로그인하세요.",
-   "nl": "Log in om je Phi-account te gebruiken.",
-   "zh-Hans": "登录后即可使用你的 Phi 账号。",
-   "zh-Hant": "登入即可使用你的 Phi 帳號。"
+   "de": "Melde dich an, um dein Nelth-Konto zu nutzen.",
+   "en": "Sign in to use your Nelth account.",
+   "es": "Inicia sesión para usar tu cuenta de Nelth.",
+   "fr": "Connectez-vous pour utiliser votre compte Nelth.",
+   "ja": "Nelthアカウントを使用するにはログインしてください。",
+   "ko": "Nelth 계정을 사용하려면 로그인하세요.",
+   "nl": "Log in om je Nelth-account te gebruiken.",
+   "zh-Hans": "登录后即可使用你的 Nelth 账号。",
+   "zh-Hant": "登入即可使用你的 Nelth 帳號。"
   },
   "settings.spaces": {
    "de": "Spaces gemeinsam genutzt.",
@@ -13952,15 +13952,15 @@
    "zh-Hant": "這將清除這部電腦的同步設定和配對資訊，然後讓你重新設定同步。你的本機瀏覽資料和帳號中已同步的資料都會保留。"
   },
   "sync.reconfigure.explanation": {
-   "de": "Die Synchronisierungsdaten des Accounts haben sich geändert. Die Synchronisierung von Phi-Daten ist pausiert. Überprüfe deinen Account und deine Verbindung, bevor du die Synchronisierung erneut einrichtest.",
-   "en": "The account’s sync data has changed. Syncing Phi data is paused. Review your account and connection before setting up sync again.",
-   "es": "Los datos de sincronización de la cuenta han cambiado. La sincronización de los datos de Phi está en pausa. Revisa tu cuenta y tu conexión antes de volver a configurar la sincronización.",
-   "fr": "Les données de synchronisation du compte ont changé. La synchronisation des données Phi est en pause. Vérifiez votre compte et votre connexion avant de configurer à nouveau la synchronisation.",
-   "ja": "アカウントの同期データが変更されています。Phiデータの同期は一時停止中です。もう一度同期を設定する前に、アカウントと接続を確認してください。",
-   "ko": "계정의 동기화 데이터가 변경되었어요. Phi 데이터 동기화가 일시 중지되었어요. 동기화를 다시 설정하기 전에 계정과 연결 상태를 확인해 주세요.",
-   "nl": "De synchronisatiegegevens van het account zijn gewijzigd. Het synchroniseren van Phi-gegevens is gepauzeerd. Controleer je account en verbinding voordat je synchronisatie opnieuw instelt.",
-   "zh-Hans": "该账户的同步数据已更改。Phi 数据的同步已暂停。请先检查你的账户和网络连接，然后再重新设置同步。",
-   "zh-Hant": "帳號的同步資料已變更。Phi 資料的同步已暫停。請先檢查你的帳號和網路連線，再重新設定同步。"
+   "de": "Die Synchronisierungsdaten des Accounts haben sich geändert. Die Synchronisierung von Nelth-Daten ist pausiert. Überprüfe deinen Account und deine Verbindung, bevor du die Synchronisierung erneut einrichtest.",
+   "en": "The account’s sync data has changed. Syncing Nelth data is paused. Review your account and connection before setting up sync again.",
+   "es": "Los datos de sincronización de la cuenta han cambiado. La sincronización de los datos de Nelth está en pausa. Revisa tu cuenta y tu conexión antes de volver a configurar la sincronización.",
+   "fr": "Les données de synchronisation du compte ont changé. La synchronisation des données Nelth est en pause. Vérifiez votre compte et votre connexion avant de configurer à nouveau la synchronisation.",
+   "ja": "アカウントの同期データが変更されています。Nelthデータの同期は一時停止中です。もう一度同期を設定する前に、アカウントと接続を確認してください。",
+   "ko": "계정의 동기화 데이터가 변경되었어요. Nelth 데이터 동기화가 일시 중지되었어요. 동기화를 다시 설정하기 전에 계정과 연결 상태를 확인해 주세요.",
+   "nl": "De synchronisatiegegevens van het account zijn gewijzigd. Het synchroniseren van Nelth-gegevens is gepauzeerd. Controleer je account en verbinding voordat je synchronisatie opnieuw instelt.",
+   "zh-Hans": "该账户的同步数据已更改。Nelth 数据的同步已暂停。请先检查你的账户和网络连接，然后再重新设置同步。",
+   "zh-Hant": "帳號的同步資料已變更。Nelth 資料的同步已暫停。請先檢查你的帳號和網路連線，再重新設定同步。"
   },
   "sync.reconfigure.failed.windows": {
    "de": "Das Löschen der Synchronisierungseinrichtung dieses PCs konnte nicht abgeschlossen werden. Die Synchronisierung bleibt pausiert. Versuche, die Synchronisierung erneut einzurichten.",
@@ -14656,15 +14656,15 @@
    "zh-Hant": "未命名設定檔（{0}）"
   },
   "sync.setup.profiles.unreadable": {
-   "de": "Kann gerade nicht gelesen werden; Phi versucht es im Hintergrund weiter",
-   "en": "Can’t be read right now — Phi keeps retrying in the background",
-   "es": "No se puede leer por ahora; Phi sigue reintentando en segundo plano",
-   "fr": "Impossible à lire pour le moment : Phi continue de réessayer en arrière-plan",
-   "ja": "現在は読み取れません（Phiがバックグラウンドで再試行を続けます）",
-   "ko": "지금은 읽을 수 없으며 Phi가 백그라운드에서 계속 다시 시도해요",
-   "nl": "Kan nu niet worden gelezen; Phi blijft het op de achtergrond proberen",
-   "zh-Hans": "目前无法读取，Phi 会在后台持续重试",
-   "zh-Hant": "目前無法讀取，Phi 會在背景持續重試"
+   "de": "Kann gerade nicht gelesen werden; Nelth versucht es im Hintergrund weiter",
+   "en": "Can’t be read right now — Nelth keeps retrying in the background",
+   "es": "No se puede leer por ahora; Nelth sigue reintentando en segundo plano",
+   "fr": "Impossible à lire pour le moment : Nelth continue de réessayer en arrière-plan",
+   "ja": "現在は読み取れません（Nelthがバックグラウンドで再試行を続けます）",
+   "ko": "지금은 읽을 수 없으며 Nelth가 백그라운드에서 계속 다시 시도해요",
+   "nl": "Kan nu niet worden gelezen; Nelth blijft het op de achtergrond proberen",
+   "zh-Hans": "目前无法读取，Nelth 会在后台持续重试",
+   "zh-Hant": "目前無法讀取，Nelth 會在背景持續重試"
   },
   "sync.setup.saveFailed": {
    "de": "Die Synchronisierungseinrichtung konnte auf diesem Gerät nicht gespeichert werden. Versuche es erneut.",
@@ -14832,15 +14832,15 @@
    "zh-Hant": "部分內容需要注意。請查看詳細資訊並檢查網路連線。"
   },
   "sync.status.phiData": {
-   "de": "Phi-Daten",
-   "en": "Phi data",
-   "es": "Datos de Phi",
-   "fr": "Données Phi",
-   "ja": "Phiデータ",
-   "ko": "Phi 데이터",
-   "nl": "Phi-gegevens",
-   "zh-Hans": "Phi 数据",
-   "zh-Hant": "Phi 資料"
+   "de": "Nelth-Daten",
+   "en": "Nelth data",
+   "es": "Datos de Nelth",
+   "fr": "Données Nelth",
+   "ja": "Nelthデータ",
+   "ko": "Nelth 데이터",
+   "nl": "Nelth-gegevens",
+   "zh-Hans": "Nelth 数据",
+   "zh-Hant": "Nelth 資料"
   },
   "sync.status.profile": {
    "de": "Profil",
