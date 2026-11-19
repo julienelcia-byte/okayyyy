@@ -72,3 +72,30 @@ proprietary framework computes it.
 
 Run it: push this branch to GitHub → Actions → "Build Nelth Browser
 installer" → Run workflow → download the `NelthBrowserSetup` artifact.
+
+## Framework-level rebrand (tools/nelthize-framework.py)
+
+The prebuilt framework zip carries the upstream Phi branding inside its own
+binary assets. `tools/nelthize-framework.py` rewrites it in place during CI,
+right after `fetch-framework.py` verified the pinned download:
+
+* every locale `.pak` (all languages): user-visible strings "Phi" → "Nelth",
+  "Phinomenon" → "Optix AI" (word-boundary, text entries only — binary
+  entries are never touched, so embedded fonts stay intact);
+* `chrome_100/200_percent.pak` ids 40262/40263: the swirl+"Phi" product
+  logos → NELTH lockups (light and dark variants, sizes preserved);
+* `resources.pak` ids 14152/14154/14155/14156/14200 (app-icon tiles) and
+  15163/15659/15687/15739 (profile tiles + letter): → NELTH tiles;
+* `Phi.exe`: VERSIONINFO → Nelth Browser / Optix AI (Apache 2.0 attribution
+  kept) and all 16 RT_ICON frames → the NELTH icon (dims matched 1:1);
+* `chrome.dll` / `chrome_proxy.exe` / `chrome_elf.dll`: VERSIONINFO →
+  Optix AI / Nelth.
+
+The asset PNGs live in `tools/nelth-assets/` (committed; regenerate with
+`tools/gen-nelth-assets.py`, which extracts the "N" silhouette from the
+master art). Every patched file is parsed back and validated by the tool;
+a failed patch fails the build.
+
+Deliberately untouched: `PhiClient*` API names, catalog keys, class and
+registry names, `phibrowser.com` URLs, the exe file name `Phi.exe` (the
+framework's loader refers to it), and the Apache 2.0 attribution strings.

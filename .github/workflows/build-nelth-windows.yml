@@ -41,6 +41,19 @@ jobs:
         shell: pwsh
         run: python tools/fetch-framework.py --arch x64 --out out\Release
 
+      - name: Rebrand the framework into NELTH (strings, logos, icons, metadata)
+        shell: pwsh
+        run: |
+          python -m pip install --quiet pefile
+          # Patches the unpacked framework in place: locale strings
+          # ("Phi" -> "Nelth", "Phinomenon" -> "Optix AI"), the product
+          # logos in chrome_100/200_percent.pak, the app tiles and profile
+          # avatars in resources.pak, Phi.exe's VERSIONINFO + its 16 icon
+          # frames, and the VERSIONINFO of chrome.dll/chrome_proxy.exe/
+          # chrome_elf.dll. Every output is parsed back and validated; a
+          # failed patch fails the build.
+          python tools/nelthize-framework.py --root out\Release
+
       - name: Compile phi_client.dll (MSVC, x64)
         shell: pwsh
         run: python build-client.py --compiler msvc --out out\Release
